@@ -28,17 +28,20 @@ python scripts/02a_convert_papers.py 试卷 $I/raw_text
 python scripts/02b_segment_papers.py $I/raw_text $I/segments
 python scripts/02c_fill_blanks.py $I/segments $I/corpus > $I/fill_report.tsv
 python scripts/02d_build_corpus.py $I/corpus papers.csv $I/corpus_all.tsv
+# 同一年两份卷子共用的句子只算一次（2008 年两卷共用听力、单选和部分阅读、完形）
+python scripts/02e_dedupe_same_year.py $I/corpus_all.tsv $I/corpus_dedup.tsv $I/dedup_report.tsv
 python scripts/qa_segments.py $I/segments > $I/segment_report.tsv
 
 echo "== 3 词频"
 V="$P/vocab_kb2025.csv $P/vocab_kb2025_supplement.csv"
-python scripts/03_count_frequency.py $I/corpus_all.tsv $V $P
+python scripts/03_count_frequency.py $I/corpus_dedup.tsv $V $P
 echo "== 4 例句与句素"
-python scripts/04_examples_collocations.py $I/corpus_all.tsv $V $P
+python scripts/04_examples_collocations.py $I/corpus_dedup.tsv $V $P
 echo "== 5 释义"
 python scripts/05_add_definitions.py $P/entries.csv "$ECDICT/ecdict.csv" "$OEWN" "$ECDICT/wordroot.txt" $P/entries_with_defs.csv $( [ -f "$WIKT" ] && echo "$WIKT" )
 echo "== 5b 义项（人工编写，data/manual/senses/）"
-python scripts/07a_sense_samples.py $I/occurrences.tsv $P/entries_with_defs.csv $I/sense_samples_1_1000.json 1 1000
+# 抽样文件已固定：义项文件按序号引用其中的句子，重新抽样会错位。只有文件不存在时才生成。
+[ -f $I/sense_samples_1_1000.json ] || python scripts/07a_sense_samples.py $I/occurrences.tsv $P/entries_with_defs.csv $I/sense_samples_1_1000.json 1 1000
 python scripts/07b_build_senses.py data/manual/senses $I/sense_samples_1_1000.json $P/senses.csv
 echo "== 6 排版"
 python scripts/06_render_print.py $P/entries_with_defs.csv $P/token_totals.json output/gaokao_vocab_full --senses $P/senses.csv

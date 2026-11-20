@@ -1599,6 +1599,10 @@ ignore,1,v.,忽视；不理会,to pay no attention to,5,5,Seeing the positive si
 imagine,1,v.,想象；设想,to form a picture in your mind,5,5,"After ten years of living in one, I can’t imagine ever living in a small town again.",2014 QG1 听力,ch3_e.json
 limited,1,adj.,有限的,small in amount,5,5,"Once we found the place, it was stressful getting lights and cameras set up in the limited time.",2023 YI 阅读,ch3_e.json
 prevent,1,v.,阻止；防止 (prevent ... from doing),to stop something happening,6,6,Don’t use a net in landing the fish and release it quickly to prevent it from dying.,2008 DG1 阅读,ch3_e.json
+reply,1,v.,回答；答复,to answer,4,0,"Surprisingly, children replied that they couldn’t.",2022 YI 完形,ch3_f.json
+reply,2,n.,回答；回复,an answer,3,0,"His reply came as a surprise — a shock, actually: “Not a chance.”",2025 XG1 写作,ch3_f.json
+select,1,v.,挑选；选拔,to choose carefully,6,0,"Students who enter the Curiosity Challenge and are selected as winners will be honored at a special ceremony during the CSF on Sunday, April 21st.",2014 QG1 阅读,ch3_f.json
+select,2,adj.,精选的；特定的,chosen; only some,1,0,Who is eligible: Youth 15-18 years old in select communities.,2019 QG1 阅读,ch3_f.json
 draw,1,v.,吸引（注意、兴趣）,to make someone notice or come to something,6,13,Drawing public attention to plastic waste.,2021 阅读,pilot_ch2.json
 draw,2,v.,画,to make a picture with a pen or pencil,2,13,"Students are being dared to draw a picture, write an article, take a photo or write a poem that shows what they are curious about.",2014 阅读,pilot_ch2.json
 draw,3,v.,借鉴；利用 (draw on),"to use something you have, such as knowledge or experience",2,13,"In doing so, I’ll draw on an experiment I ran in 2018 in which over 1,600 people agreed to perform a digital declutter.",2023 阅读,pilot_ch2.json

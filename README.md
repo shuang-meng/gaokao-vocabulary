@@ -1,25 +1,25 @@
 # 高考英语词汇表：按真题频次排序
 
-> **English summary.** A frequency-ranked vocabulary list for the Chinese national college entrance exam (gaokao) in English. The 3,100 words of the official 2017/2025 curriculum list are counted against 23 national exam papers (2008–2026, ~81k tokens excluding names): years appeared, total count, part of speech, collocations and real exam sentences. The 1,000 most frequent words cover 85% of exam text; for their 874 content words, senses were written from scratch (Chinese gloss + plain-English definition + one exam sentence per sense), keeping only the senses the exams actually use. Pipeline: Python, spaCy, pdfplumber, WeasyPrint. Code MIT; data CC BY-SA 4.0. Exam papers themselves are not distributed.
+> **English summary.** A frequency-ranked vocabulary list for the Chinese national college entrance exam (gaokao) in English. The 3,100 words of the official 2017/2025 curriculum list are counted against 23 national exam papers (2008–2026, ~79k tokens excluding names): years appeared, total count, part of speech, collocations and real exam sentences. The 1,000 most frequent words cover 85% of exam text; for their 874 content words, senses were written from scratch (Chinese gloss + plain-English definition + one exam sentence per sense), keeping only the senses the exams actually use. Pipeline: Python, spaCy, pdfplumber, WeasyPrint. Code MIT; data CC BY-SA 4.0. Exam papers themselves are not distributed.
 
 把课标词汇表的 3100 个词，放回 2008–2026 年高考英语全国 I 卷系列的真题里统计：每个词考了多少年、多少次，在真题里怎么用（例句、搭配、词性）。按"出现年数 → 总次数"排序，分章印刷，让学生先从真正高频的词开始背。
 
 ## 主要结果
 | 章 | 排名 | 累计覆盖真题词次 |
 |---|---|---|
-| 1 核心词 | 1–200 | 64.5% |
-| 2 高频词 | 201–500 | 76.5% |
-| 3 中频词 | 501–1000 | 85.2% |
+| 1 核心词 | 1–200 | 64.4% |
+| 2 高频词 | 201–500 | 76.4% |
+| 3 中频词 | 501–1000 | 85.1% |
 | 4 常考词 | 1001–1600 | 89.8% |
-| 5 偶考词 | 1601–2552 | 92.3% |
+| 5 偶考词 | 1601–2552 | 92.2% |
 | 6 真题未出现 | 754 词 | — |
 
-覆盖率的分母是不含人名地名的真题词次（80,877）。背完前 200 个词，就能认出真题里近三分之二的词次。
+覆盖率的分母是不含人名地名的真题词次（79,484；2008 年两卷共用的句子只算一次）。背完前 200 个词，就能认出真题里近三分之二的词次。
 
 ## 成品
 - `output/gaokao_vocab_full.pdf`：A4 打印版，每页 6–9 个词，共 6 章（核心 / 高频 / 中频 / 常考 / 偶考 / 真题未出现）。
 - `data/processed/entries_with_defs.csv`：全部词条数据，可导入 Excel 或 Anki。
-- `data/processed/senses.csv`：前 1000 名实词的"真题义项"（874 词、1721 个义项），每个义项有中文、简明英文和一句真题原句。
+- `data/processed/senses.csv`：前 1000 名实词的"真题义项"（876 词、1725 个义项），每个义项有中文、简明英文和一句真题原句。
 - `data/processed/word_freq.csv`：词频明细（分题型、分试卷线、近年频次）。
 - `data/processed/coverage_curve.csv`：背完前 N 个词能覆盖真题多少词次。
 
@@ -61,7 +61,7 @@ bash run_all.sh
 ## 统计口径（摘要）
 - 完形和语法填空先用答案回填，再计数；完形选项单独记一栏，不进主词频。
 - 解析、范文不计入；人名地名不计入。
-- 一年有两份卷子（2008、2021–2023）时，"出现年数"按年份去重。
+- 一年有两份卷子（2008、2021–2023）时，"出现年数"按年份去重；两卷共用的句子（2008 年的听力、单选和部分阅读、完形）只计一次（`scripts/02e_dedupe_same_year.py`）。
 - 派生词（actually、writer）不算进基础词，只在词条里列出。
 - 句素由依存句法自动抽取，有少量误抽，需要人工审读。
 

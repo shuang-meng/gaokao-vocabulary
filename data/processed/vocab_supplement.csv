@@ -105,13 +105,13 @@ Colombian,nationality,
 Cuba,country,person:Cuban;adj:Cuban
 Cuban,nationality,
 Denmark,country,person:Dane;adj:Danish
-Dane,nationality,
 Danish,nationality,
+Dane,nationality,
 Egypt,country,person:Egyptian;adj:Egyptian
 Egyptian,nationality,
 Finland,country,person:Finn;adj:Finnish
-Finn,nationality,
 Finnish,nationality,
+Finn,nationality,
 France,country,person:French;adj:French
 French,nationality,
 Germany,country,person:German;adj:German
@@ -154,8 +154,8 @@ Malaysian,nationality,
 Mexico,country,person:Mexican;adj:Mexican
 Mexican,nationality,
 New Zealand,country,person:New Zealander;adj:Zelanian
-New Zealander,nationality,
 Zelanian,nationality,
+New Zealander,nationality,
 Norway,country,person:Norwegian;adj:Norwegian
 Norwegian,nationality,
 Pakistan,country,person:Pakistani;adj:Pakistani
@@ -185,8 +185,8 @@ Swiss,nationality,
 Thailand,country,person:Thai;adj:Thai
 Thai,nationality,
 Turkey,country,person:Turk;adj:Turkish
-Turkish,nationality,
 Turk,nationality,
+Turkish,nationality,
 U.S.A.,country,person:American;adj:American
 American,nationality,
 Vietnam,country,person:Vietnamese;adj:Vietnamese
