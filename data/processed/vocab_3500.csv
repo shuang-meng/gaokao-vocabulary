@@ -1,0 +1,3416 @@
+﻿id,headword,pos,forms,forms_also_headword,homograph,notes,pdf_page,raw
+1,a,art,an,,0,,11,a(an) art
+2,abandon,v,,,0,,11,abandon v
+3,ability,n,,,0,,11,ability n
+4,able,a,,,0,,11,able a
+5,abnormal,a,,,0,,11,abnormal a
+6,aboard,prep,,,0,,11,aboard prep
+7,abolish,v,,,0,,11,abolish v
+8,abortion,n,,,0,,11,abortion n
+9,about,ad;prep,,,0,,11,about ad & prep
+10,above,prep;a;ad,,,0,,11,"above prep,a & ad"
+11,abroad,ad,,,0,,11,abroad ad
+12,abrupt,a,,,0,,11,abrupt a
+13,absence,n,,,0,,11,absence n
+14,absent,a,,,0,,11,absent a
+15,absolute,a,,,0,,11,absolute a
+16,absorb,v,,,0,,11,absorb v
+17,abstract,a;n,,,0,,11,abstract a & n
+18,absurd,a,,,0,,11,absurd a
+19,abundant,a,,,0,,11,abundant a
+20,abuse,v,,,0,,11,abuse v
+21,academic,a;n,,,0,,11,academic a & n
+22,academy,n,,,0,,11,academy n
+23,accelerate,v,,,0,,11,accelerate v
+24,accent,n,,,0,,11,accent n
+25,accept,v,,,0,,11,accept v
+26,access,n;v,,,0,,11,access n & v
+27,accessible,a,,,0,,11,accessible a
+28,accident,n,,,0,,11,accident n
+29,accommodation,n,,,0,,11,accommodation n
+30,accompany,v,,,0,,11,accompany v
+31,accomplish,v,,,0,,11,accomplish v
+32,account,n,,,0,,11,account n
+33,accountant,n,,,0,,11,accountant n
+34,accumulate,v,,,0,,11,accumulate v
+35,accuracy,n,,,0,,11,accuracy n
+36,accurate,a,,,0,,11,accurate a
+37,accuse,v,,,0,,11,accuse v
+38,accustomed,a,,,0,,11,accustomed a
+39,ache,v;n,,,0,,11,ache v & n
+40,achieve,v,,,0,,11,achieve v
+41,achievement,n,,,0,,11,achievement n
+42,acid,a,,,0,,11,acid a
+43,acknowledge,v,,,0,,11,acknowledge v
+44,acquaintance,n,,,0,,11,acquaintance n
+45,acquire,v,,,0,,11,acquire v
+46,acquisition,n,,,0,,11,acquisition n
+47,acre,n,,,0,,11,acre n
+48,across,prep,,,0,,11,across prep
+49,act,n;v,,,0,,11,act n & v
+50,action,n,,,0,,11,action n
+51,active,a,,,0,,11,active a
+52,activity,n,,,0,,11,activity n
+53,actor,n,,,0,,11,actor n
+54,actress,n,,,0,,11,actress n
+55,actual,a,,,0,,11,actual a
+56,acute,a,,,0,,11,acute a
+57,AD,abbr,,,0,,11,AD abbr
+58,ad,n,,advertisement,0,=advertisement,12,ad=advertisement n
+59,adapt,v,,,0,,12,adapt v
+60,adaptation,n,,,0,,12,adaptation n
+61,add,v,,,0,,12,add v
+62,addicted,a,,,0,,12,addicted a
+63,addition,n,,,0,,12,addition n
+64,address,n,,,0,,12,address n
+65,adequate,a,,,0,,12,adequate a
+66,adjust,v,,,0,,12,adjust v
+67,adjustment,n,,,0,,12,adjustment n
+68,administration,n,,,0,,12,administration n
+69,admirable,a,,,0,,12,admirable a
+70,admire,v,,,0,,12,admire v
+71,admission,n,,,0,,12,admission n
+72,admit,v,,,0,,12,admit v
+73,adolescence,n,,,0,,12,adolescence n
+74,adolescent,a;n,,,0,,12,adolescent a & n
+75,adopt,v,,,0,,12,adopt v
+76,adore,v,,,0,,12,adore v
+77,adult,n,,,0,,12,adult n
+78,advance,v;n,,,0,,12,advance v & n
+79,advantage,n,,,0,,12,advantage n
+80,adventure,n,,,0,,12,adventure n
+81,advertise,v,,,0,,12,advertise v
+82,advertisement,n,,,0,,12,advertisement n
+83,advice,n,,,0,,12,advice n
+84,advise,v,,,0,,12,advise v
+85,advocate,v,,,0,,12,advocate v
+86,affair,n,,,0,,12,affair n
+87,affect,v,,,0,,12,affect v
+88,affection,n,,,0,,12,affection n
+89,afford,v,,,0,,12,afford v
+90,afraid,a,,,0,,12,afraid a
+91,Africa,n,,,0,,12,Africa n
+92,African,a;n,,,0,,12,African a & n
+93,after,ad;prep;conj,,,0,,12,"after ad,prep & conj"
+94,afternoon,n,,,0,,12,afternoon n
+95,afterward,ad,afterwards,,0,,12,afterward(s) ad
+96,again,ad,,,0,,12,again ad
+97,against,prep,,,0,,12,against prep
+98,age,n,,,0,,12,age n
+99,agency,n,,,0,,12,agency n
+100,agenda,n,,,0,,12,agenda n
+101,agent,n,,,0,,12,agent n
+102,aggressive,a,,,0,,12,aggressive a
+103,ago,ad,,,0,,12,ago ad
+104,agree,v,,,0,,12,agree v
+105,agreement,n,,,0,,12,agreement n
+106,agricultural,a,,,0,,12,agricultural a
+107,agriculture,n,,,0,,12,agriculture n
+108,ahead,ad,,,0,,12,ahead ad
+109,aid,n;v,,,0,,12,aid n & v
+110,AIDS,n,,,0,,12,AIDS n
+111,aim,n;v,,,0,,12,aim n & v
+112,air,n,,,0,,12,air n
+113,aircraft,n,,,0,,12,aircraft n
+114,airline,n,,,0,,12,airline n
+115,airmail,n,,,0,,12,airmail n
+116,airplane,n,,,0,,12,airplane n
+117,airport,n,,,0,,12,airport n
+118,airspace,n,,,0,,12,airspace n
+119,alarm,n;v,,,0,,12,alarm n & v
+120,album,n,,,0,,13,album n
+121,alcohol,n,,,0,,13,alcohol n
+122,alcoholic,a;n,,,0,,13,alcoholic a & n
+123,algebra,n,,,0,,13,algebra n
+124,alike,ad,,,0,,13,alike ad
+125,alive,a,,,0,,13,alive a
+126,all,ad;a;pron,,,0,,13,"all ad,a & pron"
+127,allergic,a,,,0,,13,allergic a
+128,alley,n,,,0,,13,alley n
+129,allocate,v,,,0,,13,allocate v
+130,allow,v,,,0,,13,allow v
+131,allowance,n,,,0,,13,allowance n
+132,almost,ad,,,0,,13,almost ad
+133,alone,a,,,0,,13,alone a
+134,along,ad;prep,,,0,,13,along ad & prep
+135,alongside,ad,,,0,,13,alongside ad
+136,aloud,ad,,,0,,13,aloud ad
+137,alphabet,n,,,0,,13,alphabet n
+138,already,ad,,,0,,13,already ad
+139,also,ad,,,0,,13,also ad
+140,alternative,a,,,0,,13,alternative a
+141,although,conj,,,0,,13,although conj
+142,altitude,n,,,0,,13,altitude n
+143,altogether,ad,,,0,,13,altogether ad
+144,aluminium,n,aluminum,,0,US:aluminum,13,aluminium (Am aluminum) n
+145,always,ad,,,0,,13,always ad
+146,am,v,,,0,,13,am v(be)
+147,a.m.,abbr,A.M.,am;AM,0,,13,"a.m./am,A.M./AM abbr"
+148,amateur,a,,,0,,13,amateur a
+149,amaze,v,,,0,,13,amaze v
+150,amazing,a,,,0,,13,amazing a
+151,ambassador,n,,,0,,13,ambassador n
+152,ambassadress,n,,,0,,13,ambassadress n
+153,ambiguous,a,,,0,,13,ambiguous a
+154,ambition,n,,,0,,13,ambition n
+155,ambulance,n,,,0,,13,ambulance n
+156,America,n,,,0,,13,America n
+157,among,prep,,,0,,13,among prep
+158,amount,n;v,,,0,,13,amount n & v
+159,ample,a,,,0,,13,ample a
+160,amuse,v,,,0,,13,amuse v
+161,amusement,n,,,0,,13,amusement n
+162,analyse,v,,,0,,13,analyse v
+163,analysis,n,,,0,,13,analysis n
+164,ancestor,n,,,0,,13,ancestor n
+165,anchor,v;n,,,0,,13,anchor v & n
+166,ancient,a,,,0,,13,ancient a
+167,and,conj,,,0,,13,and conj
+168,anecdote,n,,,0,,13,anecdote n
+169,anger,n,,,0,,13,anger n
+170,angle,n,,,0,,13,angle n
+171,angry,a,,,0,,13,angry a
+172,animal,n,,,0,,13,animal n
+173,ankle,n,,,0,,13,ankle n
+174,anniversary,n,,,0,,13,anniversary n
+175,announce,v,,,0,,13,announce v
+176,annoy,v,,,0,,13,annoy v
+177,annual,a,,,0,,13,annual a
+178,another,a;pron,,,0,,13,another a & pron
+179,answer,n;v,,,0,,13,answer n & v
+180,ant,n,,,0,,13,ant n
+181,Antarctic,a,,,0,,14,Antarctic a
+182,antique,n,,,0,,14,antique n
+183,anxiety,n,,,0,,14,anxiety n
+184,anxious,a,,,0,,14,anxious a
+185,any,pron;a,,,0,,14,any pron & a
+186,anybody,pron,,,0,,14,anybody pron
+187,anyhow,ad,,,0,,14,anyhow ad
+188,anyone,pron,,,0,,14,anyone pron
+189,anything,pron,,,0,,14,anything pron
+190,anyway,ad,,,0,,14,anyway ad
+191,anywhere,ad,,,0,,14,anywhere ad
+192,apart,ad;a,,,0,,14,apart ad & a
+193,apartment,n,,,0,,14,apartment n
+194,apologize,v,,,0,,14,apologize v
+195,apology,n,,,0,,14,apology n
+196,apparent,a,,,0,,14,apparent a
+197,appeal,v;n,,,0,,14,appeal v & n
+198,appear,v,,,0,,14,appear v
+199,appearance,n,,,0,,14,appearance n
+200,appendix,n,,,0,,14,appendix n
+201,appetite,n,,,0,,14,appetite n
+202,applaud,v;n,,,0,,14,applaud v & n
+203,apple,n,,,0,,14,apple n
+204,applicant,n,,,0,,14,applicant n
+205,application,n,,,0,,14,application n
+206,apply,v,,,0,,14,apply v
+207,appoint,v,,,0,,14,appoint v
+208,appointment,n,,,0,,14,appointment n
+209,appreciate,v,,,0,,14,appreciate v
+210,appreciation,n,,,0,,14,appreciation n
+211,approach,n;v,,,0,,14,approach n & v
+212,appropriate,a,,,0,,14,appropriate a
+213,approval,n,,,0,,14,approval n
+214,approve,v,,,0,,14,approve v
+215,approximately,ad,,,0,,14,approximately ad
+216,apron,n,,,0,,14,apron n
+217,arbitrary,a,,,0,,14,arbitrary a
+218,arch,n,,,0,,14,arch n
+219,architect,n,,,0,,14,architect n
+220,architecture,n,,,0,,14,architecture n
+221,Arctic,a,,,0,,14,Arctic a
+222,are,v,,,0,,14,are v(be)
+223,area,n,,,0,,14,area n
+224,argue,v,,,0,,14,argue v
+225,argument,n,,,0,,14,argument n
+226,arise,v,arose;arisen,,0,"forms:arose,arisen",14,"arise(arose,arisen) v"
+227,arithmetic,n,,,0,,14,arithmetic n
+228,arm,n;v,,,0,,14,arm n & v
+229,armchair,n,,,0,,14,armchair n
+230,army,n,,,0,,14,army n
+231,around,ad;prep,,,0,,14,around ad & prep
+232,arrange,v,,,0,,14,arrange v
+233,arrangement,n,,,0,,14,arrangement n
+234,arrest,v,,,0,,14,arrest v
+235,arrival,n,,,0,,14,arrival n
+236,arrive,v,,,0,,14,arrive v
+237,arrow,n,,,0,,14,arrow n
+238,art,n,,,0,,14,art n
+239,article,n,,,0,,14,article n
+240,artificial,a,,,0,,14,artificial a
+241,artist,n,,,0,,14,artist n
+242,as,ad;conj;prep,,,0,,14,"as ad,conj & prep"
+243,ash,n,,,0,,15,ash n
+244,ashamed,a,,,0,,15,ashamed a
+245,Asia,n,,,0,,15,Asia n
+246,Asian,a;n,,,0,,15,Asian a & n
+247,aside,ad,,,0,,15,aside ad
+248,ask,v,,,0,,15,ask v
+249,asleep,a,,,0,,15,asleep a
+250,aspect,n,,,0,,15,aspect n
+251,assess,v,,,0,,15,assess v
+252,assessment,n,,,0,,15,assessment n
+253,assist,v,,,0,,15,assist v
+254,assistance,n,,,0,,15,assistance n
+255,assistant,n,,,0,,15,assistant n
+256,associate,v,,,0,,15,associate v
+257,association,n,,,0,,15,association n
+258,assume,v,,,0,,15,assume v
+259,assumption,n,,,0,,15,assumption n
+260,astonish,v,,,0,,15,astonish v
+261,astronaut,n,,,0,,15,astronaut n
+262,astronomer,n,,,0,,15,astronomer n
+263,astronomy,n,,,0,,15,astronomy n
+264,at,prep,,,0,,15,at prep
+265,athlete,n,,,0,,15,athlete n
+266,athletic,a,,,0,,15,athletic a
+267,Atlantic,a,,,0,,15,Atlantic a
+268,atmosphere,n,,,0,,15,atmosphere n
+269,atom,n,,,0,,15,atom n
+270,attach,v,,,0,,15,attach v
+271,attack,v;n,,,0,,15,attack v & n
+272,attain,v,,,0,,15,attain v
+273,attempt,v;n,,,0,,15,attempt v & n
+274,attend,v,,,0,,15,attend v
+275,attention,n,,,0,,15,attention n
+276,attitude,n,,,0,,15,attitude n
+277,attract,v,,,0,,15,attract v
+278,attraction,n,,,0,,15,attraction n
+279,attractive,a,,,0,,15,attractive a
+280,audience,n,,,0,,15,audience n
+281,aunt,n,,,0,,15,aunt n
+282,authentic,a,,,0,,15,authentic a
+283,author,n,,,0,,15,author n
+284,authority,n,,,0,,15,authority n
+285,automatic,a,,,0,,15,automatic a
+286,autonomous,a,,,0,,15,autonomous a
+287,autumn,n,,,0,,15,autumn n
+288,available,a,,,0,,15,available a
+289,avenue,n,,,0,,15,avenue n
+290,average,a;n,,,0,,15,average a & n
+291,avoid,v,,,0,,15,avoid v
+292,awake,v;a,awoke;awoken,,0,"forms:awoke,awoken",15,"awake(awoke,awoken) v & a"
+293,award,n,,,0,,15,award n
+294,aware,a,,,0,,15,aware a
+295,away,ad,,,0,,15,away ad
+296,awesome,a,,,0,,15,awesome a
+297,awful,a,,,0,,15,awful a
+298,awkward,a,,,0,,15,awkward a
+299,baby,n,,,0,,15,baby n
+300,bachelor,n,,,0,,15,bachelor n
+301,back,ad;a;n,,,0,,15,"back ad,a & n"
+302,background,n,,,0,,15,background n
+303,backward,ad,backwards,,0,,16,backward(s) ad
+304,bacon,n,,,0,,16,bacon n
+305,bacterium,n,bacteria,,0,pl:bacteria,16,bacterium(pl bacteria) n
+306,bad,a,worse;worst,,0,"forms:worse,worst",16,"bad(worse,worst) a"
+307,badminton,n,,,0,,16,badminton n
+308,bag,n,,,0,,16,bag n
+309,baggage,n,,,0,,16,baggage n
+310,bakery,n,,,0,,16,bakery n
+311,balance,n,,,0,,16,balance n
+312,balcony,n,,,0,,16,balcony n
+313,ball,n,,,0,,16,ball n
+314,ballet,n,,,0,,16,ballet n
+315,balloon,n,,,0,,16,balloon n
+316,bamboo,n,,,0,,16,bamboo n
+317,ban,n;v,,,0,,16,ban n & v
+318,banana,n,,,0,,16,banana n
+319,band,n,,,0,,16,band n
+320,bandage,n,,,0,,16,bandage n
+321,bank,n,,,0,,16,bank n
+322,bar,n,,,0,,16,bar n
+323,barbecue,n,,,0,,16,barbecue n
+324,barber,n,,,0,,16,barber n
+325,barbershop,n,,,0,,16,barbershop n
+326,bare,a,,,0,,16,bare a
+327,bargain,n;v,,,0,,16,bargain n & v
+328,bark,v;n,,,0,,16,bark v & n
+329,barrier,n,,,0,,16,barrier n
+330,base,n,,,0,,16,base n
+331,baseball,n,,,0,,16,baseball n
+332,basement,n,,,0,,16,basement n
+333,basic,a,,,0,,16,basic a
+334,basin,n,,,0,,16,basin n
+335,basis,n,,,0,,16,basis n
+336,basket,n,,,0,,16,basket n
+337,basketball,n,,,0,,16,basketball n
+338,bat,n,,,0,,16,bat n
+339,bath,n,,,0,,16,bath n
+340,bathe,v,,,0,,16,bathe v
+341,bathroom,n,,,0,,16,bathroom n
+342,bathtub,n,,,0,,16,bathtub n
+343,battery,n,,,0,,16,battery n
+344,battle,n,,,0,,16,battle n
+345,bay,n,,,0,,16,bay n
+346,BC,abbr,,,0,,16,BC abbr
+347,be,v,was;were;been,am;is;are;being,0,"forms:am,is,are,was, were,being,been",16,"be(am,is,are,was, were,being,been) v"
+348,beach,n,,,0,,16,beach n
+349,bean,n,,,0,,16,bean n
+350,bean curd,n,,,0,,16,bean curd n
+351,bear,n;v,,,1,,16,bear n || bear 2 v
+352,beard,n,,,0,,16,beard n
+353,beast,n,,,0,,16,beast n
+354,beat,v;n,beaten,,0,"forms:beat,beaten",16,"beat(beat,beaten) v & n"
+355,beautiful,a,,,0,,16,beautiful a
+356,beauty,n,,,0,,16,beauty n
+357,because,conj,,,0,,16,because conj
+358,become,v,became,,0,"forms:became,become",16,"become(became,become) v"
+359,bed,n,,,0,,16,bed n
+360,beddings,n,,,0,,16,beddings n
+361,bedroom,n,,,0,,16,bedroom n
+362,bee,n,,,0,,16,bee n
+363,beef,n,,,0,,17,beef n
+364,beer,n,,,0,,17,beer n
+365,before,prep;ad;conj,,,0,,17,"before prep,ad&conj"
+366,beg,v,,,0,,17,beg v
+367,begin,v,began;begun,,0,"forms:began,begun",17,"begin(began,begun) v"
+368,behalf,n,,,0,,17,behalf n
+369,behave,v,,,0,,17,behave v
+370,behaviour,n,behavior,,0,US:behavior,17,behaviour(Am behavior) n
+371,behind,prep;ad,,,0,,17,behind prep & ad
+372,being,n,,,0,,17,being n
+373,belief,n,,,0,,17,belief n
+374,believe,v,,,0,,17,believe v
+375,bell,n,,,0,,17,bell n
+376,belly,n,,,0,,17,belly n
+377,belong,v,,,0,,17,belong v
+378,below,prep,,,0,,17,below prep
+379,belt,n,,,0,,17,belt n
+380,bench,n,,,0,,17,bench n
+381,bend,v,,bent,0,"forms:bent,bent",17,"bend(bent,bent) v"
+382,beneath,prep,,,0,,17,beneath prep
+383,beneficial,a,,,0,,17,beneficial a
+384,benefit,n;v,,,0,,17,benefit n & v
+385,bent,a;n,,,0,,17,bent a & n
+386,beside,prep,,,0,,17,beside prep
+387,besides,prep;ad,,,0,,17,besides prep & ad
+388,betray,v,,,0,,17,betray v
+389,between,prep,,,0,,17,between prep
+390,beyond,prep,,,0,,17,beyond prep
+391,bicycle,n,,,0,,17,bicycle n
+392,bid,v;n,,,0,,17,bid v & n
+393,big,a,,,0,,17,big a
+394,bike,n,,bicycle,0,=bicycle,17,bike=bicycle n
+395,bill,n,,,0,,17,bill n
+396,bingo,n,,,0,,17,bingo n
+397,biochemistry,n,,,0,,17,biochemistry n
+398,biography,n,,,0,,17,biography n
+399,biology,n,,,0,,17,biology n
+400,bird,n,,,0,,17,bird n
+401,birth,n,,,0,,17,birth n
+402,birthday,n,,,0,,17,birthday n
+403,birthplace,n,,,0,,17,birthplace n
+404,biscuit,n,,,0,,17,biscuit n
+405,bishop,n,,,0,,17,bishop n
+406,bit,n,,,0,,17,bit n
+407,bite,v,bitten,bit,0,"forms:bit,bitten",17,"bite(bit,bitten) v"
+408,bitter,a,,,0,,17,bitter a
+409,black,a;n,,,0,,17,black a & n
+410,blackboard,n,,,0,,17,blackboard n
+411,blame,n;v,,,0,,17,blame n & v
+412,blank,n;a,,,0,,17,blank n & a
+413,blanket,n,,,0,,17,blanket n
+414,bleed,v,,,0,,17,bleed v
+415,bless,v,,,0,,17,bless v
+416,blind,a,,,0,,17,blind a
+417,block,n;v,,,0,,17,block n & v
+418,blood,n,,,0,,17,blood n
+419,blouse,n,,,0,,17,blouse n
+420,blow,v,blew;blown,,0,"forms:blew,blown",17,"blow(blew,blown) v"
+421,blue,n;a,,,0,,17,blue n & a
+422,board,n;v,,,0,,17,board n & v
+423,boat,n,,,0,,17,boat n
+424,body,n,,,0,,17,body n
+425,boil,v,,,0,,18,boil v
+426,bomb,n;v,,,0,,18,bomb n & v
+427,bond,n;v,,,0,,18,bond n & v
+428,bone,n,,,0,,18,bone n
+429,bonus,n,,,0,,18,bonus n
+430,book,n;v,,,0,,18,book n & v
+431,boom,n;v,,,0,,18,boom n & v
+432,boot,n,,,0,,18,boot n
+433,booth,n,,,0,,18,booth n
+434,border,n,,,0,,18,border n
+435,bored,a,,,0,,18,bored a
+436,boring,a,,,0,,18,boring a
+437,born,a,,,0,,18,born a
+438,borrow,v,,,0,,18,borrow v
+439,boss,n,,,0,,18,boss n
+440,botanical,a,,,0,,18,botanical a
+441,botany,n,,,0,,18,botany n
+442,both,a;pron,,,0,,18,both a & pron
+443,bother,v,,,0,,18,bother v
+444,bottle,n,,,0,,18,bottle n
+445,bottom,n,,,0,,18,bottom n
+446,bounce,v,,,0,,18,bounce v
+447,bound,a,,,0,,18,bound a
+448,boundary,n,,,0,,18,boundary n
+449,bow,v;n,,,0,,18,bow v & n
+450,bowl,n,,,0,,18,bowl n
+451,bowling,n,,,0,,18,bowling n
+452,box,n,,,0,,18,box n
+453,boxing,n,,,0,,18,boxing n
+454,boy,n,,,0,,18,boy n
+455,boycott,v,,,0,,18,boycott v
+456,brain,n,,,0,,18,brain n
+457,brake,n;v,,,0,,18,brake n & v
+458,branch,n,,,0,,18,branch n
+459,brand,n,,,0,,18,brand n
+460,brave,a,,,0,,18,brave a
+461,bravery,n,,,0,,18,bravery n
+462,bread,n,,,0,,18,bread n
+463,break,v;n,broke,broken,0,"forms:broke,broken",18,"break(broke,broken) v & n"
+464,breakfast,n,,,0,,18,breakfast n
+465,breakthrough,n,,,0,,18,breakthrough n
+466,breast,n,,,0,,18,breast n
+467,breath,n,,,0,,18,breath n
+468,breathe,v,,,0,,18,breathe v
+469,breathless,a,,,0,,18,breathless a
+470,brewery,n,,,0,,18,brewery n
+471,brick,n,,,0,,18,brick n
+472,bride,n,,,0,,18,bride n
+473,bridegroom,n,,,0,,18,bridegroom n
+474,bridge,n,,,0,,18,bridge n
+475,brief,a,,,0,,18,brief a
+476,bright,a,,,0,,18,bright a
+477,brilliant,a,,,0,,18,brilliant a
+478,bring,v,brought,,0,"forms:brought,brought",18,"bring(brought,brought) v"
+479,broad,a,,,0,,18,broad a
+480,broadcast,v,broadcasted,,0,"forms:broadcast, broadcast 或-ed,-ed",18,"broadcast(broadcast, broadcast 或-ed,-ed) v"
+481,brochure,n,,,0,,18,brochure n
+482,broken,a,,,0,,18,broken a
+483,broom,n,,,0,,18,broom n
+484,brother,n,,,0,,18,brother n
+485,brown,n;a,,,0,,18,brown n & a
+486,brunch,n,,,0,,19,brunch n
+487,brush,v;n,,,0,,19,brush v & n
+488,Buddhism,n,,,0,,19,Buddhism n
+489,budget,n,,,0,,19,budget n
+490,buffet,n,,,0,,19,buffet n
+491,build,v,built,,0,"forms:built,built",19,"build(built,built) v"
+492,building,n,,,0,,19,building n
+493,bunch,n,,,0,,19,bunch n
+494,bungalow,n,,,0,,19,bungalow n
+495,burden,n,,,0,,19,burden n
+496,bureaucratic,a,,,0,,19,bureaucratic a
+497,burglar,n,,,0,,19,burglar n
+498,burn,v;n,burnt;burned,,0,"forms:burnt,burnt 或-ed,-ed",19,"burn(burnt,burnt 或-ed,-ed) v & n"
+499,burst,v,,,0,,19,burst v
+500,bury,v,,,0,,19,bury v
+501,bus,n,,,0,,19,bus n
+502,bush,n,,,0,,19,bush n
+503,business,n,,,0,,19,business n
+504,businessman,n,businessmen,,0,pl:businessmen/ women,19,businessman/woman (pl businessmen/ women) n
+505,businesswoman,n,businesswomen,,0,pl:businessmen/ women,19,businessman/woman (pl businessmen/ women) n
+506,busy,a,,,0,,19,busy a
+507,but,conj;prep,,,0,,19,but conj & prep
+508,butcher,n;v,,,0,,19,butcher n & v
+509,butter,n,,,0,,19,butter n
+510,butterfly,n,,,0,,19,butterfly n
+511,button,n;v,,,0,,19,button n & v
+512,buy,v,bought,,0,"forms:bought,bought",19,"buy(bought,bought) v"
+513,by,prep,,,0,,19,by prep
+514,bye,int,,,0,,19,bye int
+515,cab,n,,,0,,19,cab n
+516,cabbage,n,,,0,,19,cabbage n
+517,cafe,n,,,0,,19,cafe n
+518,cafeteria,n,,,0,,19,cafeteria n
+519,cage,n,,,0,,19,cage n
+520,cake,n,,,0,,19,cake n
+521,calculate,v,,,0,,19,calculate v
+522,call,n;v,,,0,,19,call n & v
+523,calm,a;v,,,0,,19,calm a & v
+524,camel,n,,,0,,19,camel n
+525,camera,n,,,0,,19,camera n
+526,camp,n;v,,,0,,19,camp n & v
+527,campaign,n,,,0,,19,campaign n
+528,can,modal v;n,can't;cannot,could,1,,19,can (could); can't=cannot modal v || can 2 n
+529,canal,n,,,0,,19,canal n
+530,cancel,v,,,0,,19,cancel v
+531,cancer,n,,,0,,19,cancer n
+532,candidate,n,,,0,,19,candidate n
+533,candle,n,,,0,,19,candle n
+534,candy,n,,,0,,19,candy n
+535,canteen,n,,,0,,19,canteen n
+536,cap,n,,,0,,19,cap n
+537,capital,n,,,0,,19,capital n
+538,capsule,n,,,0,,19,capsule n
+539,captain,n,,,0,,19,captain n
+540,caption,n,,,0,,19,caption n
+541,car,n,,,0,,19,car n
+542,carbon,n,,,0,,19,carbon n
+543,card,n,,,0,,20,card n
+544,care,n;v,,,0,,20,care n & v
+545,careful,a,,,0,,20,careful a
+546,careless,a,,,0,,20,careless a
+547,carpenter,n,,,0,,20,carpenter n
+548,carpet,n,,,0,,20,carpet n
+549,carriage,n,,,0,,20,carriage n
+550,carrier,n,,,0,,20,carrier n
+551,carrot,n,,,0,,20,carrot n
+552,carry,v,,,0,,20,carry v
+553,cartoon,n,,,0,,20,cartoon n
+554,carve,v,,,0,,20,carve v
+555,case,n,,,0,,20,case n
+556,cash,n;v,,,0,,20,cash n & v
+557,cassette,n,,,0,,20,cassette n
+558,cast,v,,,0,"forms:cast,cast",20,"cast(cast,cast) v"
+559,castle,n,,,0,,20,castle n
+560,casual,a,,,0,,20,casual a
+561,cat,n,,,0,,20,cat n
+562,catalogue,n,,,0,,20,catalogue n
+563,catastrophe,n,,,0,,20,catastrophe n
+564,catch,v,caught,,0,"forms:caught,caught",20,"catch(caught,caught) v"
+565,category,n,,,0,,20,category n
+566,cater,v,,,0,,20,cater v
+567,Catholic,a,,,0,,20,Catholic a
+568,cattle,n,,,0,,20,cattle n
+569,cause,n;v,,,0,,20,cause n & v
+570,caution,n,,,0,,20,caution n
+571,cautious,a,,,0,,20,cautious a
+572,cave,n,,,0,,20,cave n
+573,CD,n,compact disk,,0,=compact disk,20,CD=compact disk n
+574,ceiling,n,,,0,,20,ceiling n
+575,celebrate,v,,,0,,20,celebrate v
+576,celebration,n,,,0,,20,celebration n
+577,cell,n,,,0,,20,cell n
+578,cent,n,,,0,,20,cent n
+579,centigrade,a,,,0,,20,centigrade a
+580,centimetre,n,centimeter,,0,US:centimeter,20,centimetre (Am centimeter) n
+581,central,a,,,0,,20,central a
+582,centre,n,center,,0,US:center,20,centre(Am center) n
+583,century,n,,,0,,20,century n
+584,ceremony,n,,,0,,20,ceremony n
+585,certain,a,,,0,,20,certain a
+586,certificate,n,,,0,,20,certificate n
+587,chain,n,,,0,,20,chain n
+588,chair,n,,,0,,20,chair n
+589,chairman,n,chairmen,,0,pl:chairmen/women,20,chairman/woman (pl chairmen/women) n
+590,chairwoman,n,chairwomen,,0,pl:chairmen/women,20,chairman/woman (pl chairmen/women) n
+591,chalk,n,,,0,,20,chalk n
+592,challenge,n,,,0,,20,challenge n
+593,challenging,a,,,0,,20,challenging a
+594,champion,n,,,0,,20,champion n
+595,chance,n,,,0,,20,chance n
+596,change,n;v,,,0,,20,change n & v
+597,changeable,a,,,0,,20,changeable a
+598,channel,n,,,0,,20,channel n
+599,chant,v;n,,,0,,20,chant v & n
+600,chaos,n,,,0,,20,chaos n
+601,chapter,n,,,0,,20,chapter n
+602,character,n,,,0,,20,character n
+603,characteristic,a;n,,,0,,20,characteristic a & n
+604,charge,v;n,,,0,,21,charge v & n
+605,chart,n,,,0,,21,chart n
+606,chat,n;v,,,0,,21,chat n & v
+607,cheap,a,,,0,,21,cheap a
+608,cheat,n;v,,,0,,21,cheat n & v
+609,check,n;v,,,0,,21,check n & v
+610,cheek,n,,,0,,21,cheek n
+611,cheer,n;v,,,0,,21,cheer n & v
+612,cheerful,a,,,0,,21,cheerful a
+613,cheers,int,,,0,,21,cheers int
+614,cheese,n,,,0,,21,cheese n
+615,chef,n,,,0,,21,chef n
+616,chemical,a;n,,,0,,21,chemical a & n
+617,chemist,n,,,0,,21,chemist n
+618,chemistry,n,,,0,,21,chemistry n
+619,cheque,n,,check,0,US:check,21,cheque(Am check) n
+620,chess,n,,,0,,21,chess n
+621,chest,n,,,0,,21,chest n
+622,chew,v,,,0,,21,chew v
+623,chicken,n,,,0,,21,chicken n
+624,chief,a;n,,,0,,21,chief a & n
+625,child,n,children,,0,pl:children,21,child(pl children) n
+626,childhood,n,,,0,,21,childhood n
+627,chocolate,n,,,0,,21,chocolate n
+628,choice,n,,,0,,21,choice n
+629,choir,n,,,0,,21,choir n
+630,choke,n;v,,,0,,21,choke n & v
+631,choose,v,chose;chosen,,0,"forms:chose,chosen",21,"choose(chose,chosen) v"
+632,chopsticks,n,,,0,,21,chopsticks n
+633,chorus,n,,,0,,21,chorus n
+634,Christian,n,,,0,,21,Christian n
+635,Christmas,n,,,0,,21,Christmas n
+636,church,n,,,0,,21,church n
+637,cigar,n,,,0,,21,cigar n
+638,cigarette,n,,,0,,21,cigarette n
+639,cinema,n,,,0,,21,cinema n
+640,circle,n;v,,,0,,21,circle n & v
+641,circuit,n,,,0,,21,circuit n
+642,circulate,v,,,0,,21,circulate v
+643,circumstance,n,,,0,,21,circumstance n
+644,circus,n,,,0,,21,circus n
+645,citizen,n,,,0,,21,citizen n
+646,city,n,,,0,,21,city n
+647,civil,a,,,0,,21,civil a
+648,civilian,n,,,0,,21,civilian n
+649,civilization,n,,,0,,21,civilization n
+650,clap,v,,,0,,21,clap v
+651,clarify,v,,,0,,21,clarify v
+652,class,n,,,0,,21,class n
+653,classic,a,,,0,,21,classic a
+654,classify,v,,,0,,21,classify v
+655,classmate,n,,,0,,21,classmate n
+656,classroom,n,,,0,,21,classroom n
+657,claw,n,,,0,,21,claw n
+658,clay,n,,,0,,21,clay n
+659,clean,v;a,,,0,,21,clean v & a
+660,cleaner,n,,,0,,21,cleaner n
+661,clear,a,,,0,,21,clear a
+662,clerk,n,,,0,,21,clerk n
+663,clever,a,,,0,,21,clever a
+664,click,v,,,0,,21,click v
+665,climate,n,,,0,,21,climate n
+666,climb,v,,,0,,22,climb v
+667,clinic,n,,,0,,22,clinic n
+668,clock,n,,,0,,22,clock n
+669,clone,v,,,0,,22,clone v
+670,close,a;ad,,,0,,22,close a & ad
+671,cloth,n,,,0,,22,cloth n
+672,clothes,n,,,0,,22,clothes n
+673,clothing,n,,,0,,22,clothing n
+674,cloud,n,,,0,,22,cloud n
+675,cloudy,a,,,0,,22,cloudy a
+676,club,n,,,0,,22,club n
+677,clumsy,a,,,0,,22,clumsy a
+678,coach,n,,,0,,22,coach n
+679,coal,n,,,0,,22,coal n
+680,coast,n,,,0,,22,coast n
+681,coat,n,,,0,,22,coat n
+682,cocoa,n,,,0,,22,cocoa n
+683,coffee,n,,,0,,22,coffee n
+684,coin,n,,,0,,22,coin n
+685,coincidence,n,,,0,,22,coincidence n
+686,coke,n,,,0,,22,coke n
+687,cold,a;n,,,0,,22,cold a & n
+688,collar,n,,,0,,22,collar n
+689,colleague,n,,,0,,22,colleague n
+690,collect,v,,,0,,22,collect v
+691,collection,n,,,0,,22,collection n
+692,college,n,,,0,,22,college n
+693,collision,n,,,0,,22,collision n
+694,colour,n;v,color,,0,US:color,22,colour(Am color) n & v
+695,comb,n;v,,,0,,22,comb n & v
+696,combine,v,,,0,,22,combine v
+697,come,v,came,,0,"forms:came,come",22,"come(came,come) v"
+698,comedy,n,,,0,,22,comedy n
+699,comfort,n,,,0,,22,comfort n
+700,comfortable,a,,,0,,22,comfortable a
+701,command,n;v,,,0,,22,command n & v
+702,comment,n,,,0,,22,comment n
+703,commercial,a,,,0,,22,commercial a
+704,commit,v,,,0,,22,commit v
+705,commitment,n,,,0,,22,commitment n
+706,committee,n,,,0,,22,committee n
+707,common,a,,,0,,22,common a
+708,communicate,v,,,0,,22,communicate v
+709,communication,n,,,0,,22,communication n
+710,communism,n,,,0,,22,communism n
+711,communist,n;a,,,0,,22,communist n & a
+712,companion,n,,,0,,22,companion n
+713,company,n,,,0,,22,company n
+714,compare,v,,,0,,22,compare v
+715,compass,n,,,0,,22,compass n
+716,compensate,v,,,0,,22,compensate v
+717,compete,v,,,0,,22,compete v
+718,competence,n,,,0,,22,competence n
+719,competition,n,,,0,,22,competition n
+720,complete,a;v,,,0,,22,complete a & v
+721,complex,a;n,,,0,,22,complex a & n
+722,component,n,,,0,,22,component n
+723,composition,n,,,0,,22,composition n
+724,comprehension,n,,,0,,22,comprehension n
+725,compromise,v,,,0,,22,compromise v
+726,compulsory,a,,,0,,22,compulsory a
+727,computer,n,,,0,,22,computer n
+728,concentrate,v,,,0,,23,concentrate v
+729,concept,n,,,0,,23,concept n
+730,concern,v;n,,,0,,23,concern v & n
+731,concert,n,,,0,,23,concert n
+732,conclude,v,,,0,,23,conclude v
+733,conclusion,n,,,0,,23,conclusion n
+734,concrete,a,,,0,,23,concrete a
+735,condemn,v,,,0,,23,condemn v
+736,condition,n,,,0,,23,condition n
+737,conduct,v,,,0,,23,conduct v
+738,conductor,n,,,0,,23,conductor n
+739,conference,n,,,0,,23,conference n
+740,confident,a,,,0,,23,confident a
+741,confidential,a,,,0,,23,confidential a
+742,confirm,v,,,0,,23,confirm v
+743,conflict,n,,,0,,23,conflict n
+744,confuse,v,,,0,,23,confuse v
+745,congratulate,v,,,0,,23,congratulate v
+746,congratulation,n,,,0,,23,congratulation n
+747,connect,v,,,0,,23,connect v
+748,connection,n,,,0,,23,connection n
+749,conscience,n,,,0,,23,conscience n
+750,consensus,n,,,0,,23,consensus n
+751,consequence,n,,,0,,23,consequence n
+752,conservation,n,,,0,,23,conservation n
+753,conservative,a,,,0,,23,conservative a
+754,consider,v,,,0,,23,consider v
+755,considerate,a,,,0,,23,considerate a
+756,consideration,n,,,0,,23,consideration n
+757,consist,v,,,0,,23,consist v
+758,consistent,a,,,0,,23,consistent a
+759,constant,a,,,0,,23,constant a
+760,constitution,n,,,0,,23,constitution n
+761,construct,v,,,0,,23,construct v
+762,construction,n,,,0,,23,construction n
+763,consult,v,,,0,,23,consult v
+764,consultant,n,,,0,,23,consultant n
+765,consume,v,,,0,,23,consume v
+766,contain,v,,,0,,23,contain v
+767,container,n,,,0,,23,container n
+768,contemporary,a,,,0,,23,contemporary a
+769,content,n;a,,,1,,23,content 1 n || content a
+770,continent,n,,,0,,23,continent n
+771,continue,v,,,0,,23,continue v
+772,contradict,v,,,0,,23,contradict v
+773,contradictory,a,,,0,,23,contradictory a
+774,contrary,n;a,,,0,,23,contrary n & a
+775,contribute,v,,,0,,23,contribute v
+776,contribution,n,,,0,,23,contribution n
+777,control,v;n,,,0,,23,control v & n
+778,controversial,a,,,0,,23,controversial a
+779,convenience,n,,,0,,23,convenience n
+780,convenient,a,,,0,,23,convenient a
+781,conventional,a,,,0,,23,conventional a
+782,conversation,n,,,0,,23,conversation n
+783,convey,v,,,0,,23,convey v
+784,convince,v,,,0,,23,convince v
+785,cook,n;v,,,0,,23,cook n & v
+786,cooker,n,,,0,,23,cooker n
+787,cookie,n,,,0,,23,cookie n
+788,cool,a,,,0,,23,cool a
+789,copy,n;v,,,0,,24,copy n & v
+790,corn,n,,,0,,24,corn n
+791,corner,n,,,0,,24,corner n
+792,corporation,n,,,0,,24,corporation n
+793,correct,v;a,,,0,,24,correct v & a
+794,correction,n,,,0,,24,correction n
+795,correspond,v,,,0,,24,correspond v
+796,corrupt,a;v,,,0,,24,corrupt a & v
+797,cost,n;v,,,0,,24,cost n & v
+798,cosy,a,cozy,,0,US:cozy,24,cosy(Am cozy) a
+799,cottage,n,,,0,,24,cottage n
+800,cotton,n;a,,,0,,24,cotton n & a
+801,cough,n;v,,,0,,24,cough n & v
+802,could,modal v,,,0,,24,could modal v
+803,count,v,,,0,,24,count v
+804,counter,n,,,0,,24,counter n
+805,country,n,,,0,,24,country n
+806,countryside,n,,,0,,24,countryside n
+807,couple,n,,,0,,24,couple n
+808,courage,n,,,0,,24,courage n
+809,course,n,,,0,,24,course n
+810,court,n,,,0,,24,court n
+811,courtyard,n,,,0,,24,courtyard n
+812,cousin,n,,,0,,24,cousin n
+813,cover,n;v,,,0,,24,cover n & v
+814,cow,n,,,0,,24,cow n
+815,crash,v;n,,,0,,24,crash v & n
+816,crayon,n,,,0,,24,crayon n
+817,crazy,a,,,0,,24,crazy a
+818,cream,n,,,0,,24,cream n
+819,create,v,,,0,,24,create v
+820,creature,n,,,0,,24,creature n
+821,credit,n,,,0,,24,credit n
+822,crew,n,,,0,,24,crew n
+823,crime,n,,,0,,24,crime n
+824,criminal,n,,,0,,24,criminal n
+825,criterion,n,criteria,,0,pl:criteria,24,criterion(pl criteria) n
+826,crop,n,,,0,,24,crop n
+827,cross,n;v,,,0,,24,cross n & v
+828,crossing,n,,,0,,24,crossing n
+829,crossroads,n,,,0,,24,crossroads n
+830,crowd,n;v,,,0,,24,crowd n & v
+831,cruel,a,,,0,,24,cruel a
+832,cry,n;v,,,0,,24,cry n & v
+833,cube,n,,,0,,24,cube n
+834,cubic,a,,,0,,24,cubic a
+835,cuisine,n,,,0,,24,cuisine n
+836,culture,n,,,0,,24,culture n
+837,cup,n,,,0,,24,cup n
+838,cupboard,n,,,0,,24,cupboard n
+839,cure,n;v,,,0,,24,cure n & v
+840,curious,a,,,0,,24,curious a
+841,currency,n,,,0,,24,currency n
+842,curriculum,n,,,0,,24,curriculum n
+843,curtain,n,,,0,,24,curtain n
+844,cushion,n,,,0,,24,cushion n
+845,custom,n,,,0,,24,custom n
+846,customer,n,,,0,,24,customer n
+847,customs,n,,,0,,24,customs n
+848,cut,v;n,,,0,"forms:cut,cut",24,"cut(cut,cut) v & n"
+849,cycle,v,,,0,,24,cycle v
+850,cyclist,n,,,0,,24,cyclist n
+851,dad,n,daddy,,0,=daddy,25,dad=daddy n
+852,daily,a;ad;n,,,0,,25,"daily a,ad & n"
+853,dam,n,,,0,,25,dam n
+854,damage,n;v,,,0,,25,damage n & v
+855,damp,a;n,,,0,,25,damp a & n
+856,dance,n;v,,,0,,25,dance n & v
+857,danger,n,,,0,,25,danger n
+858,dangerous,a,,,0,,25,dangerous a
+859,dare,v;modal v,,,0,,25,dare v & modal v
+860,dark,a;n,,,0,,25,dark a & n
+861,darkness,n,,,0,,25,darkness n
+862,dash,v;n,,,0,,25,dash v & n
+863,data,n,,,0,,25,data n
+864,database,n,,,0,,25,database n
+865,date,n;v,,,0,,25,date n & v
+866,daughter,n,,,0,,25,daughter n
+867,dawn,n,,,0,,25,dawn n
+868,day,n,,,0,,25,day n
+869,dead,a,,,0,,25,dead a
+870,deadline,n,,,0,,25,deadline n
+871,deaf,a,,,0,,25,deaf a
+872,deal,n,,,0,,25,deal n
+873,dear,a,,,0,,25,dear a
+874,death,n,,,0,,25,death n
+875,debate,n;v,,,0,,25,debate n & v
+876,debt,n,,,0,,25,debt n
+877,decade,n,,,0,,25,decade n
+878,decide,v,,,0,,25,decide v
+879,decision,n,,,0,,25,decision n
+880,declare,v,,,0,,25,declare v
+881,decline,v,,,0,,25,decline v
+882,decorate,v,,,0,,25,decorate v
+883,decoration,n,,,0,,25,decoration n
+884,decrease,v,,,0,,25,decrease v
+885,deed,n,,,0,,25,deed n
+886,deep,a;ad,,,0,,25,deep a & ad
+887,deer,n,,,0,,25,deer n
+888,defeat,v,,,0,,25,defeat v
+889,defence,n,defense,,0,US:defense,25,defence(Am defense) n
+890,defend,v,,,0,,25,defend v
+891,degree,n,,,0,,25,degree n
+892,delay,n;v,,,0,,25,delay n & v
+893,delete,v;n,,,0,,25,delete v & n
+894,deliberately,ad,,,0,,25,deliberately ad
+895,delicate,a,,,0,,25,delicate a
+896,delicious,a,,,0,,25,delicious a
+897,delight,n,,,0,,25,delight n
+898,delighted,a,,,0,,25,delighted a
+899,deliver,v,,,0,,25,deliver v
+900,demand,v,,,0,,25,demand v
+901,dentist,n,,,0,,25,dentist n
+902,department,n,Dept.,,0,forms:Dept.,25,department(Dept.) n
+903,departure,n,,,0,,25,departure n
+904,depend,v,,,0,,25,depend v
+905,deposit,v;n,,,0,,25,deposit v & n
+906,depth,n,,,0,,25,depth n
+907,describe,v,,,0,,25,describe v
+908,description,n,,,0,,25,description n
+909,desert,v;n,,,0,,25,desert v & n
+910,deserve,v,,,0,,25,deserve v
+911,design,v;n,,,0,,26,design v & n
+912,desire,v;n,,,0,,26,desire v & n
+913,desk,n,,,0,,26,desk n
+914,desperate,a,,,0,,26,desperate a
+915,dessert,n,,,0,,26,dessert n
+916,destination,n,,,0,,26,destination n
+917,destroy,v,,,0,,26,destroy v
+918,detective,n,,,0,,26,detective n
+919,determine,v,,,0,,26,determine v
+920,develop,v,,,0,,26,develop v
+921,development,n,,,0,,26,development n
+922,devote,v,,,0,,26,devote v
+923,devotion,n,,,0,,26,devotion n
+924,diagram,n,,,0,,26,diagram n
+925,dial,v,,,0,,26,dial v
+926,dialogue,n,dialog,,0,US:dialog,26,dialogue(Am dialog) n
+927,diamond,n,,,0,,26,diamond n
+928,diary,n,,,0,,26,diary n
+929,dictation,n,,,0,,26,dictation n
+930,dictionary,n,,,0,,26,dictionary n
+931,die,v,,,0,,26,die v
+932,diet,n,,,0,,26,diet n
+933,differ,v,,,0,,26,differ v
+934,difference,n,,,0,,26,difference n
+935,different,a,,,0,,26,different a
+936,difficult,a,,,0,,26,difficult a
+937,difficulty,n,,,0,,26,difficulty n
+938,dig,v,dug,,0,"forms:dug,dug",26,"dig(dug,dug) v"
+939,digest,v,,,0,,26,digest v
+940,digital,a,,,0,,26,digital a
+941,dignity,n,,,0,,26,dignity n
+942,dilemma,n,,,0,,26,dilemma n
+943,dimension,n,,,0,,26,dimension n
+944,dinner,n,,,0,,26,dinner n
+945,dinosaur,n,,,0,,26,dinosaur n
+946,dioxide,n,,,0,,26,dioxide n
+947,dip,v,,,0,,26,dip v
+948,diploma,n,,,0,,26,diploma n
+949,direct,a;v,,,0,,26,direct a & v
+950,direction,n,,,0,,26,direction n
+951,director,n,,,0,,26,director n
+952,directory,n,,,0,,26,directory n
+953,dirty,a,,,0,,26,dirty a
+954,disability,n,,,0,,26,disability n
+955,disabled,a,,,0,,26,disabled a
+956,disadvantage,n,,,0,,26,disadvantage n
+957,disagree,v,,,0,,26,disagree v
+958,disagreement,n,,,0,,26,disagreement n
+959,disappear,v,,,0,,26,disappear v
+960,disappoint,v,,,0,,26,disappoint v
+961,disappointed,a,,,0,,26,disappointed a
+962,disaster,n,,,0,,26,disaster n
+963,discount,n,,,0,,26,discount n
+964,discourage,v,,,0,,26,discourage v
+965,discover,v,,,0,,26,discover v
+966,discovery,n,,,0,,26,discovery n
+967,discrimination,n,,,0,,26,discrimination n
+968,discuss,v,,,0,,26,discuss v
+969,discussion,n,,,0,,26,discussion n
+970,disease,n,,,0,,26,disease n
+971,disgusting,a,,,0,,26,disgusting a
+972,dish,n,,,0,,26,dish n
+973,disk,n,disc,,0,=disc,27,disk=disc n
+974,dislike,v,,,0,,27,dislike v
+975,dismiss,v,,,0,,27,dismiss v
+976,distance,n,,,0,,27,distance n
+977,distant,a,,,0,,27,distant a
+978,distinction,n,,,0,,27,distinction n
+979,distinguish,v,,,0,,27,distinguish v
+980,distribute,v,,,0,,27,distribute v
+981,district,n,,,0,,27,district n
+982,disturb,v,,,0,,27,disturb v
+983,disturbing,a,,,0,,27,disturbing a
+984,dive,v,,,0,,27,dive v
+985,diverse,a,,,0,,27,diverse a
+986,divide,v,,,0,,27,divide v
+987,division,n,,,0,,27,division n
+988,divorce,v,,,0,,27,divorce v
+989,dizzy,a,,,0,,27,dizzy a
+990,do,v,did;done,,0,"forms:did,done",27,"do(did,done) v"
+991,doctor,n,,,0,,27,doctor n
+992,document,n,,,0,,27,document n
+993,dog,n,,,0,,27,dog n
+994,doll,n,,,0,,27,doll n
+995,dollar,n,,,0,,27,dollar n
+996,donate,v,,,0,,27,donate v
+997,door,n,,,0,,27,door n
+998,dormitory,n,dorm,,0,forms:dorm,27,dormitory(dorm) n
+999,dot,n,,,0,,27,dot n
+1000,double,a;n,,,0,,27,double a & n
+1001,doubt,n;v,,,0,,27,doubt n & v
+1002,down,prep;ad,,,0,,27,down prep & ad
+1003,download,n;v,,,0,,27,download n & v
+1004,downstairs,ad,,,0,,27,downstairs ad
+1005,downtown,ad;n;a,,,0,,27,"downtown ad,n & a"
+1006,dozen,n,,,0,,27,dozen n
+1007,Dr,n,,doctor,0,=doctor,27,Dr=doctor n
+1008,draft,n;v,,,0,,27,draft n & v
+1009,drag,v,,,0,,27,drag v
+1010,draw,v,drew;drawn,,0,"forms:drew,drawn",27,"draw(drew,drawn) v"
+1011,drawback,n,,,0,,27,drawback n
+1012,drawer,n,,,0,,27,drawer n
+1013,dream,n;v,dreamt;dreamed,,0,"forms:dreamt,dreamt 或-ed,-ed",27,"dream(dreamt,dreamt 或-ed,-ed) n & v"
+1014,dress,n;v,,,0,,27,dress n & v
+1015,drill,n;v,,,0,,27,drill n & v
+1016,drink,v,drank,drunk,0,"forms:drank,drunk",27,"drink(drank,drunk) v"
+1017,drive,v,drove;driven,,0,"forms:drove,driven",27,"drive(drove,driven) v"
+1018,driver,n,,,0,,27,driver n
+1019,drop,n;v,,,0,,27,drop n & v
+1020,drug,n,,,0,,27,drug n
+1021,drum,n,,,0,,27,drum n
+1022,drunk,a,,,0,,27,drunk a
+1023,dry,v;a,,,0,,27,dry v & a
+1024,duck,n,,,0,,27,duck n
+1025,due,a,,,0,,27,due a
+1026,dull,a,,,0,,27,dull a
+1027,dumpling,n,,,0,,27,dumpling n
+1028,during,prep,,,0,,27,during prep
+1029,dusk,n,,,0,,27,dusk n
+1030,dust,n,,,0,,27,dust n
+1031,dustbin,n,,,0,,27,dustbin n
+1032,dusty,a,,,0,,27,dusty a
+1033,duty,n,,,0,,27,duty n
+1034,DVD,n,digital versatile disk,,0,=digital versatile disk,28,DVD=digital versatile disk n
+1035,dynamic,a,,,0,,28,dynamic a
+1036,dynasty,n,,,0,,28,dynasty n
+1037,each,a;pron,,,0,,28,each a & pron
+1038,eager,a,,,0,,28,eager a
+1039,eagle,n,,,0,,28,eagle n
+1040,ear,n,,,0,,28,ear n
+1041,early,a;ad,,,0,,28,early a & ad
+1042,earn,v,,,0,,28,earn v
+1043,earth,n,,,0,,28,earth n
+1044,earthquake,n,,,0,,28,earthquake n
+1045,east,a;ad;n,,,0,,28,"east a,ad & n"
+1046,Easter,n,,,0,,28,Easter n
+1047,eastern,a,,,0,,28,eastern a
+1048,easy,a,,,0,,28,easy a
+1049,eat,v,ate;eaten,,0,"forms:ate,eaten",28,"eat(ate,eaten) v"
+1050,ecology,n,,,0,,28,ecology n
+1051,edge,n,,,0,,28,edge n
+1052,edition,n,,,0,,28,edition n
+1053,editor,n,,,0,,28,editor n
+1054,educate,v,,,0,,28,educate v
+1055,education,n,,,0,,28,education n
+1056,educator,n,,,0,,28,educator n
+1057,effect,n,,,0,,28,effect n
+1058,effort,n,,,0,,28,effort n
+1059,egg,n,,,0,,28,egg n
+1060,eggplant,n,,,0,,28,eggplant n
+1061,either,a;conj;ad,,,0,,28,"either a,conj & ad"
+1062,elder,n,,,0,,28,elder n
+1063,elect,v,,,0,,28,elect v
+1064,electric,a,,,0,,28,electric a
+1065,electrical,a,,,0,,28,electrical a
+1066,electricity,n,,,0,,28,electricity n
+1067,electronic,a,,,0,,28,electronic a
+1068,elegant,a,,,0,,28,elegant a
+1069,elephant,n,,,0,,28,elephant n
+1070,else,ad,,,0,,28,else ad
+1071,e-mail,n;v,,,0,,28,e-mail n & v
+1072,embarrass,v,,,0,,28,embarrass v
+1073,embassy,n,,,0,,28,embassy n
+1074,emergency,n,,,0,,28,emergency n
+1075,emperor,n,,,0,,28,emperor n
+1076,employ,v,,,0,,28,employ v
+1077,empty,a,,,0,,28,empty a
+1078,encourage,v,,,0,,28,encourage v
+1079,encouragement,n,,,0,,28,encouragement n
+1080,end,n;v,,,0,,28,end n & v
+1081,ending,n,,,0,,28,ending n
+1082,endless,a,,,0,,28,endless a
+1083,enemy,n,,,0,,28,enemy n
+1084,energetic,a,,,0,,28,energetic a
+1085,energy,n,,,0,,28,energy n
+1086,engine,n,,,0,,28,engine n
+1087,engineer,n,,,0,,28,engineer n
+1088,enjoy,v,,,0,,28,enjoy v
+1089,enjoyable,a,,,0,,28,enjoyable a
+1090,enlarge,v,,,0,,28,enlarge v
+1091,enough,pron;a;ad,,,0,,28,"enough pron,a & ad"
+1092,enquiry,n,,,0,,28,enquiry n
+1093,enter,v,,,0,,28,enter v
+1094,enterprise,n,,,0,,29,enterprise n
+1095,entertainment,n,,,0,,29,entertainment n
+1096,enthusiastic,a,,,0,,29,enthusiastic a
+1097,entire,a,,,0,,29,entire a
+1098,entrance,n,,,0,,29,entrance n
+1099,entry,n,,,0,,29,entry n
+1100,envelope,n,,,0,,29,envelope n
+1101,environment,n,,,0,,29,environment n
+1102,envy,v;n,,,0,,29,envy v & n
+1103,equal,a;v,,,0,,29,equal a & v
+1104,equality,n,,,0,,29,equality n
+1105,equip,v,,,0,,29,equip v
+1106,equipment,n,,,0,,29,equipment n
+1107,eraser,n,,,0,,29,eraser n
+1108,error,n,,,0,,29,error n
+1109,erupt,v,,,0,,29,erupt v
+1110,escape,n;v,,,0,,29,escape n & v
+1111,especially,ad,,,0,,29,especially ad
+1112,essay,n,,,0,,29,essay n
+1113,Europe,n,,,0,,29,Europe n
+1114,European,a;n,,,0,,29,European a & n
+1115,evaluate,v,,,0,,29,evaluate v
+1116,even,ad,,,0,,29,even ad
+1117,evening,n,,,0,,29,evening n
+1118,event,n,,,0,,29,event n
+1119,eventually,ad,,,0,,29,eventually ad
+1120,ever,ad,,,0,,29,ever ad
+1121,every,a,,,0,,29,every a
+1122,everybody,pron,,,0,,29,everybody pron
+1123,everyday,a,,,0,,29,everyday a
+1124,everyone,pron,,,0,,29,everyone pron
+1125,everything,pron,,,0,,29,everything pron
+1126,everywhere,ad,,,0,,29,everywhere ad
+1127,evidence,n,,,0,,29,evidence n
+1128,evident,a,,,0,,29,evident a
+1129,evolution,n,,,0,,29,evolution n
+1130,exact,a,,,0,,29,exact a
+1131,exam,n,examination,,0,=examination,29,exam=examination n
+1132,examine,v,,,0,,29,examine v
+1133,example,n,,,0,,29,example n
+1134,excellent,a,,,0,,29,excellent a
+1135,except,prep,,,0,,29,except prep
+1136,exchange,n;v,,,0,,29,exchange n & v
+1137,excite,v,,,0,,29,excite v
+1138,excuse,n;v,,,0,,29,excuse n & v
+1139,exercise,n;v,,,0,,29,exercise n & v
+1140,exhibition,n,,,0,,29,exhibition n
+1141,exist,v,,,0,,29,exist v
+1142,existence,n,,,0,,29,existence n
+1143,exit,n,,,0,,29,exit n
+1144,expand,v,,,0,,29,expand v
+1145,expect,v,,,0,,29,expect v
+1146,expectation,n,,,0,,29,expectation n
+1147,expense,n,,,0,,29,expense n
+1148,expensive,a,,,0,,29,expensive a
+1149,experience,n,,,0,,29,experience n
+1150,experiment,n,,,0,,29,experiment n
+1151,expert,n,,,0,,29,expert n
+1152,explain,v,,,0,,29,explain v
+1153,explanation,n,,,0,,29,explanation n
+1154,explicit,a,,,0,,29,explicit a
+1155,explode,v,,,0,,29,explode v
+1156,explore,v,,,0,,30,explore v
+1157,export,n;v,,,0,,30,export n & v
+1158,expose,v,,,0,,30,expose v
+1159,express,v;n,,,0,,30,express v & n
+1160,expression,n,,,0,,30,expression n
+1161,extension,n,,,0,,30,extension n
+1162,extra,a,,,0,,30,extra a
+1163,extraordinary,a,,,0,,30,extraordinary a
+1164,extreme,a,,,0,,30,extreme a
+1165,eye,n,,,0,,30,eye n
+1166,eyesight,n,,,0,,30,eyesight n
+1167,face,n;v,,,0,,30,face n & v
+1168,facial,a,,,0,,30,facial a
+1169,fact,n,,,0,,30,fact n
+1170,factory,n,,,0,,30,factory n
+1171,fade,v,,,0,,30,fade v
+1172,fail,v;n,,,0,,30,fail v & n
+1173,failure,n,,,0,,30,failure n
+1174,fair,a;n,,,1,,30,fair a || fair n
+1175,faith,n,,,0,,30,faith n
+1176,fall,v;n,fell;fallen,autumn,1,"forms:fell,fallen | US | =autumn",30,"fall (fell,fallen) v || fall (Am)=autumn n"
+1177,false,a,,,0,,30,false a
+1178,familiar,a,,,0,,30,familiar a
+1179,family,n,,,0,,30,family n
+1180,famous,a,,,0,,30,famous a
+1181,fan,n,,,0,,30,fan n
+1182,fancy,n;v;a,,,0,,30,"fancy n,v & a"
+1183,fantastic,a,,,0,,30,fantastic a
+1184,fantasy,n,,,0,,30,fantasy n
+1185,far,a;ad,farther;farthest;further;furthest,,0,"forms:farther,farthest 或 further,furthest",30,"far(farther,farthest 或 further,furthest) a & ad"
+1186,fare,n,,,0,,30,fare n
+1187,farm,n,,,0,,30,farm n
+1188,farmer,n,,,0,,30,farmer n
+1189,fast,a;ad,,,0,,30,fast a & ad
+1190,fasten,v,,,0,,30,fasten v
+1191,fat,n;a,,,0,,30,fat n & a
+1192,father,n,,,0,,30,father n
+1193,fault,n,,,0,,30,fault n
+1194,favour,n,favor,,0,US:favor,30,favour(Am favor) n
+1195,favourite,a;n,favorite,,0,US:favorite,30,favourite(Am favorite) a & n
+1196,fax,n;v,,,0,,30,fax n & v
+1197,fear,n,,,0,,30,fear n
+1198,feast,n,,,0,,30,feast n
+1199,feather,n,,,0,,30,feather n
+1200,federal,a,,,0,,30,federal a
+1201,fee,n,,,0,,30,fee n
+1202,feed,v,fed,,0,"forms:fed,fed",30,"feed(fed,fed) v"
+1203,feel,v,felt,,0,"forms:felt,felt",30,"feel(felt,felt) v"
+1204,feeling,n,,,0,,30,feeling n
+1205,fellow,n,,,0,,30,fellow n
+1206,female,a;n,,,0,,30,female a & n
+1207,fence,n,,,0,,30,fence n
+1208,ferry,n,,,0,,30,ferry n
+1209,festival,n;a,,,0,,30,festival n & a
+1210,fetch,v,,,0,,30,fetch v
+1211,fever,n,,,0,,30,fever n
+1212,few,pron;a,,,0,,30,few pron & a
+1213,fibre,n,fiber,,0,US:fiber,31,fibre(Am fiber) n
+1214,fiction,n,,,0,,31,fiction n
+1215,field,n,,,0,,31,field n
+1216,fierce,a,,,0,,31,fierce a
+1217,fight,n;v,fought,,0,"forms:fought,fought",31,"fight(fought,fought) n & v"
+1218,figure,n;v,,,0,,31,figure n & v
+1219,file,n,,,0,,31,file n
+1220,fill,v,,,0,,31,fill v
+1221,film,n;v,,,0,,31,film n & v
+1222,final,a,,,0,,31,final a
+1223,finance,n,,,0,,31,finance n
+1224,find,v,,found,0,"forms:found,found",31,"find(found,found) v"
+1225,fine,a;v,,,1,,31,fine a || fine 2 v
+1226,finger,n,,,0,,31,finger n
+1227,fingernail,n,,,0,,31,fingernail n
+1228,finish,v;n,,,0,,31,finish v & n
+1229,fire,n;v,,,0,,31,fire n & v
+1230,fireworks,n,,,0,,31,fireworks n
+1231,firm,n;a,,,1,,31,firm 1 n || firm a
+1232,fish,n;v,,,0,,31,fish n & v
+1233,fisherman,n,,,0,,31,fisherman n
+1234,fist,n,,,0,,31,fist n
+1235,fit,a;v,,,0,,31,fit a & v
+1236,fix,v,,,0,,31,fix v
+1237,flag,n,,,0,,31,flag n
+1238,flame,n,,,0,,31,flame n
+1239,flash,n,,,0,,31,flash n
+1240,flashlight,n,,,0,,31,flashlight n
+1241,flat,a;n,,,1,,31,flat a || flat n
+1242,flee,v,fled,,0,"forms:fled,fled",31,"flee(fled,fled) v"
+1243,flesh,n,,,0,,31,flesh n
+1244,flexible,a,,,0,,31,flexible a
+1245,flight,n,,,0,,31,flight n
+1246,float,v,,,0,,31,float v
+1247,flood,n;v,,,0,,31,flood n & v
+1248,floor,n,,,0,,31,floor n
+1249,flour,n,,,0,,31,flour n
+1250,flow,v,,,0,,31,flow v
+1251,flower,n,,,0,,31,flower n
+1252,flu,n,,,0,,31,flu n
+1253,fluency,n,,,0,,31,fluency n
+1254,fluent,a,,,0,,31,fluent a
+1255,fly,v;n,flew;flown,,1,"forms:flew,flown",31,"fly (flew,flown) v || fly n"
+1256,focus,v;n,,,0,,31,focus v & n
+1257,fog,n,,,0,,31,fog n
+1258,foggy,a,,,0,,31,foggy a
+1259,fold,v,,,0,,31,fold v
+1260,folk,n;a,,,0,,31,folk n & a
+1261,follow,v,,,0,,31,follow v
+1262,fond,a,,,0,,31,fond a
+1263,food,n,,,0,,31,food n
+1264,fool,n;v,,,0,,31,fool n & v
+1265,foolish,a,,,0,,31,foolish a
+1266,foot,n,feet,,0,pl:feet,31,foot(pl feet) n
+1267,football,n,,,0,,31,football n
+1268,for,prep;conj,,,0,,31,for prep & conj
+1269,forbid,v,forbade;forbidden,,0,"forms:forbade,forbidden",31,"forbid(forbade,forbidden) v"
+1270,force,v,,,0,,31,force v
+1271,forecast,n;v,,,0,,32,forecast n & v
+1272,forehead,n,,,0,,32,forehead n
+1273,foreign,a,,,0,,32,foreign a
+1274,foreigner,n,,,0,,32,foreigner n
+1275,foresee,v,foresaw;foreseen,,0,"forms:foresaw,foreseen",32,"foresee(foresaw,foreseen) v"
+1276,forest,n,,,0,,32,forest n
+1277,forever,ad,,,0,,32,forever ad
+1278,forget,v,forgot;forgotten,,0,"forms:forgot,forgot/forgotten",32,"forget(forgot,forgot/forgotten) v"
+1279,forgetful,a,,,0,,32,forgetful a
+1280,forgive,v,forgave;forgiven,,0,"forms:forgave,forgiven",32,"forgive(forgave,forgiven) v"
+1281,fork,n,,,0,,32,fork n
+1282,form,n;v,,,0,,32,form n & v
+1283,format,n,,,0,,32,format n
+1284,former,a,,,0,,32,former a
+1285,fortnight,n,,,0,,32,fortnight n
+1286,fortunate,a,,,0,,32,fortunate a
+1287,fortune,n,,,0,,32,fortune n
+1288,forward,ad,,,0,,32,forward ad
+1289,foster,v,,,0,,32,foster v
+1290,found,v,,,0,,32,found v
+1291,fountain,n,,,0,,32,fountain n
+1292,fox,n,,,0,,32,fox n
+1293,fragile,a,,,0,,32,fragile a
+1294,fragrant,a,,,0,,32,fragrant a
+1295,framework,n,,,0,,32,framework n
+1296,franc,n,,,0,,32,franc n
+1297,free,a,,,0,,32,free a
+1298,freedom,n,,,0,,32,freedom n
+1299,freeway,n,,,0,,32,freeway n
+1300,freeze,v,froze;frozen,,0,"forms:froze,frozen",32,"freeze(froze,frozen) v"
+1301,freezing,a,,,0,,32,freezing a
+1302,frequent,a,,,0,,32,frequent a
+1303,fresh,a,,,0,,32,fresh a
+1304,friction,n,,,0,,32,friction n
+1305,fridge,n,,refrigerator,0,=refrigerator,32,fridge=refrigerator n
+1306,friend,n,,,0,,32,friend n
+1307,friendly,a,,,0,,32,friendly a
+1308,friendship,n,,,0,,32,friendship n
+1309,frighten,v,,,0,,32,frighten v
+1310,frog,n,,,0,,32,frog n
+1311,from,prep,,,0,,32,from prep
+1312,front,a;n,,,0,,32,front a & n
+1313,frontier,n,,,0,,32,frontier n
+1314,frost,n,,,0,,32,frost n
+1315,fruit,n,,,0,,32,fruit n
+1316,fry,v,,,0,,32,fry v
+1317,fuel,n,,,0,,32,fuel n
+1318,full,a,,,0,,32,full a
+1319,fun,n;a,,,0,,32,fun n & a
+1320,function,n;v,,,0,,32,function n & v
+1321,fundamental,a,,,0,,32,fundamental a
+1322,funeral,n,,,0,,32,funeral n
+1323,funny,a,,,0,,32,funny a
+1324,fur,n,,,0,,32,fur n
+1325,furnished,a,,,0,,32,furnished a
+1326,furniture,n,,,0,,32,furniture n
+1327,future,n,,,0,,32,future n
+1328,gain,v,,,0,,32,gain v
+1329,gallery,n,,,0,,32,gallery n
+1330,gallon,n,,,0,,32,gallon n
+1331,game,n,,,0,,33,game n
+1332,garage,n,,,0,,33,garage n
+1333,garbage,n,,,0,,33,garbage n
+1334,garden,n,,,0,,33,garden n
+1335,garlic,n,,,0,,33,garlic n
+1336,garment,n,,,0,,33,garment n
+1337,gas,n,,,0,,33,gas n
+1338,gate,n,,,0,,33,gate n
+1339,gather,v,,,0,,33,gather v
+1340,gay,a,,,0,,33,gay a
+1341,general,a;n,,,0,,33,general a & n
+1342,generation,n,,,0,,33,generation n
+1343,generous,a,,,0,,33,generous a
+1344,gentle,a,,,0,,33,gentle a
+1345,gentleman,n,,,0,,33,gentleman n
+1346,geography,n,,,0,,33,geography n
+1347,geometry,n,,,0,,33,geometry n
+1348,gesture,n,,,0,,33,gesture n
+1349,get,v,got,,0,"forms:got,got",33,"get(got,got) v"
+1350,gift,n,,,0,,33,gift n
+1351,gifted,a,,,0,,33,gifted a
+1352,giraffe,n,,,0,,33,giraffe n
+1353,girl,n,,,0,,33,girl n
+1354,give,v,gave;given,,0,"forms:gave,given",33,"give(gave,given) v"
+1355,glad,a,,,0,,33,glad a
+1356,glance,v,,,0,,33,glance v
+1357,glare,v,,,0,,33,glare v
+1358,glass,n,,,0,,33,glass n
+1359,globe,n,,,0,,33,globe n
+1360,glory,n,,,0,,33,glory n
+1361,glove,n,,,0,,33,glove n
+1362,glue,n,,,0,,33,glue n
+1363,go,v,went;gone,,0,"forms:went,gone",33,"go(went,gone) v"
+1364,goal,n,,,0,,33,goal n
+1365,goat,n,,,0,,33,goat n
+1366,god,n,,,0,,33,god n
+1367,gold,n;a,,,0,,33,gold n & a
+1368,golden,a,,,0,,33,golden a
+1369,golf,n,,,0,,33,golf n
+1370,good,a,better;best,,0,"forms:better,best",33,"good(better,best) a"
+1371,goods,n,,,0,,33,goods n
+1372,goose,n,geese,,0,pl:geese,33,goose(pl geese) n
+1373,govern,v,,,0,,33,govern v
+1374,government,n,,,0,,33,government n
+1375,grade,n,,,0,,33,grade n
+1376,gradual,a,,,0,,33,gradual a
+1377,graduate,v,,,0,,33,graduate v
+1378,graduation,n,,,0,,33,graduation n
+1379,grain,n,,,0,,33,grain n
+1380,gram,n,,,0,,33,gram n
+1381,grammar,n,,,0,,33,grammar n
+1382,grand,a,,,0,,33,grand a
+1383,grandchild,n,,,0,,33,grandchild n
+1384,granddaughter,n,,,0,,33,granddaughter n
+1385,grandma,n,grandmother,,0,=grandmother,33,grandma=grandmother n
+1386,grandpa,n,grandfather,,0,=grandfather,33,grandpa=grandfather n
+1387,grandparents,n,,,0,,33,grandparents n
+1388,grandson,n,,,0,,33,grandson n
+1389,granny,n,,,0,,33,granny n
+1390,grape,n,,,0,,33,grape n
+1391,graph,n,,,0,,33,graph n
+1392,grasp,v,,,0,,33,grasp v
+1393,grass,n,,,0,,34,grass n
+1394,grateful,a,,,0,,34,grateful a
+1395,gravity,n,,,0,,34,gravity n
+1396,great,a;ad,,,0,,34,great a & ad
+1397,greedy,a,,,0,,34,greedy a
+1398,green,a;n,,,0,,34,green a & n
+1399,greengrocer,n,,,0,,34,greengrocer n
+1400,greet,v,,,0,,34,greet v
+1401,greeting,n,,,0,,34,greeting n
+1402,grey,a,gray,,0,US:gray,34,grey(Am gray) a
+1403,grill,n,,,0,,34,grill n
+1404,grocer,n,,,0,,34,grocer n
+1405,grocery,n,,,0,,34,grocery n
+1406,ground,n,,,0,,34,ground n
+1407,group,n,,,0,,34,group n
+1408,grow,v,grew;grown,,0,"forms:grew,grown",34,"grow(grew,grown) v"
+1409,growth,n,,,0,,34,growth n
+1410,guarantee,v,,,0,,34,guarantee v
+1411,guard,n,,,0,,34,guard n
+1412,guess,v,,,0,,34,guess v
+1413,guest,n,,,0,,34,guest n
+1414,guidance,n,,,0,,34,guidance n
+1415,guide,n,,,0,,34,guide n
+1416,guilty,a,,,0,,34,guilty a
+1417,guitar,n,,,0,,34,guitar n
+1418,gun,n,,,0,,34,gun n
+1419,gym,n,gymnasium,,0,=gymnasium,34,gym=gymnasium n
+1420,gymnastics,n,,,0,,34,gymnastics n
+1421,habit,n,,,0,,34,habit n
+1422,hair,n,,,0,,34,hair n
+1423,haircut,n,,,0,,34,haircut n
+1424,half,a;n,,,0,,34,half a & n
+1425,hall,n,,,0,,34,hall n
+1426,ham,n,,,0,,34,ham n
+1427,hamburger,n,,,0,,34,hamburger n
+1428,hammer,n,,,0,,34,hammer n
+1429,hand,n;v,,,0,,34,hand n & v
+1430,handbag,n,,,0,,34,handbag n
+1431,handful,n,,,0,,34,handful n
+1432,handkerchief,n,,,0,,34,handkerchief n
+1433,handle,n;v,,,0,,34,handle n & v
+1434,handsome,a,,,0,,34,handsome a
+1435,handwriting,n,,,0,,34,handwriting n
+1436,handy,a,,,0,,34,handy a
+1437,hang,v,hung;hanged,,0,"forms:hung,hung 或-ed,-ed",34,"hang(hung,hung 或-ed,-ed) v"
+1438,happen,v,,,0,,34,happen v
+1439,happiness,n,,,0,,34,happiness n
+1440,happy,a,,,0,,34,happy a
+1441,harbour,n,harbor,,0,US:harbor,34,harbour(Am harbor) n
+1442,hard,ad;a,,,0,,34,hard ad & a
+1443,hardly,ad,,,0,,34,hardly ad
+1444,hardship,n,,,0,,34,hardship n
+1445,hardworking,a,,,0,,34,hardworking a
+1446,harm,n;v,,,0,,34,harm n & v
+1447,harmful,a,,,0,,34,harmful a
+1448,harmony,n,,,0,,34,harmony n
+1449,harvest,n;v,,,0,,34,harvest n & v
+1450,hat,n,,,0,,34,hat n
+1451,hatch,v,,,0,,34,hatch v
+1452,hate,v;n,,,0,,34,hate v & n
+1453,have,v,has;had,,0,"forms:has,had,had",35,"have(has,had,had) v"
+1454,he,pron,,,0,,35,he pron
+1455,head,n;v,,,0,,35,head n & v
+1456,headache,n,,,0,,35,headache n
+1457,headline,n,,,0,,35,headline n
+1458,headmaster,n,,,0,,35,headmaster n
+1459,headmistress,n,,,0,,35,headmistress n
+1460,health,n,,,0,,35,health n
+1461,healthy,a,,,0,,35,healthy a
+1462,hear,v,heard,,0,"forms:heard,heard",35,"hear(heard,heard) v"
+1463,hearing,n,,,0,,35,hearing n
+1464,heart,n,,,0,,35,heart n
+1465,heat,n,,,0,,35,heat n
+1466,heaven,n,,,0,,35,heaven n
+1467,heavy,a,,,0,,35,heavy a
+1468,heel,n,,,0,,35,heel n
+1469,height,n,,,0,,35,height n
+1470,helicopter,n,,,0,,35,helicopter n
+1471,hello,int,,,0,,35,hello int
+1472,helmet,n,,,0,,35,helmet n
+1473,help,n;v,,,0,,35,help n & v
+1474,helpful,a,,,0,,35,helpful a
+1475,hen,n,,,0,,35,hen n
+1476,her,pron,,,0,,35,her pron
+1477,herb,n,,,0,,35,herb n
+1478,here,ad,,,0,,35,here ad
+1479,hero,n,,,0,,35,hero n
+1480,hers,pron,,,0,,35,hers pron
+1481,herself,pron,,,0,,35,herself pron
+1482,hesitate,v,,,0,,35,hesitate v
+1483,hi,int,,,0,,35,hi int
+1484,hide,v,hid;hidden,,0,"forms:hid,hidden",35,"hide(hid,hidden) v"
+1485,high,a;ad,,,0,,35,high a & ad
+1486,highway,n,,,0,,35,highway n
+1487,hill,n,,,0,,35,hill n
+1488,him,pron,,,0,,35,him pron
+1489,himself,pron,,,0,,35,himself pron
+1490,hire,v,,,0,,35,hire v
+1491,his,pron,,,0,,35,his pron
+1492,history,n,,,0,,35,history n
+1493,hit,v;n,,,0,"forms:hit,hit",35,"hit(hit,hit) v & n"
+1494,hobby,n,,,0,,35,hobby n
+1495,hold,v,held,,0,"forms:held,held",35,"hold(held,held) v"
+1496,hole,n,,,0,,35,hole n
+1497,holiday,n,,,0,,35,holiday n
+1498,holy,a,,,0,,35,holy a
+1499,home,n;ad,,,0,,35,home n & ad
+1500,homeland,n,,,0,,35,homeland n
+1501,hometown,n,,,0,,35,hometown n
+1502,homework,n,,,0,,35,homework n
+1503,honest,a,,,0,,35,honest a
+1504,honey,n,,,0,,35,honey n
+1505,honour,n;v,honor,,0,US:honor,35,honour(Am honor) n & v
+1506,hook,n;v,,,0,,35,hook n & v
+1507,hope,n;v,,,0,,35,hope n & v
+1508,hopeful,a,,,0,,35,hopeful a
+1509,hopeless,a,,,0,,35,hopeless a
+1510,horrible,a,,,0,,35,horrible a
+1511,horse,n,,,0,,35,horse n
+1512,hospital,n,,,0,,35,hospital n
+1513,host,n;v,,,0,,35,host n & v
+1514,hostess,n,,,0,,35,hostess n
+1515,hot,a,,,0,,36,hot a
+1516,hotdog,n,,,0,,36,hotdog n
+1517,hotel,n,,,0,,36,hotel n
+1518,hour,n,,,0,,36,hour n
+1519,house,n,,,0,,36,house n
+1520,housewife,n,,,0,,36,housewife n
+1521,housework,n,,,0,,36,housework n
+1522,how,ad,,,0,,36,how ad
+1523,however,ad;conj,,,0,,36,however ad & conj
+1524,howl,v,,,0,,36,howl v
+1525,hug,v,,,0,,36,hug v
+1526,huge,a,,,0,,36,huge a
+1527,human,a;n,,,0,,36,human a & n
+1528,human being,n,,,0,,36,human being n
+1529,humorous,a,,,0,,36,humorous a
+1530,humour,n,humor,,0,US:humor,36,humour(Am humor) n
+1531,hunger,n,,,0,,36,hunger n
+1532,hungry,a,,,0,,36,hungry a
+1533,hunt,v,,,0,,36,hunt v
+1534,hunter,n,,,0,,36,hunter n
+1535,hurricane,n,,,0,,36,hurricane n
+1536,hurry,v,,,0,,36,hurry v
+1537,hurt,v,,,0,"forms:hurt,hurt",36,"hurt(hurt,hurt) v"
+1538,husband,n,,,0,,36,husband n
+1539,hydrogen,n,,,0,,36,hydrogen n
+1540,I,pron,,,0,,36,I pron
+1541,ice,n,,,0,,36,ice n
+1542,ice-cream,n,,,0,,36,ice-cream n
+1543,idea,n,,,0,,36,idea n
+1544,identity,n,,,0,,36,identity n
+1545,identification,n,,,0,,36,identification n
+1546,idiom,n,,,0,,36,idiom n
+1547,if,conj,,,0,,36,if conj
+1548,ignore,v,,,0,,36,ignore v
+1549,ill,a,,,0,,36,ill a
+1550,illegal,a,,,0,,36,illegal a
+1551,illness,n,,,0,,36,illness n
+1552,imagine,v,,,0,,36,imagine v
+1553,immediately,ad,,,0,,36,immediately ad
+1554,immigration,n,,,0,,36,immigration n
+1555,import,v;n,,,0,,36,import v & n
+1556,importance,n,,,0,,36,importance n
+1557,important,a,,,0,,36,important a
+1558,impossible,a,,,0,,36,impossible a
+1559,impress,v,,,0,,36,impress v
+1560,impression,n,,,0,,36,impression n
+1561,improve,v,,,0,,36,improve v
+1562,in,prep;ad,,,0,,36,in prep & ad
+1563,inch,n,,,0,,36,inch n
+1564,incident,n,,,0,,36,incident n
+1565,include,v,,,0,,36,include v
+1566,income,n,,,0,,36,income n
+1567,increase,v;n,,,0,,36,increase v & n
+1568,indeed,a,,,0,,36,indeed a
+1569,independence,n,,,0,,36,independence n
+1570,independent,a,,,0,,36,independent a
+1571,indicate,v,,,0,,36,indicate v
+1572,industry,n,,,0,,36,industry n
+1573,influence,n;v,,,0,,36,influence n & v
+1574,inform,v,,,0,,36,inform v
+1575,information,n,,,0,,37,information n
+1576,initial,a,,,0,,37,initial a
+1577,injure,v,,,0,,37,injure v
+1578,injury,n,,,0,,37,injury n
+1579,ink,n,,,0,,37,ink n
+1580,inn,n,,,0,,37,inn n
+1581,innocent,a,,,0,,37,innocent a
+1582,insect,n,,,0,,37,insect n
+1583,insert,v,,,0,,37,insert v
+1584,inside,prep;ad,,,0,,37,inside prep & ad
+1585,insist,v,,,0,,37,insist v
+1586,inspect,v,,,0,,37,inspect v
+1587,inspire,v,,,0,,37,inspire v
+1588,instant,a,,,0,,37,instant a
+1589,instead,ad,,,0,,37,instead ad
+1590,institute,n,,,0,,37,institute n
+1591,institution,n,,,0,,37,institution n
+1592,instruct,v,,,0,,37,instruct v
+1593,instruction,n,,,0,,37,instruction n
+1594,instrument,n,,,0,,37,instrument n
+1595,insurance,n,,,0,,37,insurance n
+1596,insure,v,,,0,,37,insure v
+1597,intelligence,n,,,0,,37,intelligence n
+1598,intend,v,,,0,,37,intend v
+1599,intention,n,,,0,,37,intention n
+1600,interest,n,,,0,,37,interest n
+1601,interesting,a,,,0,,37,interesting a
+1602,international,a,,,0,,37,international a
+1603,Internet,n,,,0,,37,Internet n
+1604,interpreter,n,,,0,,37,interpreter n
+1605,interrupt,v,,,0,,37,interrupt v
+1606,interval,n,,,0,,37,interval n
+1607,interview,n;v,,,0,,37,interview n & v
+1608,into,prep,,,0,,37,into prep
+1609,introduce,v,,,0,,37,introduce v
+1610,introduction,n,,,0,,37,introduction n
+1611,invent,v,,,0,,37,invent v
+1612,invention,n,,,0,,37,invention n
+1613,invitation,n,,,0,,37,invitation n
+1614,invite,v,,,0,,37,invite v
+1615,iron,n;v,,,0,,37,iron n & v
+1616,irrigation,n,,,0,,37,irrigation n
+1617,is,v,,,0,,37,is v(be)
+1618,island,n,,,0,,37,island n
+1619,it,pron,,,0,,37,it pron
+1620,its,pron,,,0,,37,its pron
+1621,itself,pron,,,0,,37,itself pron
+1622,jacket,n,,,0,,37,jacket n
+1623,jam,n,,,0,,37,jam n
+1624,jar,n,,,0,,37,jar n
+1625,jaw,n,,,0,,37,jaw n
+1626,jazz,n,,,0,,37,jazz n
+1627,jeans,n,,,0,,37,jeans n
+1628,jeep,n,,,0,,37,jeep n
+1629,jet,n,,,0,,37,jet n
+1630,jewellery,n,jewelry,,0,US:jewelry,37,jewellery(Am jewelry) n
+1631,job,n,,,0,,37,job n
+1632,jog,v,,,0,,37,jog v
+1633,join,v,,,0,,37,join v
+1634,joke,n,,,0,,37,joke n
+1635,journalist,n,,,0,,38,journalist n
+1636,journey,n,,,0,,38,journey n
+1637,joy,n,,,0,,38,joy n
+1638,judge,n;v,,,0,,38,judge n & v
+1639,judgement,n,judgment,,0,US:judgment,38,judgement (Am judgment) n
+1640,juice,n,,,0,,38,juice n
+1641,jump,n;v,,,0,,38,jump n & v
+1642,jungle,n,,,0,,38,jungle n
+1643,junior,a,,,0,,38,junior a
+1644,just,a;ad,,,0,,38,just a & ad
+1645,justice,n,,,0,,38,justice n
+1646,kangaroo,n,,,0,,38,kangaroo n
+1647,keep,v,kept,,0,"forms:kept,kept",38,"keep(kept,kept) v"
+1648,kettle,n,,,0,,38,kettle n
+1649,key,n,,,0,,38,key n
+1650,keyboard,n,,,0,,38,keyboard n
+1651,kick,v;n,,,0,,38,kick v & n
+1652,kid,n,,,0,,38,kid n
+1653,kill,v,,,0,,38,kill v
+1654,kilo,n,,,0,,38,kilo n
+1655,kilogram,n,,,0,,38,kilogram n
+1656,kilometre,n,kilometer,,0,US:kilometer,38,kilometre(Am kilometer) n
+1657,kind,n;a,,,1,,38,kind 1 n || kind a
+1658,kindergarten,n,,,0,,38,kindergarten n
+1659,kindness,n,,,0,,38,kindness n
+1660,king,n,,,0,,38,king n
+1661,kingdom,n,,,0,,38,kingdom n
+1662,kiss,n;v,,,0,,38,kiss n & v
+1663,kitchen,n,,,0,,38,kitchen n
+1664,kite,n,,,0,,38,kite n
+1665,knee,n,,,0,,38,knee n
+1666,knife,n,knives,,0,pl:knives,38,knife(pl knives) n
+1667,knock,n;v,,,0,,38,knock n & v
+1668,know,v,knew;known,,0,"forms:knew,known",38,"know(knew,known) v"
+1669,knowledge,n,,,0,,38,knowledge n
+1670,lab,n,laboratory,,0,=laboratory,38,lab=laboratory n
+1671,labour,n,labor,,0,US:labor,38,labour(Am labor) n
+1672,lack,n;v,,,0,,38,lack n & v
+1673,lady,n,,,0,,38,lady n
+1674,lake,n,,,0,,38,lake n
+1675,lamb,n,,,0,,38,lamb n
+1676,lame,a,,,0,,38,lame a
+1677,lamp,n,,,0,,38,lamp n
+1678,land,n;v,,,0,,38,land n & v
+1679,language,n,,,0,,38,language n
+1680,lantern,n,,,0,,38,lantern n
+1681,lap,n,,,0,,38,lap n
+1682,large,a,,,0,,38,large a
+1683,last,a;v,,,0,,38,last a & v
+1684,late,a;ad,,,0,,38,late a & ad
+1685,latter,n,,,0,,38,latter n
+1686,laugh,n;v,,,0,,38,laugh n & v
+1687,laughter,n,,,0,,38,laughter n
+1688,laundry,n,,,0,,38,laundry n
+1689,law,n,,,0,,38,law n
+1690,lawyer,n,,,0,,38,lawyer n
+1691,lay,v,laid,,0,"forms:laid,laid",39,"lay(laid,laid) v"
+1692,lazy,a,,,0,,39,lazy a
+1693,lead,v;n,led,,0,"forms:led,led",39,"lead(led,led) v & n"
+1694,leader,n,,,0,,39,leader n
+1695,leaf,n,leaves,,0,pl:leaves,39,leaf(pl leaves) n
+1696,league,n,,,0,,39,league n
+1697,leak,v,,,0,,39,leak v
+1698,learn,v,learnt;learned,,0,"forms:learnt,learnt 或-ed,-ed",39,"learn(learnt,learnt 或-ed,-ed) v"
+1699,least,n,,,0,,39,least n
+1700,leather,n,,,0,,39,leather n
+1701,leave,v,,left,0,"forms:left,left",39,"leave(left,left) v"
+1702,lecture,n,,,0,,39,lecture n
+1703,left,a;ad;n,,,0,,39,"left a,ad & n"
+1704,leg,n,,,0,,39,leg n
+1705,legal,a,,,0,,39,legal a
+1706,lemon,n;a,,,0,,39,lemon n & a
+1707,lemonade,n,,,0,,39,lemonade n
+1708,lend,v,lent,,0,"forms:lent,lent",39,"lend(lent,lent) v"
+1709,length,n,,,0,,39,length n
+1710,lesson,n,,,0,,39,lesson n
+1711,let,v,,,0,"forms:let,let",39,"let(let,let) v"
+1712,letter,n,,,0,,39,letter n
+1713,level,n,,,0,,39,level n
+1714,liberation,n,,,0,,39,liberation n
+1715,liberty,n,,,0,,39,liberty n
+1716,librarian,n,,,0,,39,librarian n
+1717,library,n,,,0,,39,library n
+1718,license,n,,,0,,39,license n
+1719,lid,n,,,0,,39,lid n
+1720,lie,n;v,lain,lay,1,"forms:lay,lain",39,"lie n & v || lie (lay,lain) v"
+1721,life,n,lives,,0,pl:lives,39,life(pl lives) n
+1722,lift,v;n,,,0,,39,lift v & n
+1723,light,n;v;a,,,0,,39,"light n,v & a"
+1724,lightning,n,,,0,,39,lightning n
+1725,like,v;prep,,,0,,39,like v & prep
+1726,likely,a,,,0,,39,likely a
+1727,limit,v,,,0,,39,limit v
+1728,line,n;v,,,0,,39,line n & v
+1729,link,v;n,,,0,,39,link v & n
+1730,lion,n,,,0,,39,lion n
+1731,lip,n,,,0,,39,lip n
+1732,liquid,n;a,,,0,,39,liquid n & a
+1733,list,n;v,,,0,,39,list n & v
+1734,listen,v,,,0,,39,listen v
+1735,literature,n,,,0,,39,literature n
+1736,literary,a,,,0,,39,literary a
+1737,litre,n,liter,,0,US:liter,39,litre(Am liter) n
+1738,litter,v,,,0,,39,litter v
+1739,little,a,less,least,0,"forms:less,least",39,"little(less,least) a"
+1740,live,v;a,,,0,,39,live v & a
+1741,lively,a,,,0,,39,lively a
+1742,load,n,,,0,,39,load n
+1743,loaf,n,,,0,,39,loaf n
+1744,local,a,,,0,,39,local a
+1745,lock,n;v,,,0,,39,lock n & v
+1746,lonely,a,,,0,,39,lonely a
+1747,long,a;ad,,,0,,39,long a & ad
+1748,look,n;v,,,0,,39,look n & v
+1749,loose,a,,,0,,39,loose a
+1750,lorry,n,,,0,,39,lorry n
+1751,lose,v,lost,,0,"forms:lost,lost",40,"lose(lost,lost) v"
+1752,loss,n,,,0,,40,loss n
+1753,lot,n,,,0,,40,lot n
+1754,loud,a,,,0,,40,loud a
+1755,lounge,n,,,0,,40,lounge n
+1756,love,n;v,,,0,,40,love n & v
+1757,lovely,a,,,0,,40,lovely a
+1758,low,a;ad,,,0,,40,low a & ad
+1759,luck,n,,,0,,40,luck n
+1760,lucky,a,,,0,,40,lucky a
+1761,luggage,n,,,0,,40,luggage n
+1762,lunch,n,,,0,,40,lunch n
+1763,lung,n,,,0,,40,lung n
+1764,machine,n,,,0,,40,machine n
+1765,mad,a,,,0,,40,mad a
+1766,madam,n,madame,,0,,40,madam/madame n
+1767,magazine,n,,,0,,40,magazine n
+1768,magic,a,,,0,,40,magic a
+1769,maid,n,,,0,,40,maid n
+1770,mail,n;v,,,0,,40,mail n & v
+1771,mailbox,n,,,0,,40,mailbox n
+1772,main,a,,,0,,40,main a
+1773,mainland,n,,,0,,40,mainland n
+1774,major,a,,,0,,40,major a
+1775,majority,n,,,0,,40,majority n
+1776,make,n;v,made,,1,"forms:made,made",40,"make n || make 2 (made,made) v"
+1777,male,a;n,,,0,,40,male a & n
+1778,man,n,men,,0,pl:men,40,man(pl men) n
+1779,manage,v,,,0,,40,manage v
+1780,manager,n,,,0,,40,manager n
+1781,mankind,n,,,0,,40,mankind n
+1782,manner,n,,,0,,40,manner n
+1783,many,pron;a,,more;most,0,"forms:more,most",40,"many(more,most) pron & a"
+1784,map,n,,,0,,40,map n
+1785,maple,n,,,0,,40,maple n
+1786,marathon,n,,,0,,40,marathon n
+1787,marble,n,,,0,,40,marble n
+1788,march,n;v,,,0,,40,march n & v
+1789,mark,n;v,,,0,,40,mark n & v
+1790,market,n,,,0,,40,market n
+1791,marriage,n,,,0,,40,marriage n
+1792,marry,v,,,0,,40,marry v
+1793,mask,n;v,,,0,,40,mask n & v
+1794,mass,n,,,0,,40,mass n
+1795,master,v;n,,,0,,40,master v & n
+1796,mat,n,,,0,,40,mat n
+1797,match,v;n,,,0,,40,match v & n
+1798,material,n,,,0,,40,material n
+1799,mathematics,n,math;maths,,0,=math/maths,40,mathematics =math/maths n
+1800,matter,n;v,,,0,,40,matter n & v
+1801,mature,a,,,0,,40,mature a
+1802,maximum,a;n,,,0,,40,maximum a & n
+1803,may,modal v,,,0,,40,may modal v
+1804,maybe,ad,,,0,,40,maybe ad
+1805,me,pron,,,0,,40,me pron
+1806,meal,n,,,0,,40,meal n
+1807,mean,v,meant,,0,"forms:meant,meant",40,"mean(meant,meant) v"
+1808,meaning,n,,,0,,40,meaning n
+1809,means,n,,,0,,41,means n
+1810,meanwhile,ad,,,0,,41,meanwhile ad
+1811,measure,v,,,0,,41,measure v
+1812,meat,n,,,0,,41,meat n
+1813,medal,n,,,0,,41,medal n
+1814,media,n,,,0,,41,media n
+1815,medical,a,,,0,,41,medical a
+1816,medicine,n,,,0,,41,medicine n
+1817,medium,n,,,0,,41,medium n
+1818,meet,v;n,met,,0,"forms:met,met",41,"meet(met,met) v & n"
+1819,meeting,n,,,0,,41,meeting n
+1820,melon,n,,,0,,41,melon n
+1821,member,n,,,0,,41,member n
+1822,memorial,n;a,,,0,,41,memorial n & a
+1823,memory,n,,,0,,41,memory n
+1824,mend,v,,,0,,41,mend v
+1825,mental,a,,,0,,41,mental a
+1826,mention,n;v,,,0,,41,mention n & v
+1827,menu,n,,,0,,41,menu n
+1828,merchant,a;n,,,0,,41,merchant a & n
+1829,merciful,a,,,0,,41,merciful a
+1830,mercy,n,,,0,,41,mercy n
+1831,merely,ad,,,0,,41,merely ad
+1832,merry,a,,,0,,41,merry a
+1833,mess,n,,,0,,41,mess n
+1834,message,n,,,0,,41,message n
+1835,messy,a,,,0,,41,messy a
+1836,metal,n;a,,,0,,41,metal n & a
+1837,method,n,,,0,,41,method n
+1838,metre,n,meter,,0,US:meter,41,metre(Am meter) n
+1839,microscope,n,,,0,,41,microscope n
+1840,microwave,n,,,0,,41,microwave n
+1841,middle,n,,,0,,41,middle n
+1842,midnight,n,,,0,,41,midnight n
+1843,might,modal v,,,0,,41,might modal v
+1844,mild,a,,,0,,41,mild a
+1845,mile,n,,,0,,41,mile n
+1846,milk,n;v,,,0,,41,milk n & v
+1847,millimetre,n,millimeter,,0,US:millimeter,41,millimetre (Am millimeter) n
+1848,millionaire,n,,,0,,41,millionaire n
+1849,mind,n;v,,,0,,41,mind n & v
+1850,mine,n;v;pron,,,1,,41,mine n & v || mine pron
+1851,mineral,n,,,0,,41,mineral n
+1852,minibus,n,,,0,,41,minibus n
+1853,minimum,a,,,0,,41,minimum a
+1854,minister,n,,,0,,41,minister n
+1855,ministry,n,,,0,,41,ministry n
+1856,minority,n,,,0,,41,minority n
+1857,minus,prep;a,,,0,,41,minus prep & a
+1858,minute,n,,,0,,41,minute n
+1859,mirror,n,,,0,,41,mirror n
+1860,miss,n;v,,,1,,41,miss 1 n || miss v
+1861,missile,n,,,0,,41,missile n
+1862,mist,n,,,0,,41,mist n
+1863,mistake,v;n,mistook,mistaken,0,"forms:mistook,mistaken",41,"mistake (mistook,mistaken) v & n"
+1864,mistaken,a,,,0,,41,mistaken a
+1865,misunderstand,v,misunderstood,,0,"forms:misunderstood,misunderstood",41,"misunderstand (misunderstood,misunderstood) v"
+1866,mix,v,,,0,,42,mix v
+1867,mixture,n,,,0,,42,mixture n
+1868,mobile,a,,,0,,42,mobile a
+1869,model,n,,,0,,42,model n
+1870,modem,n,,,0,,42,modem n
+1871,modern,a,,,0,,42,modern a
+1872,modest,a,,,0,,42,modest a
+1873,mom,n,mum,,0,=mum,42,mom=mum n
+1874,moment,n,,,0,,42,moment n
+1875,mommy,n,mummy,,0,=mummy,42,mommy=mummy n
+1876,money,n,,,0,,42,money n
+1877,monitor,n,,,0,,42,monitor n
+1878,monkey,n,,,0,,42,monkey n
+1879,month,n,,,0,,42,month n
+1880,monument,n,,,0,,42,monument n
+1881,moon,n,,,0,,42,moon n
+1882,mop,n;v,,,0,,42,mop n & v
+1883,moral,a;n,,,0,,42,moral a & n
+1884,more,a;ad;n,,much;many,0,"forms:much,many",42,"more(much,many) a,ad & n"
+1885,morning,n,,,0,,42,morning n
+1886,Moslem,n,,,0,,42,Moslem n
+1887,mosquito,n,,,0,,42,mosquito n
+1888,most,a;ad,,,0,,42,most a & ad
+1889,mother,n,,,0,,42,mother n
+1890,motherland,n,,,0,,42,motherland n
+1891,motivation,n,,,0,,42,motivation n
+1892,motor,n,,,0,,42,motor n
+1893,motorcycle,n,,,0,,42,motorcycle n
+1894,motto,n,,,0,,42,motto n
+1895,mountain,n,,,0,,42,mountain n
+1896,mountainous,a,,,0,,42,mountainous a
+1897,mourn,v,,,0,,42,mourn v
+1898,mouse,n,mice,,0,pl:mice,42,mouse(pl mice) n
+1899,moustache,n,,,0,,42,moustache n
+1900,mouth,n,,,0,,42,mouth n
+1901,move,v,,,0,,42,move v
+1902,movement,n,,,0,,42,movement n
+1903,movie,n,,,0,,42,movie n
+1904,Mr.,n,mister,,0,forms:mister,42,Mr.(mister) n
+1905,Mrs.,n,mistress,,0,forms:mistress,42,Mrs.(mistress) n
+1906,Ms.,n,,,0,,42,Ms. n
+1907,much,a;ad,,,0,,42,much a & ad
+1908,mud,n,,,0,,42,mud n
+1909,muddy,a,,,0,,42,muddy a
+1910,multiply,v,,,0,,42,multiply v
+1911,murder,v,,,0,,42,murder v
+1912,museum,n,,,0,,42,museum n
+1913,mushroom,n,,,0,,42,mushroom n
+1914,music,n,,,0,,42,music n
+1915,musical,a;n,,,0,,42,musical a & n
+1916,musician,n,,,0,,42,musician n
+1917,must,modal v,,,0,,42,must modal v
+1918,mustard,n,,,0,,42,mustard n
+1919,mutton,n,,,0,,42,mutton n
+1920,my,pron,,,0,,42,my pron
+1921,myself,pron,,,0,,42,myself pron
+1922,nail,n,,,0,,42,nail n
+1923,name,n;v,,,0,,42,name n & v
+1924,narrow,a,,,0,,42,narrow a
+1925,nation,n,,,0,,42,nation n
+1926,national,a,,,0,,43,national a
+1927,nationality,n,,,0,,43,nationality n
+1928,nationwide,ad,,,0,,43,nationwide ad
+1929,native,a,,,0,,43,native a
+1930,natural,a,,,0,,43,natural a
+1931,nature,n,,,0,,43,nature n
+1932,navy,n,,,0,,43,navy n
+1933,near,a;ad;prep,,,0,,43,"near a,ad & prep"
+1934,nearby,a,,,0,,43,nearby a
+1935,nearly,ad,,,0,,43,nearly ad
+1936,neat,a,,,0,,43,neat a
+1937,necessary,a,,,0,,43,necessary a
+1938,neck,n,,,0,,43,neck n
+1939,necklace,n,,,0,,43,necklace n
+1940,need,n;modal v,,,0,,43,need n & modal v
+1941,needle,n,,,0,,43,needle n
+1942,negotiate,v,,,0,,43,negotiate v
+1943,neighbour,n,neighbor,,0,US:neighbor,43,neighbour(Am neighbor) n
+1944,neighbourhood,n,neighborhood,,0,US:neighborhood,43,neighbourhood (Am neighborhood) n
+1945,neither,a,,,0,,43,neither a
+1946,nephew,n,,,0,,43,nephew n
+1947,nervous,a,,,0,,43,nervous a
+1948,nest,n,,,0,,43,nest n
+1949,net,n,,,0,,43,net n
+1950,network,n,,,0,,43,network n
+1951,never,ad,,,0,,43,never ad
+1952,new,a,,,0,,43,new a
+1953,news,n,,,0,,43,news n
+1954,newspaper,n,,,0,,43,newspaper n
+1955,next,a;ad,,,0,,43,next a & ad
+1956,nice,a,,,0,,43,nice a
+1957,niece,n,,,0,,43,niece n
+1958,night,n,,,0,,43,night n
+1959,no,ad;a,,,0,,43,no ad & a
+1960,No.,n,,number,0,=number,43,No.=number n
+1961,noble,a,,,0,,43,noble a
+1962,nobody,n;pron,,,0,,43,nobody n & pron
+1963,nod,v,,,0,,43,nod v
+1964,noise,n,,,0,,43,noise n
+1965,noisy,a,,,0,,43,noisy a
+1966,none,pron,,,0,,43,none pron
+1967,noodle,n,,,0,,43,noodle n
+1968,noon,n,,,0,,43,noon n
+1969,nor,conj,,,0,,43,nor conj
+1970,normal,n;a,,,0,,43,normal n & a
+1971,north,a;ad;n,,,0,,43,"north a,ad & n"
+1972,northeast,n,,,0,,43,northeast n
+1973,northern,a,,,0,,43,northern a
+1974,northwest,n,,,0,,43,northwest n
+1975,nose,n,,,0,,43,nose n
+1976,not,ad,,,0,,43,not ad
+1977,note,n;v,,,0,,43,note n & v
+1978,notebook,n,,,0,,43,notebook n
+1979,nothing,pron;n;a,,,0,,43,"nothing pron,n & a"
+1980,notice,n;v,,,0,,43,notice n & v
+1981,novel,n,,,0,,43,novel n
+1982,novelist,n,,,0,,43,novelist n
+1983,now,ad,,,0,,43,now ad
+1984,nowadays,ad,,,0,,43,nowadays ad
+1985,nowhere,ad,,,0,,43,nowhere ad
+1986,nuclear,a,,,0,,43,nuclear a
+1987,numb,a,,,0,,44,numb a
+1988,number,n,,,0,,44,number n
+1989,nurse,n,,,0,,44,nurse n
+1990,nursery,n,,,0,,44,nursery n
+1991,nut,n,,,0,,44,nut n
+1992,nutrition,n,,,0,,44,nutrition n
+1993,obey,v,,,0,,44,obey v
+1994,object,n,,,0,,44,object n
+1995,observe,v,,,0,,44,observe v
+1996,obtain,v,,,0,,44,obtain v
+1997,obvious,a,,,0,,44,obvious a
+1998,occupation,n,,,0,,44,occupation n
+1999,occupy,v,,,0,,44,occupy v
+2000,occur,v,,,0,,44,occur v
+2001,ocean,n,,,0,,44,ocean n
+2002,Oceania,n,,,0,,44,Oceania n
+2003,o'clock,n,,,0,,44,o'clock n
+2004,of,prep,,,0,,44,of prep
+2005,off,prep;ad,,,0,,44,off prep & ad
+2006,offence,n,,,0,,44,offence n
+2007,offer,n;v,,,0,,44,offer n & v
+2008,office,n,,,0,,44,office n
+2009,officer,n,,,0,,44,officer n
+2010,official,n;a,,,0,,44,official n & a
+2011,offshore,a,,,0,,44,offshore a
+2012,often,ad,,,0,,44,often ad
+2013,oh,int,,,0,,44,oh int
+2014,oil,n;v,,,0,,44,oil n & v
+2015,oilfield,n,,,0,,44,oilfield n
+2016,O.K.,ad,,,0,,44,O.K. ad
+2017,old,a,,,0,,44,old a
+2018,Olympic,a;n,Olympics,,0,,44,Olympic(s) a & n
+2019,on,prep;ad,,,0,,44,on prep & ad
+2020,once,n;ad;conj,,,0,,44,"once n,ad & conj"
+2021,one,pron,,,0,,44,one pron
+2022,oneself,pron,,,0,,44,oneself pron
+2023,onion,n,,,0,,44,onion n
+2024,only,a;ad,,,0,,44,only a & ad
+2025,onto,prep,,,0,,44,onto prep
+2026,open,a;v,,,0,,44,open a & v
+2027,opening,n,,,0,,44,opening n
+2028,opera,n,,,0,,44,opera n
+2029,operate,v,,,0,,44,operate v
+2030,operation,n,,,0,,44,operation n
+2031,operator,n,,,0,,44,operator n
+2032,opinion,n,,,0,,44,opinion n
+2033,oppose,v,,,0,,44,oppose v
+2034,opposite,n;a,,,0,,44,opposite n & a
+2035,optimistic,a,,,0,,44,optimistic a
+2036,optional,a,,,0,,44,optional a
+2037,or,conj,,,0,,44,or conj
+2038,oral,a,,,0,,44,oral a
+2039,orange,n;a,,,0,,44,orange n & a
+2040,orbit,n,,,0,,44,orbit n
+2041,order,n;v,,,0,,44,order n & v
+2042,ordinary,a,,,0,,44,ordinary a
+2043,organ,n,,,0,,44,organ n
+2044,organise,v,organize,,0,US:organize,44,organise(Am organize) v
+2045,organisation,n,organization,,0,US:organization,44,organisation (Am organization) n
+2046,origin,n,,,0,,45,origin n
+2047,other,pron;a,,,0,,45,other pron & a
+2048,otherwise,ad,,,0,,45,otherwise ad
+2049,ought,modal v,,,0,,45,ought modal v
+2050,our,pron,,,0,,45,our pron
+2051,ours,pron,,,0,,45,ours pron
+2052,ourselves,pron,,,0,,45,ourselves pron
+2053,out,ad,,,0,,45,out ad
+2054,outcome,n,,,0,,45,outcome n
+2055,outdoors,ad,,,0,,45,outdoors ad
+2056,outer,a,,,0,,45,outer a
+2057,outgoing,a,,,0,,45,outgoing a
+2058,outing,n,,,0,,45,outing n
+2059,outline,n,,,0,,45,outline n
+2060,output,n,,,0,,45,output n
+2061,outside,n;ad;prep,,,0,,45,"outside n,ad & prep"
+2062,outspoken,a,,,0,,45,outspoken a
+2063,outstanding,a,,,0,,45,outstanding a
+2064,outward,ad,outwards,,0,,45,outward(s) ad
+2065,oval,n;ad,,,0,,45,oval n & ad
+2066,over,prep;ad,,,0,,45,over prep & ad
+2067,overcoat,n,,,0,,45,overcoat n
+2068,overcome,v,,,0,,45,overcome v
+2069,overhead,a,,,0,,45,overhead a
+2070,overlook,v,,,0,,45,overlook v
+2071,overweight,a,,,0,,45,overweight a
+2072,owe,v,,,0,,45,owe v
+2073,own,a;v,,,0,,45,own a & v
+2074,owner,n,,,0,,45,owner n
+2075,ownership,n,,,0,,45,ownership n
+2076,ox,n,oxen,,0,pl:oxen,45,ox(pl oxen) n
+2077,oxygen,n,,,0,,45,oxygen n
+2078,pace,n,,,0,,45,pace n
+2079,Pacific,a,,,0,,45,Pacific a
+2080,pack,n;v,,,0,,45,pack n & v
+2081,package,n,,,0,,45,package n
+2082,packet,n,,,0,,45,packet n
+2083,paddle,n,,,0,,45,paddle n
+2084,page,n,,,0,,45,page n
+2085,pain,n,,,0,,45,pain n
+2086,painful,a,,,0,,45,painful a
+2087,paint,n;v,,,0,,45,paint n & v
+2088,painter,n,,,0,,45,painter n
+2089,painting,n,,,0,,45,painting n
+2090,pair,n,,,0,,45,pair n
+2091,palace,n,,,0,,45,palace n
+2092,pale,a,,,0,,45,pale a
+2093,pan,n,,,0,,45,pan n
+2094,pancake,n,,,0,,45,pancake n
+2095,panda,n,,,0,,45,panda n
+2096,panic,a;v,,,0,,45,panic a & v
+2097,paper,n,,,0,,45,paper n
+2098,paperwork,n,,,0,,45,paperwork n
+2099,paragraph,n,,,0,,45,paragraph n
+2100,parallel,a;n,,,0,,45,parallel a & n
+2101,parcel,n,,,0,,45,parcel n
+2102,pardon,n,,,0,,45,pardon n
+2103,parent,n,,,0,,45,parent n
+2104,park,n;v,,,1,,45,park n || park v
+2105,parking,n,,,0,,46,parking n
+2106,parrot,n,,,0,,46,parrot n
+2107,part,n;a;v,,,0,,46,"part n,a & v"
+2108,participate,v,,,0,,46,participate v
+2109,particular,a,,,0,,46,particular a
+2110,partly,ad,,,0,,46,partly ad
+2111,partner,n,,,0,,46,partner n
+2112,part-time,a;ad,,,0,,46,part-time a & ad
+2113,party,n,,,0,,46,party n
+2114,pass,v,,,0,,46,pass v
+2115,passage,n,,,0,,46,passage n
+2116,passenger,n,,,0,,46,passenger n
+2117,passer-by,n,,,0,,46,passer-by n
+2118,passive,a,,,0,,46,passive a
+2119,passport,n,,,0,,46,passport n
+2120,past,ad;n;prep,,,0,,46,"past ad,n & prep"
+2121,patent,n,,,0,,46,patent n
+2122,path,n,,,0,,46,path n
+2123,patience,n,,,0,,46,patience n
+2124,patient,n;a,,,1,,46,patient 1 n || patient a
+2125,pattern,n,,,0,,46,pattern n
+2126,pause,n;v,,,0,,46,pause n & v
+2127,pavement,n,,,0,,46,pavement n
+2128,pay,v;n,paid,,0,"forms:paid,paid",46,"pay(paid,paid) v & n"
+2129,P.C.,n,personal computer,,0,=personal computer,46,P.C.=personal computer n
+2130,P.E.,n,physical education,,0,=physical education,46,P.E.=physical education n
+2131,pea,n,,,0,,46,pea n
+2132,peace,n,,,0,,46,peace n
+2133,peaceful,a,,,0,,46,peaceful a
+2134,peach,n,,,0,,46,peach n
+2135,pear,n,,,0,,46,pear n
+2136,pedestrian,n,,,0,,46,pedestrian n
+2137,pen,n,,,0,,46,pen n
+2138,pence,n,,,0,,46,pence n
+2139,pencil,n,,,0,,46,pencil n
+2140,penny,n,,,0,,46,penny n
+2141,pension,n,,,0,,46,pension n
+2142,people,n,,,0,,46,people n
+2143,pepper,n,,,0,,46,pepper n
+2144,per,prep,,,0,,46,per prep
+2145,percent,n,,,0,,46,percent n
+2146,percentage,n,,,0,,46,percentage n
+2147,perfect,a,,,0,,46,perfect a
+2148,perform,v,,,0,,46,perform v
+2149,performance,n,,,0,,46,performance n
+2150,performer,n,,,0,,46,performer n
+2151,perfume,n,,,0,,46,perfume n
+2152,perhaps,ad,,,0,,46,perhaps ad
+2153,period,n,,,0,,46,period n
+2154,permanent,a,,,0,,46,permanent a
+2155,permission,n,,,0,,46,permission n
+2156,permit,v;n,,,0,,46,permit v & n
+2157,person,n,,,0,,46,person n
+2158,personal,a,,,0,,46,personal a
+2159,personnel,n,,,0,,46,personnel n
+2160,personally,ad,,,0,,46,personally ad
+2161,persuade,v,,,0,,46,persuade v
+2162,pest,n,,,0,,46,pest n
+2163,pet,n,,,0,,46,pet n
+2164,petrol,n,,,0,,46,petrol n
+2165,phenomenon,n,phenomena,,0,pl:phenomena,46,phenomenon (pl phenomena) n
+2166,phone,n;v,,telephone,0,=telephone,47,phone = telephone n & v
+2167,photo,n,,photograph,0,=photograph,47,photo = photograph n
+2168,photograph,n,,,0,,47,photograph n
+2169,photographer,n,,,0,,47,photographer n
+2170,phrase,n,,,0,,47,phrase n
+2171,physical,a,,,0,,47,physical a
+2172,physician,n,,,0,,47,physician n
+2173,physicist,n,,,0,,47,physicist n
+2174,physics,n,,,0,,47,physics n
+2175,pianist,n,,,0,,47,pianist n
+2176,piano,n,,,0,,47,piano n
+2177,pick,v,,,0,,47,pick v
+2178,picnic,n;v,,,0,,47,picnic n & v
+2179,picture,n,,,0,,47,picture n
+2180,pie,n,,,0,,47,pie n
+2181,piece,n,,,0,,47,piece n
+2182,pig,n,,,0,,47,pig n
+2183,pile,n,,,0,,47,pile n
+2184,pill,n,,,0,,47,pill n
+2185,pillow,n,,,0,,47,pillow n
+2186,pilot,n,,,0,,47,pilot n
+2187,pin,n;v,,,0,,47,pin n & v
+2188,pine,n,,,0,,47,pine n
+2189,pineapple,n,,,0,,47,pineapple n
+2190,ping-pong,n,,,0,,47,ping-pong n
+2191,pink,a;n,,,0,,47,pink a & n
+2192,pint,n,,,0,,47,pint n
+2193,pioneer,n,,,0,,47,pioneer n
+2194,pipe,n,,,0,,47,pipe n
+2195,pity,n,,,0,,47,pity n
+2196,place,n;v,,,0,,47,place n & v
+2197,plain,a,,,0,,47,plain a
+2198,plan,n;v,,,0,,47,plan n & v
+2199,plane,n,,,0,,47,plane n
+2200,planet,n,,,0,,47,planet n
+2201,plant,v;n,,,0,,47,plant v & n
+2202,plastic,a,,,0,,47,plastic a
+2203,plate,n,,,0,,47,plate n
+2204,platform,n,,,0,,47,platform n
+2205,play,v;n,,,0,,47,play v & n
+2206,playground,n,,,0,,47,playground n
+2207,pleasant,a,,,0,,47,pleasant a
+2208,please,v,,,0,,47,please v
+2209,pleased,a,,,0,,47,pleased a
+2210,pleasure,n,,,0,,47,pleasure n
+2211,plenty,n,,,0,,47,plenty n
+2212,plot,v;n,,,0,,47,plot v & n
+2213,plug,n,,,0,,47,plug n
+2214,plus,v;prep,,,0,,47,plus v & prep
+2215,p.m.,abbr,pm;P.M.;PM,,0,,47,"p.m./pm,P.M./PM abbr"
+2216,pocket,n,,,0,,47,pocket n
+2217,poem,n,,,0,,47,poem n
+2218,poet,n,,,0,,47,poet n
+2219,point,v;n,,,0,,47,point v & n
+2220,poison,n,,,0,,47,poison n
+2221,poisonous,a,,,0,,47,poisonous a
+2222,pole,n,,,0,,47,pole n
+2223,police,n,,,0,,47,police n
+2224,policeman,n,policemen,,0,pl:policemen/policewomen,47,policeman/woman (pl policemen/policewomen) n
+2225,policewoman,n,policewomen,,0,pl:policemen/policewomen,47,policeman/woman (pl policemen/policewomen) n
+2226,policy,n,,,0,,47,policy n
+2227,polish,v,,,0,,48,polish v
+2228,polite,a,,,0,,48,polite a
+2229,political,a,,,0,,48,political a
+2230,politician,n,,,0,,48,politician n
+2231,politics,n,,,0,,48,politics n
+2232,pollute,v,,,0,,48,pollute v
+2233,pollution,n,,,0,,48,pollution n
+2234,pond,n,,,0,,48,pond n
+2235,pool,n,,,0,,48,pool n
+2236,poor,a,,,0,,48,poor a
+2237,pop,a,,popular,0,=popular,48,pop = popular a
+2238,popcorn,n,,,0,,48,popcorn n
+2239,popular,a,,,0,,48,popular a
+2240,population,n,,,0,,48,population n
+2241,pork,n,,,0,,48,pork n
+2242,porridge,n,,,0,,48,porridge n
+2243,port,n,,,0,,48,port n
+2244,portable,a,,,0,,48,portable a
+2245,porter,n,,,0,,48,porter n
+2246,position,n,,,0,,48,position n
+2247,positive,a,,,0,,48,positive a
+2248,possess,v,,,0,,48,possess v
+2249,possession,n,,,0,,48,possession n
+2250,possibility,n,,,0,,48,possibility n
+2251,possible,a,,,0,,48,possible a
+2252,post,n;v,,,1,,48,post 1 n || post v & n
+2253,postage,n,,,0,,48,postage n
+2254,postcard,n,,,0,,48,postcard n
+2255,postcode,n,,,0,,48,postcode n
+2256,poster,n,,,0,,48,poster n
+2257,postman,n,postmen,,0,pl:postmen,48,postman(pl postmen) n
+2258,postpone,v,,,0,,48,postpone v
+2259,pot,n,,,0,,48,pot n
+2260,potato,n,,,0,,48,potato n
+2261,potential,a,,,0,,48,potential a
+2262,pound,n,,,0,,48,pound n
+2263,pour,v,,,0,,48,pour v
+2264,powder,n,,,0,,48,powder n
+2265,power,n,,,0,,48,power n
+2266,powerful,a,,,0,,48,powerful a
+2267,practical,a,,,0,,48,practical a
+2268,practice,n;v,,,0,,48,practice n & v
+2269,practise,v,,practice,0,US:practice,48,practise(Am practice) v
+2270,praise,n;v,,,0,,48,praise n & v
+2271,pray,v,,,0,,48,pray v
+2272,prayer,n,,,0,,48,prayer n
+2273,precious,a,,,0,,48,precious a
+2274,precise,a,,,0,,48,precise a
+2275,predict,v,,,0,,48,predict v
+2276,prefer,v,,,0,,48,prefer v
+2277,preference,n,,,0,,48,preference n
+2278,pregnant,a,,,0,,48,pregnant a
+2279,prejudice,n,,,0,,48,prejudice n
+2280,premier,n,,,0,,48,premier n
+2281,preparation,n,,,0,,48,preparation n
+2282,prepare,v,,,0,,48,prepare v
+2283,prescription,n,,,0,,48,prescription n
+2284,present,a;v;n,,,1,,48,present a & v || present 2 n
+2285,presentation,n,,,0,,48,presentation n
+2286,preserve,v,,,0,,48,preserve v
+2287,president,n,,,0,,49,president n
+2288,press,v;n,,,1,,49,press 1 v || press n
+2289,pressure,n,,,0,,49,pressure n
+2290,pretend,v,,,0,,49,pretend v
+2291,pretty,a,,,0,,49,pretty a
+2292,prevent,v,,,0,,49,prevent v
+2293,preview,v,,,0,,49,preview v
+2294,previous,a,,,0,,49,previous a
+2295,price,n,,,0,,49,price n
+2296,pride,n,,,0,,49,pride n
+2297,primary,a,,,0,,49,primary a
+2298,primitive,a,,,0,,49,primitive a
+2299,principle,n,,,0,,49,principle n
+2300,print,v,,,0,,49,print v
+2301,prison,n,,,0,,49,prison n
+2302,prisoner,n,,,0,,49,prisoner n
+2303,private,a,,,0,,49,private a
+2304,privilege,n,,,0,,49,privilege n
+2305,prize,n,,,0,,49,prize n
+2306,probably,ad,,,0,,49,probably ad
+2307,problem,n,,,0,,49,problem n
+2308,procedure,n,,,0,,49,procedure n
+2309,process,n;v,,,0,,49,process n & v
+2310,produce,v,,,0,,49,produce v
+2311,product,n,,,0,,49,product n
+2312,production,n,,,0,,49,production n
+2313,profession,n,,,0,,49,profession n
+2314,professor,n,,,0,,49,professor n
+2315,profit,n,,,0,,49,profit n
+2316,programme,n,program,,0,US:program,49,programme(Am program) n
+2317,progress,n;v,,,0,,49,progress n & v
+2318,prohibit,v,,,0,,49,prohibit v
+2319,project,n,,,0,,49,project n
+2320,promise,n;v,,,0,,49,promise n & v
+2321,promote,v,,,0,,49,promote v
+2322,pronounce,v,,,0,,49,pronounce v
+2323,pronunciation,n,,,0,,49,pronunciation n
+2324,proper,a,,,0,,49,proper a
+2325,properly,ad,,,0,,49,properly ad
+2326,protect,v,,,0,,49,protect v
+2327,protection,n,,,0,,49,protection n
+2328,proud,a,,,0,,49,proud a
+2329,prove,v,,,0,,49,prove v
+2330,provide,v,,,0,,49,provide v
+2331,province,n,,,0,,49,province n
+2332,psychology,n,,,0,,49,psychology n
+2333,pub,n,,,0,,49,pub n
+2334,public,a;n,,,0,,49,public a & n
+2335,publish,v,,,0,,49,publish v
+2336,pull,v;n,,,0,,49,pull v & n
+2337,pulse,n,,,0,,49,pulse n
+2338,pump,v,,,0,,49,pump v
+2339,punctual,a,,,0,,49,punctual a
+2340,punctuation,n,,,0,,49,punctuation n
+2341,punish,v,,,0,,49,punish v
+2342,punishment,n,,,0,,49,punishment n
+2343,pupil,n,,,0,,49,pupil n
+2344,purchase,v,,,0,,49,purchase v
+2345,pure,a,,,0,,49,pure a
+2346,purple,n;a,,,0,,49,purple n & a
+2347,purpose,n,,,0,,49,purpose n
+2348,purse,n,,,0,,50,purse n
+2349,push,n;v,,,0,,50,push n & v
+2350,put,v,,,0,"forms:put,put",50,"put(put,put) v"
+2351,puzzle,n,,,0,,50,puzzle n
+2352,pyramid,n,,,0,,50,pyramid n
+2353,quake,n;v,,,0,,50,quake n & v
+2354,qualification,n,,,0,,50,qualification n
+2355,quality,n,,,0,,50,quality n
+2356,quantity,n,,,0,,50,quantity n
+2357,quarrel,v;n,,,0,,50,quarrel v & n
+2358,quarter,n,,,0,,50,quarter n
+2359,queen,n,,,0,,50,queen n
+2360,question,v;n,,,0,,50,question v & n
+2361,questionnaire,n,,,0,,50,questionnaire n
+2362,queue,n;v,,,0,,50,queue n & v
+2363,quick,a;ad,,,0,,50,quick a & ad
+2364,quiet,a,,,0,,50,quiet a
+2365,quilt,n,,,0,,50,quilt n
+2366,quit,v,,,0,,50,quit v
+2367,quite,ad,,,0,,50,quite ad
+2368,quiz,n,,,0,,50,quiz n
+2369,rabbit,n,,,0,,50,rabbit n
+2370,race,v;n,,,0,,50,race v & n
+2371,racial,a,,,0,,50,racial a
+2372,radiation,n,,,0,,50,radiation n
+2373,radio,n,,,0,,50,radio n
+2374,radioactive,a,,,0,,50,radioactive a
+2375,radium,n,,,0,,50,radium n
+2376,rag,n,,,0,,50,rag n
+2377,rail,n,,,0,,50,rail n
+2378,railway,n,,,0,,50,railway n
+2379,rain,n;v,,,0,,50,rain n & v
+2380,rainbow,n,,,0,,50,rainbow n
+2381,raincoat,n,,,0,,50,raincoat n
+2382,rainfall,n,,,0,,50,rainfall n
+2383,rainy,a,,,0,,50,rainy a
+2384,raise,v,,,0,,50,raise v
+2385,random,a,,,0,,50,random a
+2386,range,n;v,,,0,,50,range n & v
+2387,rank,n,,,0,,50,rank n
+2388,rapid,a,,,0,,50,rapid a
+2389,rare,a,,,0,,50,rare a
+2390,rat,n,,,0,,50,rat n
+2391,rate,n;v,,,0,,50,rate n & v
+2392,rather,ad,,,0,,50,rather ad
+2393,raw,a,,,0,,50,raw a
+2394,ray,n,,,0,,50,ray n
+2395,razor,n,,,0,,50,razor n
+2396,reach,v,,,0,,50,reach v
+2397,react,v,,,0,,50,react v
+2398,read,v,,,0,"forms:read,read",50,"read(read,read) v"
+2399,reading,n,,,0,,50,reading n
+2400,ready,a,,,0,,50,ready a
+2401,real,a,,,0,,50,real a
+2402,realise,v,realize,,0,US:realize,50,realise(Am realize) v
+2403,reality,n,,,0,,50,reality n
+2404,really,ad,,,0,,50,really ad
+2405,reason,v;n,,,0,,50,reason v & n
+2406,reasonable,a,,,0,,51,reasonable a
+2407,rebuild,v,rebuilt,,0,"forms:rebuilt,rebuilt",51,"rebuild(rebuilt,rebuilt) v"
+2408,receipt,n,,,0,,51,receipt n
+2409,receive,v,,,0,,51,receive v
+2410,receiver,n,,,0,,51,receiver n
+2411,recent,a,,,0,,51,recent a
+2412,reception,n,,,0,,51,reception n
+2413,receptionist,n,,,0,,51,receptionist n
+2414,recipe,n,,,0,,51,recipe n
+2415,recite,v,,,0,,51,recite v
+2416,recognize,v,,,0,US:recognize,51,recognize(Am recognize) v
+2417,recommend,v,,,0,,51,recommend v
+2418,record,n;v,,,0,,51,record n & v
+2419,recorder,n,,,0,,51,recorder n
+2420,recover,v,,,0,,51,recover v
+2421,recreation,n,,,0,,51,recreation n
+2422,rectangle,n;a,,,0,,51,rectangle n & a
+2423,recycle,v,,,0,,51,recycle v
+2424,red,n;a,,,0,,51,red n & a
+2425,reduce,v,,,0,,51,reduce v
+2426,refer,v,,,0,,51,refer v
+2427,referee,n,,,0,,51,referee n
+2428,reference,n,,,0,,51,reference n
+2429,reflect,v,,,0,,51,reflect v
+2430,reform,v;n,,,0,,51,reform v & n
+2431,refresh,v,,,0,,51,refresh v
+2432,refrigerator,n,,,0,,51,refrigerator n
+2433,refuse,v,,,0,,51,refuse v
+2434,regard,v;n,,,0,,51,regard v & n
+2435,regardless,a,,,0,,51,regardless a
+2436,register,n;v,,,0,,51,register n & v
+2437,regret,n;v,,,0,,51,regret n & v
+2438,regular,a,,,0,,51,regular a
+2439,regulation,n,,,0,,51,regulation n
+2440,reject,v,,,0,,51,reject v
+2441,relate,v,,,0,,51,relate v
+2442,relation,n,,,0,,51,relation n
+2443,relationship,n,,,0,,51,relationship n
+2444,relative,n,,,0,,51,relative n
+2445,relax,v,,,0,,51,relax v
+2446,relay,n;v,,,0,,51,relay n & v
+2447,relevant,a,,,0,,51,relevant a
+2448,reliable,a,,,0,,51,reliable a
+2449,relief,n,,,0,,51,relief n
+2450,religion,n,,,0,,51,religion n
+2451,religious,a,,,0,,51,religious a
+2452,rely,v,,,0,,51,rely v
+2453,remain,v,,,0,,51,remain v
+2454,remark,n,,,0,,51,remark n
+2455,remember,v,,,0,,51,remember v
+2456,remind,v,,,0,,51,remind v
+2457,remote,a,,,0,,51,remote a
+2458,remove,v,,,0,,51,remove v
+2459,rent,n;v,,,0,,51,rent n & v
+2460,repair,n;v,,,0,,51,repair n & v
+2461,repeat,v,,,0,,51,repeat v
+2462,replace,v,,,0,,51,replace v
+2463,reply,n;v,,,0,,51,reply n & v
+2464,report,n;v,,,0,,51,report n & v
+2465,reporter,n,,,0,,51,reporter n
+2466,represent,v,,,0,,51,represent v
+2467,representative,n,,,0,,51,representative n
+2468,republic,n,,,0,,52,republic n
+2469,reputation,n,,,0,,52,reputation n
+2470,request,n,,,0,,52,request n
+2471,require,v,,,0,,52,require v
+2472,requirement,n,,,0,,52,requirement n
+2473,rescue,v,,,0,,52,rescue v
+2474,research,n,,,0,,52,research n
+2475,resemble,v,,,0,,52,resemble v
+2476,reservation,n,,,0,,52,reservation n
+2477,reserve,n;v,,,0,,52,reserve n & v
+2478,resign,v,,,0,,52,resign v
+2479,resist,v,,,0,,52,resist v
+2480,respect,v;n,,,0,,52,respect v & n
+2481,respond,v,,,0,,52,respond v
+2482,responsibility,n,,,0,,52,responsibility n
+2483,rest,n;v,,,0,,52,rest n & v
+2484,restaurant,n,,,0,,52,restaurant n
+2485,restriction,n,,,0,,52,restriction n
+2486,result,n,,,0,,52,result n
+2487,retell,v,,,0,,52,retell v
+2488,retire,v,,,0,,52,retire v
+2489,return,v,,,0,,52,return v
+2490,review,v;n,,,0,,52,review v & n
+2491,revision,n,,,0,,52,revision n
+2492,revolution,n,,,0,,52,revolution n
+2493,reward,n,,,0,,52,reward n
+2494,rewind,v,,,0,,52,rewind v
+2495,rhyme,n;v,,,0,,52,rhyme n & v
+2496,rice,n,,,0,,52,rice n
+2497,rich,a,,,0,,52,rich a
+2498,rid,v,ridded,,0,"forms:rid,rid 或 ridded,ridded",52,"rid(rid,rid 或 ridded,ridded) v"
+2499,riddle,n,,,0,,52,riddle n
+2500,ridiculous,a,,,0,,52,ridiculous a
+2501,ride,v;n,rode;ridden,,0,"forms:rode,ridden",52,"ride(rode,ridden) v & n"
+2502,right,n;a;ad,,,0,,52,"right n,a & ad"
+2503,rigid,a,,,0,,52,rigid a
+2504,ring,v;n,rang;rung,,0,"forms:rang,rung",52,"ring(rang,rung) v & n"
+2505,ripe,a,,,0,,52,ripe a
+2506,ripen,v,,,0,,52,ripen v
+2507,rise,v,risen,rose,0,"forms:rose,risen",52,"rise(rose,risen) v"
+2508,risk,n;v,,,0,,52,risk n & v
+2509,river,n,,,0,,52,river n
+2510,road,n,,,0,,52,road n
+2511,roast,v,,,0,,52,roast v
+2512,rob,v,,,0,,52,rob v
+2513,robot,n,,,0,,52,robot n
+2514,rock,n,,,0,,52,rock n
+2515,rocket,n,,,0,,52,rocket n
+2516,role,n,,,0,,52,role n
+2517,roll,v;n,,,0,,52,roll v & n
+2518,roof,n,,,0,,52,roof n
+2519,room,n,,,0,,52,room n
+2520,rooster,n,,,0,,52,rooster n
+2521,root,n,,,0,,52,root n
+2522,rope,n,,,0,,52,rope n
+2523,rose,n,,,0,,52,rose n
+2524,rot,v,,,0,,52,rot v
+2525,rough,a,,,0,,52,rough a
+2526,round,ad;prep;a,,,0,,52,"round ad,prep & a"
+2527,roundabout,a;n,,,0,,52,roundabout a & n
+2528,routine,n,,,0,,52,routine n
+2529,row,n;v,,,0,,53,row n & v
+2530,royal,a,,,0,,53,royal a
+2531,rubber,n,,,0,,53,rubber n
+2532,rubbish,n,,,0,,53,rubbish n
+2533,rude,a,,,0,,53,rude a
+2534,rugby,n,,,0,,53,rugby n
+2535,ruin,v;n,,,0,,53,ruin v & n
+2536,rule,n;v,,,0,,53,rule n & v
+2537,ruler,n,,,0,,53,ruler n
+2538,run,v,ran,,0,"forms:ran,run",53,"run(ran,run) v"
+2539,rush,v,,,0,,53,rush v
+2540,sacred,a,,,0,,53,sacred a
+2541,sacrifice,v,,,0,,53,sacrifice v
+2542,sad,a,,,0,,53,sad a
+2543,sadness,n,,,0,,53,sadness n
+2544,safe,a,,,0,,53,safe a
+2545,safety,n,,,0,,53,safety n
+2546,sail,n;v,,,0,,53,sail n & v
+2547,sailor,n,,,0,,53,sailor n
+2548,salad,n,,,0,,53,salad n
+2549,salary,n,,,0,,53,salary n
+2550,sale,n,,,0,,53,sale n
+2551,salesgirl,n,,,0,,53,salesgirl n
+2552,salesman,n,salesmen,,0,pl:salesmen/women,53,salesman/woman (pl salesmen/women) n
+2553,saleswoman,n,saleswomen,,0,pl:salesmen/women,53,salesman/woman (pl salesmen/women) n
+2554,salt,n,,,0,,53,salt n
+2555,salty,a,,,0,,53,salty a
+2556,salute,n;v,,,0,,53,salute n & v
+2557,same,n;a,,,0,,53,same n & a
+2558,sand,n,,,0,,53,sand n
+2559,sandwich,n,,,0,,53,sandwich n
+2560,satellite,n,,,0,,53,satellite n
+2561,satisfaction,n,,,0,,53,satisfaction n
+2562,satisfy,v,,,0,,53,satisfy v
+2563,saucer,n,,,0,,53,saucer n
+2564,sausage,n,,,0,,53,sausage n
+2565,save,v,,,0,,53,save v
+2566,say,v,said,,0,"forms:said,said",53,"say(said,said) v"
+2567,saying,n,,,0,,53,saying n
+2568,scan,v,,,0,,53,scan v
+2569,scar,n,,,0,,53,scar n
+2570,scare,v,,,0,,53,scare v
+2571,scarf,n,,,0,,53,scarf n
+2572,scene,n,,,0,,53,scene n
+2573,scenery,n,,,0,,53,scenery n
+2574,sceptical,a,skeptical,,0,US:skeptical,53,sceptical(Am skeptical) a
+2575,schedule,n;v,,,0,,53,schedule n & v
+2576,scholar,n,,,0,,53,scholar n
+2577,scholarship,n,,,0,,53,scholarship n
+2578,school,n,,,0,,53,school n
+2579,schoolbag,n,,,0,,53,schoolbag n
+2580,schoolboy,n,,,0,,53,schoolboy/girl n
+2581,schoolgirl,n,,,0,,53,schoolboy/girl n
+2582,schoolmate,n,,,0,,53,schoolmate n
+2583,science,n,,,0,,53,science n
+2584,scientific,a,,,0,,53,scientific a
+2585,scientist,n,,,0,,53,scientist n
+2586,scissors,n,,,0,,53,scissors n
+2587,scold,v,,,0,,53,scold v
+2588,score,n;v,,,0,,53,score n & v
+2589,scratch,v;n,,,0,,53,scratch v & n
+2590,scream,n,,,0,,54,scream n
+2591,screen,n,,,0,,54,screen n
+2592,sculpture,n,,,0,,54,sculpture n
+2593,sea,n,,,0,,54,sea n
+2594,seagull,n,,,0,,54,seagull n
+2595,seal,n,,,0,,54,seal n
+2596,search,n;v,,,0,,54,search n & v
+2597,seashell,n,,,0,,54,seashell n
+2598,seaside,n,,,0,,54,seaside n
+2599,season,n,,,0,,54,season n
+2600,seat,n,,,0,,54,seat n
+2601,seaweed,n,,,0,,54,seaweed n
+2602,second,a;n,,,0,,54,second a & n
+2603,secret,a;n,,,0,,54,secret a & n
+2604,secretary,n,,,0,,54,secretary n
+2605,section,n,,,0,,54,section n
+2606,secure,a,,,0,,54,secure a
+2607,security,n,,,0,,54,security n
+2608,see,v,saw;seen,,0,"forms:saw,seen",54,"see(saw,seen) v"
+2609,seed,n,,,0,,54,seed n
+2610,seek,v,,,0,,54,seek v
+2611,seem,v,,,0,,54,seem v
+2612,seize,v,,,0,,54,seize v
+2613,seldom,ad,,,0,,54,seldom ad
+2614,select,v,,,0,,54,select v
+2615,self,n,,,0,,54,self n
+2616,selfish,a,,,0,,54,selfish a
+2617,sell,v,sold,,0,"forms:sold,sold",54,"sell(sold,sold) v"
+2618,semicircle,n,,,0,,54,semicircle n
+2619,seminar,n,,,0,,54,seminar n
+2620,send,v,sent,,0,"forms:sent,sent",54,"send(sent,sent) v"
+2621,senior,a;n,,,0,,54,senior a & n
+2622,sense,n,,,0,,54,sense n
+2623,sensitive,a,,,0,,54,sensitive a
+2624,sentence,n,,,0,,54,sentence n
+2625,separate,v;a,,,0,,54,separate v & a
+2626,separation,n,,,0,,54,separation n
+2627,serious,a,,,0,,54,serious a
+2628,servant,n,,,0,,54,servant n
+2629,serve,v,,,0,,54,serve v
+2630,service,n,,,0,,54,service n
+2631,session,n,,,0,,54,session n
+2632,set,v;n,,,0,"forms:set,set",54,"set(set,set) v & n"
+2633,settle,v,,,0,,54,settle v
+2634,settlement,n,,,0,,54,settlement n
+2635,settler,n,,,0,,54,settler n
+2636,several,pron;a,,,0,,54,several pron & a
+2637,severe,a,,,0,,54,severe a
+2638,sew,v,sewed;sewn,,0,"forms:sewed,sewn/sewed",54,"sew(sewed,sewn/sewed) v"
+2639,sex,n,,,0,,54,sex n
+2640,shabby,a,,,0,,54,shabby a
+2641,shade,n,,,0,,54,shade n
+2642,shadow,n,,,0,,54,shadow n
+2643,shake,v,shook;shaken,,0,"forms:shook,shaken",54,"shake(shook,shaken) v"
+2644,shall,modal v,,,0,,54,shall modal v
+2645,shallow,a,,,0,,54,shallow a
+2646,shame,n,,,0,,54,shame n
+2647,shape,n;v,,,0,,54,shape n & v
+2648,share,v,,,0,,54,share v
+2649,shark,n,,,0,,54,shark n
+2650,sharp,a,,,0,,54,sharp a
+2651,sharpen,v,,,0,,54,sharpen v
+2652,sharpener,n,,,0,,55,sharpener n
+2653,shave,v,shaved;shaven,,0,"forms:shaved,shaved/shaven",55,"shave (shaved,shaved/shaven) v"
+2654,shaver,n,,,0,,55,shaver n
+2655,she,pron,,,0,,55,she pron
+2656,sheep,n,,,0,pl:sheep,55,sheep(pl sheep) n
+2657,sheet,n,,,0,,55,sheet n
+2658,shelf,n,shelves,,0,pl:shelves,55,shelf(pl shelves) n
+2659,shelter,n,,,0,,55,shelter n
+2660,shine,v,shone,,0,"forms:shone,shone",55,"shine(shone,shone) v"
+2661,ship,n;v,,,0,,55,ship n & v
+2662,shirt,n,,,0,,55,shirt n
+2663,shock,v,,,0,,55,shock v
+2664,shoe,n,,,0,,55,shoe n
+2665,shoot,v;n,,shot,0,"forms:shot,shot",55,"shoot(shot,shot) v & n"
+2666,shop,v;n,,,0,,55,shop v & n
+2667,shopkeeper,n,,,0,,55,shopkeeper n
+2668,shopping,n,,,0,,55,shopping n
+2669,shore,n,,,0,,55,shore n
+2670,short,a,,,0,,55,short a
+2671,shortcoming,n,,,0,,55,shortcoming n
+2672,shortly,ad,,,0,,55,shortly ad
+2673,shorts,n,,,0,,55,shorts n
+2674,shot,n,,,0,,55,shot n
+2675,should,modal v,,,0,,55,should modal v
+2676,shoulder,n,,,0,,55,shoulder n
+2677,shout,n;v,,,0,,55,shout n & v
+2678,show,v;n,showed;shown,,0,"forms:showed,shown/showed",55,"show (showed,shown/showed) v & n"
+2679,shower,n,,,0,,55,shower n
+2680,shrink,v,shrank;shrunk;shrunken,,0,"forms:shrank,shrunk 或 shrunk,shrunken",55,"shrink(shrank,shrunk 或 shrunk,shrunken) v"
+2681,shut,v,,,0,"forms:shut,shut",55,"shut(shut,shut) v"
+2682,shuttle,n,,,0,,55,shuttle n
+2683,shy,a,,,0,,55,shy a
+2684,sick,a,,,0,,55,sick a
+2685,sickness,n,,,0,,55,sickness n
+2686,side,n,,,0,,55,side n
+2687,sideroad,n,sidewalk,,0,US:sidewalk,55,sideroad(Am sidewalk) n
+2688,sideways,ad,,,0,,55,sideways ad
+2689,sigh,v;n,,,0,,55,sigh v & n
+2690,sight,n,,,0,,55,sight n
+2691,sightseeing,n,,,0,,55,sightseeing n
+2692,signal,n,,,0,,55,signal n
+2693,signature,n,,,0,,55,signature n
+2694,significance,n,,,0,,55,significance n
+2695,silence,n,,,0,,55,silence n
+2696,silent,a,,,0,,55,silent a
+2697,silk,n,,,0,,55,silk n
+2698,silly,a,,,0,,55,silly a
+2699,silver,n,,,0,,55,silver n
+2700,similar,a,,,0,,55,similar a
+2701,simple,a,,,0,,55,simple a
+2702,simplify,v,,,0,,55,simplify v
+2703,since,ad;conj;prep,,,0,,55,"since ad,conj & prep"
+2704,sincerely,ad,,,0,,55,sincerely ad
+2705,sing,v,sang;sung,,0,"forms:sang,sung",55,"sing(sang,sung) v"
+2706,single,a,,,0,,55,single a
+2707,sink,v;n,sank;sunk,,0,"forms:sank,sunk",55,"sink(sank,sunk) v & n"
+2708,sir,n,,,0,,55,sir n
+2709,sister,n,,,0,,55,sister n
+2710,sit,v,sat,,0,"forms:sat,sat",55,"sit(sat,sat) v"
+2711,situation,n,,,0,,56,situation n
+2712,size,n,,,0,,56,size n
+2713,skate,v,,,0,,56,skate v
+2714,skateboard,n,,,0,,56,skateboard n
+2715,ski,n;v,,,0,,56,ski n & v
+2716,skilful,a,,,0,,56,skilful a
+2717,skill,n,,,0,,56,skill n
+2718,skin,n,,,0,,56,skin n
+2719,skip,v,,,0,,56,skip v
+2720,skirt,n,,,0,,56,skirt n
+2721,sky,n,,,0,,56,sky n
+2722,skyscraper,n,,,0,,56,skyscraper n
+2723,slave,n,,,0,,56,slave n
+2724,slavery,n,,,0,,56,slavery n
+2725,sleep,n;v,slept,,1,"forms:slept,slept",56,"sleep n || sleep (slept,slept) v"
+2726,sleepy,a,,,0,,56,sleepy a
+2727,sleeve,n,,,0,,56,sleeve n
+2728,slice,n,,,0,,56,slice n
+2729,slide,n;v,,,0,,56,slide n & v
+2730,slight,a,,,0,,56,slight a
+2731,slim,a,,,0,,56,slim a
+2732,slip,n,,,0,,56,slip n
+2733,slow,ad,,,0,,56,slow ad
+2734,small,a,,,0,,56,small a
+2735,smart,a,,,0,,56,smart a
+2736,smell,v;n,smelt;smelled,,0,"forms:smelt,smelt 或-ed,-ed",56,"smell(smelt,smelt 或-ed,-ed) v & n"
+2737,smile,n;v,,,0,,56,smile n & v
+2738,smog,n,,,0,,56,smog n
+2739,smoke,n;v,,,0,,56,smoke n & v
+2740,smoker,n,,,0,,56,smoker n
+2741,smooth,a,,,0,,56,smooth a
+2742,snake,n,,,0,,56,snake n
+2743,sneaker,n,,,0,,56,sneaker n
+2744,sneeze,v,,,0,,56,sneeze v
+2745,sniff,v,,,0,,56,sniff v
+2746,snow,n;v,,,0,,56,snow n & v
+2747,snowy,a,,,0,,56,snowy a
+2748,so,ad;conj,,,0,,56,so ad & conj
+2749,soap,n,,,0,,56,soap n
+2750,sob,n;v,,,0,,56,sob n & v
+2751,soccer,n,,,0,,56,soccer n
+2752,social,a,,,0,,56,social a
+2753,socialism,n,,,0,,56,socialism n
+2754,socialist,a,,,0,,56,socialist a
+2755,society,n,,,0,,56,society n
+2756,sock,n,,,0,,56,sock n
+2757,socket,n,,,0,,56,socket n
+2758,sofa,n,,,0,,56,sofa n
+2759,soft,a,,,0,,56,soft a
+2760,software,n,,,0,,56,software n
+2761,soil,n,,,0,,56,soil n
+2762,solar,a,,,0,,56,solar a
+2763,soldier,n,,,0,,56,soldier n
+2764,solid,a;n,,,0,,56,solid a & n
+2765,some,a;pron,,,0,,56,some a & pron
+2766,somebody,pron,,,0,,56,somebody pron
+2767,somehow,ad,,,0,,56,somehow ad
+2768,someone,pron,,,0,,56,someone pron
+2769,something,pron,,,0,,56,something pron
+2770,sometimes,ad,,,0,,56,sometimes ad
+2771,somewhere,ad,,,0,,57,somewhere ad
+2772,son,n,,,0,,57,son n
+2773,song,n,,,0,,57,song n
+2774,soon,ad,,,0,,57,soon ad
+2775,sorrow,n,,,0,,57,sorrow n
+2776,sorry,a,,,0,,57,sorry a
+2777,sort,v;n,,,0,,57,sort v & n
+2778,soul,n,,,0,,57,soul n
+2779,sound,v;n,,,0,,57,sound v & n
+2780,soup,n,,,0,,57,soup n
+2781,sour,a,,,0,,57,sour a
+2782,south,a;ad;n,,,0,,57,"south a,ad & n"
+2783,southeast,n,,,0,,57,southeast n
+2784,southern,a,,,0,,57,southern a
+2785,southwest,n,,,0,,57,southwest n
+2786,souvenir,n,,,0,,57,souvenir n
+2787,sow,v,sowed;sown,,0,"forms:sowed,sown/-ed",57,"sow(sowed,sown/-ed) v"
+2788,space,n,,,0,,57,space n
+2789,spaceship,n,,,0,,57,spaceship n
+2790,spade,n,,,0,,57,spade n
+2791,spare,a,,,0,,57,spare a
+2792,sparrow,n,,,0,,57,sparrow n
+2793,speak,v,spoke,spoken,0,"forms:spoke,spoken",57,"speak(spoke,spoken) v"
+2794,speaker,n,,,0,,57,speaker n
+2795,spear,n,,,0,,57,spear n
+2796,special,a,,,0,,57,special a
+2797,specialist,n,,,0,,57,specialist n
+2798,specific,a,,,0,,57,specific a
+2799,speech,n,,,0,,57,speech n
+2800,speed,n;v,,,0,,57,speed n & v
+2801,spell,v,,,0,,57,spell v
+2802,spelling,n,,,0,,57,spelling n
+2803,spend,v,spent,,0,"forms:spent,spent",57,"spend(spent,spent) v"
+2804,spin,v;n,,,0,,57,spin v & n
+2805,spirit,n,,,0,,57,spirit n
+2806,spiritual,a,,,0,,57,spiritual a
+2807,spit,v,,,0,,57,spit v
+2808,splendid,a,,,0,,57,splendid a
+2809,split,v,,,0,,57,split v
+2810,spoken,a,,,0,,57,spoken a
+2811,spokesman,n,spokesmen,,0,pl:spokesmen/women,57,spokesman/woman (pl spokesmen/women) n
+2812,spokeswoman,n,spokeswomen,,0,pl:spokesmen/women,57,spokesman/woman (pl spokesmen/women) n
+2813,sponsor,n,,,0,,57,sponsor n
+2814,spoon,n,,,0,,57,spoon n
+2815,spoonful,n,,,0,,57,spoonful n
+2816,sport,n,,,0,,57,sport n
+2817,spot,n;v,,,0,,57,spot n & v
+2818,spray,n;v,,,0,,57,spray n & v
+2819,spread,v,,,0,"forms:spread,spread",57,"spread(spread,spread) v"
+2820,spring,n,,,0,,57,spring n
+2821,spy,n;v,,,0,,57,spy n & v
+2822,square,n;a,,,0,,57,square n & a
+2823,squeeze,v,,,0,,57,squeeze v
+2824,squirrel,n,,,0,,57,squirrel n
+2825,stable,a,,,0,,57,stable a
+2826,stadium,n,,,0,,57,stadium n
+2827,staff,n,,,0,,57,staff n
+2828,stage,n,,,0,,57,stage n
+2829,stain,n,,,0,,57,stain n
+2830,stainless,a,,,0,,57,stainless a
+2831,stair,n,,,0,,57,stair n
+2832,stamp,n,,,0,,57,stamp n
+2833,stand,v;n,stood,,0,"forms:stood,stood",58,"stand(stood,stood) v & n"
+2834,standard,n;a,,,0,,58,standard n & a
+2835,star,n,,,0,,58,star n
+2836,stare,v,,,0,,58,stare v
+2837,start,v,,,0,,58,start v
+2838,starvation,n,,,0,,58,starvation n
+2839,starve,v,,,0,,58,starve v
+2840,state,n,,,0,,58,state n
+2841,station,n,,,0,,58,station n
+2842,statement,n,,,0,,58,statement n
+2843,statesman,n,statesmen,,0,pl:statesmen/women,58,statesman/woman (pl statesmen/women) n
+2844,stateswoman,n,stateswomen,,0,pl:statesmen/women,58,statesman/woman (pl statesmen/women) n
+2845,statistics,n,,,0,,58,statistics n
+2846,statue,n,,,0,,58,statue n
+2847,status,n,,,0,,58,status n
+2848,stay,n;v,,,0,,58,stay n & v
+2849,steady,a,,,0,,58,steady a
+2850,steak,n,,,0,,58,steak n
+2851,steal,v,stole;stolen,,0,"forms:stole,stolen",58,"steal(stole,stolen) v"
+2852,steam,n,,,0,,58,steam n
+2853,steel,n,,,0,,58,steel n
+2854,steep,a,,,0,,58,steep a
+2855,step,n;v,,,0,,58,step n & v
+2856,steward,n,,,0,,58,steward n
+2857,stewardess,n,,,0,,58,stewardess n
+2858,stick,v;n,stuck,,0,"forms:stuck,stuck",58,"stick(stuck,stuck) v & n"
+2859,still,a;ad,,,0,,58,still a & ad
+2860,stocking,n,,,0,,58,stocking n
+2861,stomach,n,,,0,,58,stomach n
+2862,stone,n,,,0,,58,stone n
+2863,stop,n;v,,,0,,58,stop n & v
+2864,storage,n,,,0,,58,storage n
+2865,store,n;v,,,0,,58,store n & v
+2866,storm,n,,,0,,58,storm n
+2867,story,n,,,0,,58,story n
+2868,stout,a,,,0,,58,stout a
+2869,stove,n,,,0,,58,stove n
+2870,straight,a;ad,,,0,,58,straight a & ad
+2871,straightforward,a;ad,,,0,,58,straightforward a & adv
+2872,strait,n,,,0,,58,strait n
+2873,strange,a,,,0,,58,strange a
+2874,stranger,n,,,0,,58,stranger n
+2875,straw,n,,,0,,58,straw n
+2876,strawberry,n,,,0,,58,strawberry n
+2877,stream,n,,,0,,58,stream n
+2878,street,n,,,0,,58,street n
+2879,strength,n,,,0,,58,strength n
+2880,strengthen,v,,,0,,58,strengthen v
+2881,stress,n;v,,,0,,58,stress n & v
+2882,strict,a,,,0,,58,strict a
+2883,strike,v;n,struck;stricken,,0,"forms:struck,struck /stricken",58,"strike (struck,struck /stricken) v & n"
+2884,string,n,,,0,,58,string n
+2885,strong,a,,,0,,58,strong a
+2886,struggle,v,,,0,,58,struggle v
+2887,stubborn,a,,,0,,58,stubborn a
+2888,student,n,,,0,,58,student n
+2889,studio,n,,,0,,58,studio n
+2890,study,v;n,,,0,,58,study v & n
+2891,stupid,a,,,0,,58,stupid a
+2892,style,n,,,0,,58,style n
+2893,subject,n,,,0,,58,subject n
+2894,subjective,a,,,0,,59,subjective a
+2895,submit,v,,,0,,59,submit v
+2896,subscribe,v,,,0,,59,subscribe v
+2897,substitute,v,,,0,,59,substitute v
+2898,succeed,v,,,0,,59,succeed v
+2899,success,n,,,0,,59,success n
+2900,successful,a,,,0,,59,successful a
+2901,such,ad;pron;a,,,0,,59,"such ad,pron & a"
+2902,suck,v,,,0,,59,suck v
+2903,sudden,a,,,0,,59,sudden a
+2904,suffer,v,,,0,,59,suffer v
+2905,suffering,n,,,0,,59,suffering n
+2906,sugar,n,,,0,,59,sugar n
+2907,suggest,v,,,0,,59,suggest v
+2908,suggestion,n,,,0,,59,suggestion n
+2909,suit,v;n,,,0,,59,suit v & n
+2910,suitable,a,,,0,,59,suitable a
+2911,suitcase,n,,,0,,59,suitcase n
+2912,suite,n,,,0,,59,suite n
+2913,summary,n,,,0,,59,summary n
+2914,summer,n,,,0,,59,summer n
+2915,sun,n,,,0,,59,sun n
+2916,sunburnt,a,,,0,,59,sunburnt a
+2917,sunlight,n,,,0,,59,sunlight n
+2918,sunny,a,,,0,,59,sunny a
+2919,sunshine,n,,,0,,59,sunshine n
+2920,super,a,,,0,,59,super a
+2921,superb,a,,,0,,59,superb a
+2922,superior,a;n,,,0,,59,superior a & n
+2923,supermarket,n,,,0,,59,supermarket n
+2924,supper,n,,,0,,59,supper n
+2925,supply,v;n,,,0,,59,supply v & n
+2926,support,v;n,,,0,,59,support v & n
+2927,suppose,v,,,0,,59,suppose v
+2928,supreme,a,,,0,,59,supreme a
+2929,sure,a;ad,,,0,,59,sure a & ad
+2930,surface,n,,,0,,59,surface n
+2931,surgeon,n,,,0,,59,surgeon n
+2932,surplus,n,,,0,,59,surplus n
+2933,surprise,v;n,,,0,,59,surprise v & n
+2934,surround,v,,,0,,59,surround v
+2935,surrounding,a,,,0,,59,surrounding a
+2936,survive,v,,,0,,59,survive v
+2937,survival,n,,,0,,59,survival n
+2938,suspect,v;n,,,0,,59,suspect v & n
+2939,suspension,n,,,0,,59,suspension n
+2940,swallow,v,,,0,,59,swallow v
+2941,swap,v,,,0,,59,swap v
+2942,swear,v,swore;sworn,,0,"forms:swore,sworn",59,"swear(swore,sworn) v"
+2943,sweat,n,,,0,,59,sweat n
+2944,sweater,n,,,0,,59,sweater n
+2945,sweep,v,swept,,0,"forms:swept,swept",59,"sweep(swept,swept) v"
+2946,sweet,n;a,,,0,,59,sweet n & a
+2947,swell,v,swelled;swollen,,0,"forms:swelled,swollen",59,"swell(swelled,swollen) v"
+2948,swift,a,,,0,,59,swift a
+2949,swim,v,swam;swum,,0,"forms:swam,swum",59,"swim(swam,swum) v"
+2950,swing,v;n,,,0,,59,swing v & n
+2951,switch,v;n,,,0,,59,switch v & n
+2952,sword,n,,,0,,59,sword n
+2953,symbol,n,,,0,,59,symbol n
+2954,sympathy,n,,,0,,59,sympathy n
+2955,symphony,n,,,0,,59,symphony n
+2956,symptom,n,,,0,,60,symptom n
+2957,system,n,,,0,,60,system n
+2958,systematic,a,,,0,,60,systematic a
+2959,table,n,,,0,,60,table n
+2960,table tennis,n,,,0,,60,table tennis n
+2961,tablet,n,,,0,,60,tablet n
+2962,tail,n,,,0,,60,tail n
+2963,tailor,n,,,0,,60,tailor n
+2964,take,v,took;taken,,0,"forms:took,taken",60,"take(took,taken) v"
+2965,tale,n,,,0,,60,tale n
+2966,talent,n,,,0,,60,talent n
+2967,talk,n;v,,,0,,60,talk n & v
+2968,tall,a,,,0,,60,tall a
+2969,tank,n,,,0,,60,tank n
+2970,tap,n,,,0,,60,tap n
+2971,tape,n,,,0,,60,tape n
+2972,target,n;v,,,0,,60,target n & v
+2973,task,n,,,0,,60,task n
+2974,taste,n;v,,,0,,60,taste n & v
+2975,tasteless,a,,,0,,60,tasteless a
+2976,tasty,a,,,0,,60,tasty a
+2977,tax,n,,,0,,60,tax n
+2978,taxi,n,,,0,,60,taxi n
+2979,taxpayer,n,,,0,,60,taxpayer n
+2980,tea,n,,,0,,60,tea n
+2981,teach,v,taught,,0,"forms:taught,taught",60,"teach(taught,taught) v"
+2982,teacher,n,,,0,,60,teacher n
+2983,team,n,,,0,,60,team n
+2984,teamwork,n,,,0,,60,teamwork n
+2985,teapot,n,,,0,,60,teapot n
+2986,tear,v;n,tore;torn,,0,"forms:tore,torn",60,"tear(tore,torn) v & n"
+2987,tease,v,,,0,,60,tease v
+2988,technical,a,,,0,,60,technical a
+2989,technique,n,,,0,,60,technique n
+2990,technology,n,,,0,,60,technology n
+2991,teenager,n,,,0,,60,teenager n
+2992,telephone,n;v,,,0,,60,telephone n & v
+2993,telescope,n,,,0,,60,telescope n
+2994,television,n,,,0,,60,television n
+2995,tell,v,told,,0,"forms:told,told",60,"tell(told,told) v"
+2996,temperature,n,,,0,,60,temperature n
+2997,temple,n,,,0,,60,temple n
+2998,temporary,a,,,0,,60,temporary a
+2999,tend,v,,,0,,60,tend v
+3000,tendency,n,,,0,,60,tendency n
+3001,tennis,n,,,0,,60,tennis n
+3002,tense,a,,,0,,60,tense a
+3003,tension,n,,,0,,60,tension n
+3004,tent,n,,,0,,60,tent n
+3005,tentative,a,,,0,,60,tentative a
+3006,term,n,,,0,,60,term n
+3007,terminal,a;n,,,0,,60,terminal a & n
+3008,terrible,a,,,0,,60,terrible a
+3009,terrify,v,,,0,,60,terrify v
+3010,terror,n,,,0,,60,terror n
+3011,test,v;n,,,0,,60,test v & n
+3012,text,n,,,0,,60,text n
+3013,textbook,n,,,0,,60,textbook n
+3014,than,conj,,,0,,60,than conj
+3015,thank,v;n,,,0,,60,thank v & n
+3016,thankful,a,,,0,,61,thankful a
+3017,that,pron;conj;ad,,,0,,61,"that pron,conj & ad"
+3018,the,art,,,0,,61,the art
+3019,theatre,n,theater,,0,US:theater,61,theatre(Am theater) n
+3020,theft,n,,,0,,61,theft n
+3021,their,pron,,,0,,61,their pron
+3022,theirs,pron,,,0,,61,theirs pron
+3023,them,pron,,,0,,61,them pron
+3024,theme,n,,,0,,61,theme n
+3025,themselves,pron,,,0,,61,themselves pron
+3026,then,ad,,,0,,61,then ad
+3027,theoretical,a,,,0,,61,theoretical a
+3028,theory,n,,,0,,61,theory n
+3029,there,int;n;ad,,,0,,61,"there int,n & ad"
+3030,therefore,ad,,,0,,61,therefore ad
+3031,thermos,n,,,0,,61,thermos n
+3032,these,a;pron,,,0,,61,these a & pron
+3033,they,pron,,,0,,61,they pron
+3034,thick,a,,,0,,61,thick a
+3035,thief,n,thieves,,0,pl:thieves,61,thief(pl thieves) n
+3036,thin,a,,,0,,61,thin a
+3037,thing,n,,,0,,61,thing n
+3038,think,v,,thought,0,"forms:thought,thought",61,"think(thought,thought) v"
+3039,thinking,n,,,0,,61,thinking n
+3040,thirst,n,,,0,,61,thirst n
+3041,this,a;pron,,,0,,61,this a & pron
+3042,thorough,a,,,0,,61,thorough a
+3043,those,a;pron,,,0,,61,those a & pron
+3044,though,conj,,,0,,61,though conj
+3045,thought,n,,,0,,61,thought n
+3046,thread,n,,,0,,61,thread n
+3047,thrill,n;v,,,0,,61,thrill n & v
+3048,thriller,n,,,0,,61,thriller n
+3049,throat,n,,,0,,61,throat n
+3050,through,prep;ad,,,0,,61,through prep & ad
+3051,throughout,prep,,,0,,61,throughout prep
+3052,throw,v,threw;thrown,,0,"forms:threw,thrown",61,"throw(threw,thrown) v"
+3053,thunder,n;v,,,0,,61,thunder n & v
+3054,thunderstorm,n,,,0,,61,thunderstorm n
+3055,thus,ad,,,0,,61,thus ad
+3056,tick,v,,,0,,61,tick v
+3057,ticket,n,,,0,,61,ticket n
+3058,tidy,a;v,,,0,,61,tidy a & v
+3059,tie,v;n,,,0,,61,tie v & n
+3060,tiger,n,,,0,,61,tiger n
+3061,tight,a,,,0,,61,tight a
+3062,till,conj;prep,,,0,,61,till conj & prep
+3063,time,n;v,,,0,,61,time n & v
+3064,timetable,n,,,0,,61,timetable n
+3065,tin,n,,,0,,61,tin n
+3066,tiny,a,,,0,,61,tiny a
+3067,tip,n;v,,,0,,61,tip n & v
+3068,tire,v,,,0,,61,tire v
+3069,tired,a,,,0,,61,tired a
+3070,tiresome,a,,,0,,61,tiresome a
+3071,tissue,n,,,0,,61,tissue n
+3072,title,n,,,0,,61,title n
+3073,to,prep,,,0,,61,to prep
+3074,toast,v;n,,,0,,61,toast v & n
+3075,tobacco,n,,,0,,61,tobacco n
+3076,today,ad;n,,,0,,61,today ad & n
+3077,together,ad,,,0,,61,together ad
+3078,toilet,n,,,0,,62,toilet n
+3079,tolerate,v,,,0,,62,tolerate v
+3080,tomato,n,,,0,,62,tomato n
+3081,tomb,n,,,0,,62,tomb n
+3082,tomorrow,ad;n,,,0,,62,tomorrow ad & n
+3083,ton,n,,,0,,62,ton n
+3084,tongue,n,,,0,,62,tongue n
+3085,tonight,ad;n,,,0,,62,tonight ad & n
+3086,too,ad,,,0,,62,too ad
+3087,tool,n,,,0,,62,tool n
+3088,tooth,n,teeth,,0,pl:teeth,62,tooth(pl teeth) n
+3089,toothache,n,,,0,,62,toothache n
+3090,toothbrush,n,,,0,,62,toothbrush n
+3091,toothpaste,n,,,0,,62,toothpaste n
+3092,top,n,,,0,,62,top n
+3093,topic,n,,,0,,62,topic n
+3094,tortoise,n,,,0,,62,tortoise n
+3095,total,a;n;v,,,0,,62,"total a,n & v"
+3096,touch,v,,,0,,62,touch v
+3097,tough,a,,,0,,62,tough a
+3098,tour,n,,,0,,62,tour n
+3099,tourism,n,,,0,,62,tourism n
+3100,tourist,n,,,0,,62,tourist n
+3101,tournament,n,,,0,,62,tournament n
+3102,toward,prep,towards,,0,,62,toward(s) prep
+3103,towel,n,,,0,,62,towel n
+3104,tower,n,,,0,,62,tower n
+3105,town,n,,,0,,62,town n
+3106,toy,n,,,0,,62,toy n
+3107,track,n,,,0,,62,track n
+3108,tractor,n,,,0,,62,tractor n
+3109,trade,n;v,,,0,,62,trade n & v
+3110,tradition,n,,,0,,62,tradition n
+3111,traditional,a,,,0,,62,traditional a
+3112,traffic,n,,,0,,62,traffic n
+3113,train,n;v,,,0,,62,train n & v
+3114,training,n,,,0,,62,training n
+3115,tram,n,,,0,,62,tram n
+3116,transform,v,,,0,,62,transform v
+3117,translate,v,,,0,,62,translate v
+3118,translation,n,,,0,,62,translation n
+3119,translator,n,,,0,,62,translator n
+3120,transparent,a,,,0,,62,transparent a
+3121,transport,n;v,,,0,,62,transport n & v
+3122,trap,n;v,,,0,,62,trap n & v
+3123,travel,n;v,,,0,,62,travel n & v
+3124,traveller,n,traveler,,0,US:traveler,62,traveller(Am traveler) n
+3125,treasure,n,,,0,,62,treasure n
+3126,treat,v,,,0,,62,treat v
+3127,treatment,n,,,0,,62,treatment n
+3128,tree,n,,,0,,62,tree n
+3129,tremble,v,,,0,,62,tremble v
+3130,trend,n,,,0,,62,trend n
+3131,trial,n,,,0,,62,trial n
+3132,triangle,n,,,0,,62,triangle n
+3133,trick,n,,,0,,62,trick n
+3134,trip,n,,,0,,62,trip n
+3135,trolleybus,n,,,0,,62,trolleybus n
+3136,troop,n,,,0,,62,troop n
+3137,trouble,v;n,,,0,,62,trouble v & n
+3138,troublesome,a,,,0,,62,troublesome a
+3139,trousers,n,,,0,,62,trousers n
+3140,truck,n,,,0,,63,truck n
+3141,true,a,,,0,,63,true a
+3142,truly,ad,,,0,,63,truly ad
+3143,trunk,n,,,0,,63,trunk n
+3144,trust,v,,,0,,63,trust v
+3145,truth,n,,,0,,63,truth n
+3146,try,v,,,0,,63,try v
+3147,T-shirt,n,,,0,,63,T-shirt n
+3148,tube,n,,,0,,63,tube n
+3149,tune,n,,,0,,63,tune n
+3150,turkey,n,,,0,,63,turkey n
+3151,turn,v;n,,,0,,63,turn v & n
+3152,turning,n,,,0,,63,turning n
+3153,tutor,n,,,0,,63,tutor n
+3154,TV,n,,television,0,=television,63,TV=television n
+3155,twice,ad,,,0,,63,twice ad
+3156,twin,n,,,0,,63,twin n
+3157,twist,v;n,,,0,,63,twist v & n
+3158,type,v,,,0,,63,type v
+3159,typewriter,n,,,0,,63,typewriter n
+3160,typical,a,,,0,,63,typical a
+3161,typhoon,n,,,0,,63,typhoon n
+3162,typist,n,,,0,,63,typist n
+3163,tyre,n,,tire,0,US:tire,63,tyre(Am tire) n
+3164,ugly,a,,,0,,63,ugly a
+3165,umbrella,n,,,0,,63,umbrella n
+3166,unable,a,,,0,,63,unable a
+3167,unbearable,a,,,0,,63,unbearable a
+3168,unbelievable,a,,,0,,63,unbelievable a
+3169,uncertain,a,,,0,,63,uncertain a
+3170,uncle,n,,,0,,63,uncle n
+3171,uncomfortable,a,,,0,,63,uncomfortable a
+3172,unconditional,a,,,0,,63,unconditional a
+3173,unconscious,a,,,0,,63,unconscious a
+3174,under,ad;prep,,,0,,63,under ad & prep
+3175,underground,a;n,,,0,,63,underground a & n
+3176,underline,v,,,0,,63,underline v
+3177,understand,v,understood,,0,"forms:understood,understood",63,"understand (understood,understood) v"
+3178,undertake,v,undertook;undertaken,,0,"forms:undertook,undertaken",63,"undertake (undertook,undertaken) v"
+3179,underwear,n,,,0,,63,underwear n
+3180,unemployment,n,,,0,,63,unemployment n
+3181,unfair,a,,,0,,63,unfair a
+3182,unfit,a,,,0,,63,unfit a
+3183,unfortunate,a,,,0,,63,unfortunate a
+3184,uniform,n,,,0,,63,uniform n
+3185,union,n,,,0,,63,union n
+3186,unique,a,,,0,,63,unique a
+3187,unit,n,,,0,,63,unit n
+3188,unite,v,,,0,,63,unite v
+3189,universal,a,,,0,,63,universal a
+3190,universe,n,,,0,,63,universe n
+3191,university,n,,,0,,63,university n
+3192,unless,conj,,,0,,63,unless conj
+3193,unlike,prep,,,0,,63,unlike prep
+3194,unrest,n,,,0,,63,unrest n
+3195,until,prep;conj,,,0,,63,until prep & conj
+3196,unusual,a,,,0,,63,unusual a
+3197,unwilling,a,,,0,,63,unwilling a
+3198,up,ad;a;n;prep,,,0,,64,"up ad,a,n & prep"
+3199,update,v;n,,,0,,64,update v & n
+3200,upon,prep,,,0,,64,upon prep
+3201,upper,a,,,0,,64,upper a
+3202,upset,a,,,0,,64,upset a
+3203,upstairs,ad,,,0,,64,upstairs ad
+3204,upward,ad,upwards,,0,,64,upward(s) ad
+3205,urban,a,,,0,,64,urban a
+3206,urge,v,,,0,,64,urge v
+3207,urgent,a,,,0,,64,urgent a
+3208,us,pron,,,0,,64,us pron
+3209,use,n;v,,,0,,64,use n & v
+3210,used,a,,,0,,64,used a
+3211,useful,a,,,0,,64,useful a
+3212,useless,a,,,0,,64,useless a
+3213,user,n,,,0,,64,user n
+3214,usual,a,,,0,,64,usual a
+3215,vacation,n,,,0,,64,vacation n
+3216,vacant,a,,,0,,64,vacant a
+3217,vague,a,,,0,,64,vague a
+3218,vain,n,,,0,,64,vain n
+3219,valid,a,,,0,,64,valid a
+3220,valley,n,,,0,,64,valley n
+3221,valuable,a,,,0,,64,valuable a
+3222,value,n,,,0,,64,value n
+3223,variety,n,,,0,,64,variety n
+3224,various,a,,,0,,64,various a
+3225,vase,n,,,0,,64,vase n
+3226,vast,a,,,0,,64,vast a
+3227,VCD,n,versatile compact disk,,0,=versatile compact disk,64,VCD=versatile compact disk n
+3228,vegetable,n,,,0,,64,vegetable n
+3229,vehicle,n,,,0,,64,vehicle n
+3230,version,n,,,0,,64,version n
+3231,vertical,a,,,0,,64,vertical a
+3232,very,ad,,,0,,64,very ad
+3233,vest,n,,,0,,64,vest n
+3234,via,prep,,,0,,64,via prep
+3235,vice,n,,,0,,64,vice n
+3236,victim,n,,,0,,64,victim n
+3237,victory,n,,,0,,64,victory n
+3238,video,n,,,0,,64,video n
+3239,videophone,n,,,0,,64,videophone n
+3240,view,n,,,0,,64,view n
+3241,village,n,,,0,,64,village n
+3242,villager,n,,,0,,64,villager n
+3243,vinegar,n,,,0,,64,vinegar n
+3244,violate,v,,,0,,64,violate v
+3245,violence,n,,,0,,64,violence n
+3246,violent,a,,,0,,64,violent a
+3247,violin,n,,,0,,64,violin n
+3248,violinist,n,,,0,,64,violinist n
+3249,virtue,n,,,0,,64,virtue n
+3250,virus,n,,,0,,64,virus n
+3251,visa,n,,,0,,64,visa n
+3252,visit,n;v,,,0,,64,visit n & v
+3253,visitor,n,,,0,,64,visitor n
+3254,visual,a,,,0,,64,visual a
+3255,vital,a,,,0,,64,vital a
+3256,vivid,a,,,0,,64,vivid a
+3257,vocabulary,n,,,0,,64,vocabulary n
+3258,voice,n,,,0,,65,voice n
+3259,volcano,n,,,0,,65,volcano n
+3260,volleyball,n,,,0,,65,volleyball n
+3261,voluntary,a,,,0,,65,voluntary a
+3262,volunteer,n;v,,,0,,65,volunteer n & v
+3263,vote,v,,,0,,65,vote v
+3264,voyage,n,,,0,,65,voyage n
+3265,wag,v,,,0,,65,wag v
+3266,wage,n,,,0,,65,wage n
+3267,waist,n,,,0,,65,waist n
+3268,wait,v,,,0,,65,wait v
+3269,waiter,n,,,0,,65,waiter n
+3270,waiting-room,n,,,0,,65,waiting-room n
+3271,waitress,n,,,0,,65,waitress n
+3272,wake,v,woke;woken,,0,"forms:woke,woken",65,"wake(woke,woken) v"
+3273,walk,n;v,,,0,,65,walk n & v
+3274,wall,n,,,0,,65,wall n
+3275,wallet,n,,,0,,65,wallet n
+3276,walnut,n,,,0,,65,walnut n
+3277,wander,v,,,0,,65,wander v
+3278,want,v,,,0,,65,want v
+3279,war,n,,,0,,65,war n
+3280,ward,n,,,0,,65,ward n
+3281,warehouse,n,,,0,,65,warehouse n
+3282,warm,a,,,0,,65,warm a
+3283,warmth,n,,,0,,65,warmth n
+3284,warn,v,,,0,,65,warn v
+3285,wash,v;n,,,0,,65,wash v & n
+3286,washroom,n,,,0,,65,washroom n
+3287,waste,n;v,,,0,,65,waste n & v
+3288,watch,v;n,,,0,,65,watch v & n
+3289,water,n;v,,,0,,65,water n & v
+3290,watermelon,n,,,0,,65,watermelon n
+3291,wave,n;v,,,0,,65,wave n & v
+3292,wax,n,,,0,,65,wax n
+3293,way,n,,,0,,65,way n
+3294,we,pron,,,0,,65,we pron
+3295,web,n,,,0,,65,web n
+3296,website,n,,,0,,65,website n
+3297,weak,a,,,0,,65,weak a
+3298,weakness,n,,,0,,65,weakness n
+3299,wealth,n,,,0,,65,wealth n
+3300,wealthy,a,,,0,,65,wealthy a
+3301,wear,v,wore,worn,0,"forms:wore,worn",65,"wear(wore,worn) v"
+3302,weather,n,,,0,,65,weather n
+3303,wedding,n,,,0,,65,wedding n
+3304,weed,n,,,0,,65,weed n
+3305,week,n,,,0,,65,week n
+3306,weekday,n,,,0,,65,weekday n
+3307,weekend,n,,,0,,65,weekend n
+3308,weekly,a,,,0,,65,weekly a
+3309,weep,v,,,0,,65,weep v
+3310,weigh,v,,,0,,65,weigh v
+3311,weight,n,,,0,,65,weight n
+3312,welcome,int;n;v;a,,,0,,65,"welcome int,n,v & a"
+3313,welfare,n,,,0,,65,welfare n
+3314,well,n;ad;a;int,better;best,,1,"forms:better,best",65,"well n || well 2 (better,best) ad,a & int"
+3315,west,a;ad;n,,,0,,65,"west a,ad & n"
+3316,western,a,,,0,,65,western a
+3317,westward,ad,westwards,,0,,66,westward(s) ad
+3318,wet,a,,,0,,66,wet a
+3319,whale,n,,,0,,66,whale n
+3320,what,pron;a,,,0,,66,what pron & a
+3321,whatever,conj;pron,,,0,,66,whatever conj & pron
+3322,wheat,n,,,0,,66,wheat n
+3323,wheel,n,,,0,,66,wheel n
+3324,when,conj;ad,,,0,,66,when conj & ad
+3325,whenever,conj,,,0,,66,whenever conj
+3326,where,conj;ad,,,0,,66,where conj & ad
+3327,wherever,conj,,,0,,66,wherever conj
+3328,whether,conj,,,0,,66,whether conj
+3329,which,pron;a,,,0,,66,which pron & a
+3330,whichever,pron,,,0,,66,whichever pron
+3331,while,conj;n,,,0,,66,while conj & n
+3332,whisper,v,,,0,,66,whisper v
+3333,whistle,n,,,0,,66,whistle n
+3334,white,a;n,,,0,,66,white a & n
+3335,who,pron,,,0,,66,who pron
+3336,whole,a,,,0,,66,whole a
+3337,whom,pron,,,0,,66,whom pron
+3338,whose,pron,,,0,,66,whose pron
+3339,why,ad;int,,,0,,66,why ad & int
+3340,wide,a,,,0,,66,wide a
+3341,widespread,a,,,0,,66,widespread a
+3342,widow,n,,,0,,66,widow n
+3343,wife,n,,,0,,66,wife n
+3344,wild,a,,,0,,66,wild a
+3345,wildlife,n,,,0,,66,wildlife n
+3346,will,n;modal v,,would,1,forms:would,66,will n || will (would) modal v
+3347,willing,a,,,0,,66,willing a
+3348,win,v,won,,0,"forms:won,won",66,"win(won,won) v"
+3349,wind,n;v,,wound,1,"forms:wound,wound",66,"wind n || wind (wound,wound) v"
+3350,window,n,,,0,,66,window n
+3351,windy,a,,,0,,66,windy a
+3352,wine,n,,,0,,66,wine n
+3353,wing,n,,,0,,66,wing n
+3354,winner,n,,,0,,66,winner n
+3355,winter,n,,,0,,66,winter n
+3356,wipe,v,,,0,,66,wipe v
+3357,wire,n,,,0,,66,wire n
+3358,wisdom,n,,,0,,66,wisdom n
+3359,wise,a,,,0,,66,wise a
+3360,wish,n;v,,,0,,66,wish n & v
+3361,with,prep,,,0,,66,with prep
+3362,withdraw,v,,,0,,66,withdraw v
+3363,within,prep,,,0,,66,within prep
+3364,without,prep,,,0,,66,without prep
+3365,witness,v;n,,,0,,66,witness v & n
+3366,wolf,n,wolves,,0,pl:wolves,66,wolf(pl wolves) n
+3367,woman,n,women,,0,pl:women,66,woman(pl women) n
+3368,wonder,v;n,,,0,,66,wonder v & n
+3369,wonderful,a,,,0,,66,wonderful a
+3370,wood,n,,,0,,66,wood n
+3371,wool,n,,,0,,66,wool n
+3372,woollen,a,woolen,,0,US:woolen,66,woollen(Am woolen) a
+3373,word,n,,,0,,66,word n
+3374,work,n;v,,,0,,66,work n & v
+3375,worker,n,,,0,,66,worker n
+3376,world,n,,,0,,66,world n
+3377,worldwide,a,,,0,,67,worldwide a
+3378,worm,n,,,0,,67,worm n
+3379,worn,a,,,0,,67,worn a
+3380,worried,a,,,0,,67,worried a
+3381,worry,n;v,,,0,,67,worry n & v
+3382,worth,a,,,0,,67,worth a
+3383,worthwhile,a,,,0,,67,worthwhile a
+3384,worthy,a,,,0,,67,worthy a
+3385,would,modal v,,,0,,67,would modal v
+3386,wound,v;n,,,0,,67,wound v & n
+3387,wrestle,v,,,0,,67,wrestle v
+3388,wrinkle,n,,,0,,67,wrinkle n
+3389,wrist,n,,,0,,67,wrist n
+3390,write,v,wrote;written,,0,"forms:wrote,written",67,"write(wrote,written) v"
+3391,wrong,a,,,0,,67,wrong a
+3392,X-ray,n,,,0,,67,X-ray n
+3393,yard,n,,,0,,67,yard n
+3394,yawn,v,,,0,,67,yawn v
+3395,year,n,,,0,,67,year n
+3396,yell,v,,,0,,67,yell v
+3397,yellow,a;n,,,0,,67,yellow a & n
+3398,yes,ad,,,0,,67,yes ad
+3399,yesterday,n;ad,,,0,,67,yesterday n & ad
+3400,yet,ad,,,0,,67,yet ad
+3401,yoghurt,n,,,0,,67,yoghurt n
+3402,you,pron,,,0,,67,you pron
+3403,young,a,,,0,,67,young a
+3404,your,pron,,,0,,67,your pron
+3405,yours,pron,,,0,,67,yours pron
+3406,yourself,pron,yourselves,,0,pl:yourselves,67,yourself(pl yourselves) pron
+3407,youth,n,,,0,,67,youth n
+3408,yummy,a,,,0,,67,yummy a
+3409,zebra,n,,,0,,67,zebra n
+3410,zero,n;num,,,0,,67,zero n & num
+3411,zip,v;n,,,0,,67,zip v & n
+3412,zipper,n,,,0,,67,zipper n
+3413,zone,n,,,0,,67,zone n
+3414,zoo,n,,,0,,67,zoo n
+3415,zoom,v,,,0,,67,zoom v

@@ -1,0 +1,20 @@
+# ---- 版权材料：不进仓库 ----
+# 购买的真题原文及由它生成的全文语料
+试卷/
+# 中间产物整个不上传（含真题全文、抽样原句、清洗报告），运行 run_all.sh 可重新生成
+data/interim/
+# 试点抽样输入（含约 400 句真题原句）
+data/pilot/pilot_input.json
+# 源文件 PDF（课标、考纲）——请自行下载放到 sources/
+sources/
+# 外部词典数据（ECDICT、WordNet、Wiktionary 提取结果体积大，按 README 自行获取）
+data/external/
+# 排版中间产物
+output/*.html
+
+# ---- 系统 / Python ----
+.DS_Store
+__pycache__/
+.venv/
+.vscode/
+*.pyc

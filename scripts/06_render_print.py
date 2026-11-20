@@ -1,0 +1,218 @@
+"""Step 6: render the printable word book (A4, 6–8 entries per page) as HTML and PDF.
+
+Usage:
+  python scripts/06_render_print.py data/processed/entries_with_defs.csv data/processed/token_totals.json \
+      output/gaokao_vocab --chapters 1            # only chapter 1 (sample)
+  python scripts/06_render_print.py ... output/gaokao_vocab                  # whole book
+
+Order: years appeared -> total count (the `rank` column). Chapters are frequency bands.
+PDF: WeasyPrint (pip install weasyprint). Without it, open the HTML in Chrome and print to PDF.
+"""
+import argparse, csv, html, json, re
+
+ap = argparse.ArgumentParser()
+ap.add_argument("entries"); ap.add_argument("totals"); ap.add_argument("out")
+ap.add_argument("--chapters", default="", help="comma list of chapter numbers to render, e.g. 1 or 1,2")
+ap.add_argument("--senses", default="", help="data/processed/senses.csv (hand-written senses; replaces gloss and examples)")
+ap.add_argument("--max-senses", type=int, default=5)
+a = ap.parse_args()
+
+CHAPTERS = [(1, 200, "核心词"), (201, 500, "高频词"), (501, 1000, "中频词"),
+            (1001, 1600, "常考词"), (1601, 9999, "偶考词"), (None, None, "真题未出现的课标词")]
+LEVEL_TAG = {"义务教育": ("义务", "lv0"), "必修": ("必修", "lv1"), "选择性必修": ("选必", "lv2"), "": ("附表", "lv0")}
+POS_CN = {"n.": "名", "v.": "动", "adj.": "形", "adv.": "副"}
+
+rows = list(csv.DictReader(open(a.entries, encoding="utf-8-sig")))
+rows.sort(key=lambda r: int(r["rank"]))
+tot = json.load(open(a.totals))
+import os
+hits = {r["headword"]: int(r["coverage_hits"]) for r in csv.DictReader(
+    open(os.path.join(os.path.dirname(a.totals), "word_freq.csv"), encoding="utf-8-sig"))}  # non-name tokens
+seen = [r for r in rows if int(r["total_count"]) > 0]
+unseen = [r for r in rows if int(r["total_count"]) == 0]
+esc = html.escape
+SENSES = {}
+if a.senses and os.path.exists(a.senses):
+    for s in csv.DictReader(open(a.senses, encoding="utf-8-sig")):
+        SENSES.setdefault(s["headword"], []).append(s)
+
+
+FUNC_POS = ("art", "prep", "pron", "conj", "aux", "num", "int", "interj", "det")
+
+
+def is_function_word(r):
+    first = re.match(r"^\s*([a-z]+)\.", r["zh_gloss"].replace("\r", ""))
+    return r.get("function_word") == "1" or bool(first and first.group(1) in FUNC_POS)
+
+
+def short_gloss(r, max_pos=3, per_pos=3):
+    """keep the parts of speech used in the exams, first 3 meanings each."""
+    exam = [] if is_function_word(r) else [p.split(".")[0] for p in re.findall(r"(n\.|v\.|adj\.|adv\.)", r["exam_pos"])]
+    lines = [l.replace("\r", "").strip() for l in r["zh_gloss"].split(" | ") if l.strip()]
+    if any(re.match(r"^[a-z]+\.", l) for l in lines):
+        lines = [l for l in lines if re.match(r"^[a-z]+\.", l)]     # drop un-tagged lines like '第一个字母 A'
+    out = []
+    for line in lines:
+        m = re.match(r"^\s*([a-z]+)\.\s*(.*)$", line)
+        if not m:
+            out.append(line); continue
+        p, rest = m.group(1), m.group(2)
+        key = {"vt": "v", "vi": "v", "a": "adj", "ad": "adv"}.get(p, p)
+        if exam and key not in exam and len(out) >= 1:
+            continue
+        means = [x.strip() for x in re.split(r"[,，;；]", rest) if x.strip()][:per_pos]
+        out.append(f"<b>{esc(p)}.</b> {esc('，'.join(means))}")
+        if len(out) >= max_pos: break
+    return "　".join(out)
+
+
+def forms_of(r):
+    fs = {r["headword"].lower()}
+    for part in r["inflections"].split("/"):
+        if ":" in part: fs.add(part.split(":", 1)[1].lower())
+    return fs
+
+
+def highlight(sentence, r):
+    text = esc(sentence)
+    fs = sorted(forms_of(r), key=len, reverse=True)
+    pat = r"\b(" + "|".join(re.escape(esc(f)) for f in fs) + r")\b"
+    return re.sub(pat, r"<mark>\1</mark>", text, flags=re.I)
+
+
+def example_html(ex, r):
+    m = re.match(r"^(.*)（(\d{4}) (\w+) (.+)）$", ex)
+    if not m: return f"<li>{highlight(ex, r)}</li>"
+    s, y, line, sec = m.groups()
+    return f'<li>{highlight(s, r)} <span class="src">{y}·{esc(sec)}</span></li>'
+
+
+def senses_html(r, senses):
+    out = []
+    for s in senses[:a.max_senses]:
+        ex = ""
+        if s["example"]:
+            src = s["example_src"].split()
+            src = f'{src[0]}·{src[-1]}' if src else ""
+            ex = f'<div class="sx">{highlight(s["example"], r)} <span class="src">{esc(src)}</span></div>'
+        out.append(f'<li><b>{esc(s["pos"])}</b> <span class="zh">{esc(s["zh"])}</span>'
+                   f'<span class="sen">{esc(s["en"])}</span>{ex}</li>')
+    return f'<ol class="senses">{"".join(out)}</ol>'
+
+
+def entry_html(r):
+    lv, cls = LEVEL_TAG.get(r["level"], ("", "lv0"))
+    stats = f'{r["years_count"]}/19 年 · {r["total_count"]} 次' if int(r["total_count"]) else "真题未出现"
+    pos = "　".join(f"{POS_CN.get(p.split('.')[0] + '.', p)}{p.split('.')[1]}" if False else p
+                   for p in r["exam_pos"].split(" / ") if p)
+    func = is_function_word(r)
+    senses = SENSES.get(r["headword"])
+    en = r["en_definitions"].split(" | ")[0] if r["en_definitions"] and not func else ""
+    if func: pos = ""
+    exs = [r[k] for k in ("example_1", "example_2") if r[k]]
+    dict_ex = "" if exs or not r["en_def_examples"] else r["en_def_examples"].split(" | ")[0]
+    col = "；".join(re.sub(r" ×(\d+)", r"<sup>\1</sup>", esc(c)) for c in r["collocations"].split("; ")[:4] if c)
+    extra = []
+    if r["derived_words"]: extra.append("派生 " + esc(re.sub(r" ×\d+", "", r["derived_words"])))
+    if r["word_roots"]: extra.append("词根 " + esc(r["word_roots"]))
+    if r["inflections"] and any(k in r["inflections"] for k in ("p:", "d:")):
+        irr = {p.split(":")[0]: p.split(":")[1] for p in r["inflections"].split("/") if ":" in p}
+        if irr.get("p") and not irr["p"].endswith("ed"):
+            extra.append(f'变形 {esc(irr.get("p", ""))} / {esc(irr.get("d", ""))}')
+    return f"""
+<div class="entry">
+  <div class="head">
+    <span class="rank">{r["rank"]}</span>
+    <span class="word">{esc(r["headword"])}</span>
+    <span class="ipa">{esc(r["phonetic"])}</span>
+    <span class="lv {cls}">{lv}</span>
+    <span class="stats">{stats}</span>
+  </div>
+  {senses_html(r, senses) if senses else f'<div class="gloss">{short_gloss(r)}' + ('<span class="pos">真题词性 ' + esc(pos) + '</span>' if pos else '') + '</div>'}
+  {f'<div class="en">{esc(en)}</div>' if en and not senses else ''}
+  {f'<div class="col"><span class="lab">句素</span>{col}</div>' if col else ''}
+  {f'<ul class="ex">{"".join(example_html(e, r) for e in exs)}</ul>' if exs and not senses else ''}
+  {f'<ul class="ex dict"><li>{highlight(dict_ex, r)} <span class="src">词典例句</span></li></ul>' if dict_ex and not senses else ''}
+  {f'<div class="extra">{" · ".join(extra)}</div>' if extra else ''}
+</div>"""
+
+
+CSS = """
+@page { size: A4; margin: 14mm 14mm 14mm 14mm;
+        @bottom-center { content: counter(page); font-size: 8pt; color: #888; }
+        @top-right { content: string(chap); font-size: 8pt; color: #888; } }
+body { font-family: "Times New Roman", "Liberation Serif", "DejaVu Serif", "Noto Serif CJK SC", "Songti SC", serif; font-size: 9.6pt; line-height: 1.38; color: #111; }
+h1 { font-family: "Noto Sans CJK SC", "PingFang SC", sans-serif; font-size: 20pt; margin: 0 0 4mm; string-set: chap content(); }
+.chapintro { font-size: 9.5pt; color: #333; margin-bottom: 5mm; padding: 3mm 4mm; background: #f3f1ea; }
+.chapter { page-break-before: always; }
+.entry { border-bottom: 0.4pt solid #bbb; padding: 2.2mm 0 2.4mm; page-break-inside: avoid; }
+.head { display: flex; align-items: baseline; gap: 2.5mm; }
+.rank { font-family: sans-serif; font-size: 7.5pt; color: #fff; background: #333; padding: 0 1.4mm; border-radius: 1mm; }
+.word { font-family: "Noto Sans CJK SC", sans-serif; font-size: 15pt; font-weight: 700; }
+.ipa { font-family: "DejaVu Sans", "Lucida Grande", sans-serif; font-size: 8.5pt; color: #555; }
+.lv { font-size: 7.5pt; border: 0.5pt solid; padding: 0 1mm; border-radius: 1mm; }
+.lv0 { color: #2d6a4f; } .lv1 { color: #b5651d; } .lv2 { color: #9d0208; }
+.stats { margin-left: auto; font-family: sans-serif; font-size: 8pt; color: #333; }
+.gloss { margin-top: 0.8mm; }
+.pos { margin-left: 3mm; font-size: 7.5pt; color: #777; font-family: sans-serif; }
+.en { font-size: 8.3pt; color: #444; font-style: italic; }
+.col { font-size: 8.8pt; margin-top: 0.6mm; } .col sup { font-size: 6pt; color: #999; }
+.lab { font-family: sans-serif; font-size: 7.5pt; color: #fff; background: #7a7a7a; padding: 0 1mm; margin-right: 1.5mm; border-radius: 1mm; }
+ul.ex { margin: 0.8mm 0 0; padding-left: 4.5mm; font-size: 8.8pt; }
+ul.ex li { margin: 0.2mm 0; }
+mark { background: none; font-weight: 700; text-decoration: underline; }
+ul.dict { color: #555; font-style: italic; }
+.src { font-family: sans-serif; font-size: 7pt; color: #888; }
+.extra { font-size: 8pt; color: #555; margin-top: 0.6mm; }
+ol.senses { margin: 0.8mm 0 0; padding-left: 5mm; }
+ol.senses li { margin: 0.5mm 0; }
+.zh { font-weight: 700; } .sen { margin-left: 2mm; font-size: 8.3pt; color: #444; font-style: italic; }
+.sx { font-size: 8.6pt; }
+.legend { font-size: 9pt; } .legend td { padding: 1mm 3mm; vertical-align: top; }
+"""
+
+def cover():
+    return f"""<div class="cover"><h1>高考英语词汇表 · 按真题频次排序</h1>
+<p>语料：2008–2026 年高考英语全国 I 卷系列，共 {tot['papers']} 份试卷、{tot['years']} 个年份，约 {tot['tokens_all']:,} 词次（不含人名地名）。<br>
+词表：《普通高中英语课程标准（2017 年版 2025 年修订）》附录 2 词汇表，另加数词、月份、星期和国家名称。</p>
+<table class="legend">
+<tr><td><b>排序</b></td><td>先按"出现年数"，再按"总次数"。年年都考的词排在前面。</td></tr>
+<tr><td><b>义务 / 必修 / 选必</b></td><td>课标级别：义务教育阶段 / 高中必修 / 选择性必修。</td></tr>
+<tr><td><b>12/19 年 · 30 次</b></td><td>19 个年份里有 12 年出现，累计 30 次。</td></tr>
+<tr><td><b>真题词性</b></td><td>这个词在真题里作各词性的比例；释义按这个顺序排。</td></tr>
+<tr><td><b>义项</b></td><td>只列真题实际用到的义项，按真题中出现的多少排序；每个义项附中文、简明英文释义和一句真题原句。</td></tr>
+<tr><td><b>句素</b></td><td>从真题原句中抽出的固定搭配，右上角小数字是出现次数。"make + mistake"表示动宾搭配。</td></tr>
+<tr><td><b>例句</b></td><td>真题原句，标出年份和题型；真题里没有合适例句的词，用斜体的词典例句（Open English WordNet）代替。</td></tr>
+<tr><td><b>派生 / 词根</b></td><td>课标不单列、但真题出现过的派生词；词根词缀注释。</td></tr>
+</table>
+<p style="font-size:8pt;color:#666">义项与简明英文释义：本项目自编（CC BY-SA 4.0）；其余词条释义：ECDICT（MIT）；英文释义：Open English WordNet（CC BY 4.0）。本词汇表以 CC BY-SA 4.0 发布。</p></div>"""
+
+
+wanted = {int(x) for x in a.chapters.split(",") if x} or set(range(1, len(CHAPTERS) + 1))
+parts, cum = [cover()], 0
+for i, (lo, hi, name) in enumerate(CHAPTERS, 1):
+    chunk = unseen if lo is None else [r for r in seen if lo <= int(r["rank"]) <= hi]
+    if not chunk: continue
+    before = cum
+    cum += sum(hits.get(r["headword"], 0) for r in chunk)
+    if i not in wanted: continue
+    if lo is None:
+        intro = f"以下 {len(chunk)} 个课标词在 2008–2026 年的真题中没有出现过。课标仍要求掌握，但可以放在最后。"
+        title = f"第 {i} 章　{name}"
+    else:
+        last = int(chunk[-1]["rank"])
+        intro = (f"本章 {len(chunk)} 个词（第 {lo}–{last} 名）。背完前 {last} 个词，可以覆盖真题文本 "
+                 f"<b>{100 * cum / tot['tokens_all']:.1f}%</b> 的词次（本章贡献 {100 * (cum - before) / tot['tokens_all']:.1f}%）。")
+        title = f"第 {i} 章　{name}（{lo}–{last}）"
+    parts.append(f'<section class="chapter"><h1>{title}</h1><div class="chapintro">{intro}</div>')
+    parts += [entry_html(r) for r in chunk]
+    parts.append("</section>")
+
+doc = f"<!DOCTYPE html><html lang='zh'><head><meta charset='utf-8'><title>高考英语词汇表</title><style>{CSS}</style></head><body>{''.join(parts)}</body></html>"
+open(a.out + ".html", "w", encoding="utf-8").write(doc)
+try:
+    from weasyprint import HTML
+    HTML(string=doc).write_pdf(a.out + ".pdf")
+    print("wrote", a.out + ".html", a.out + ".pdf")
+except ImportError:
+    print("wrote", a.out + ".html  (install weasyprint for PDF, or print the HTML from Chrome)")
