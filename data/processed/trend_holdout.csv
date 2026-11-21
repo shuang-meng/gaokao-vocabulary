@@ -1,0 +1,6 @@
+﻿top_n,coverage_of_B_ranked_with_A_only,coverage_of_B_ranked_with_all_years,coverage_of_A_ranked_with_A
+200,0.6703,0.6765,0.7006
+500,0.7868,0.8002,0.8308
+1000,0.8826,0.8988,0.9288
+1600,0.9415,0.9621,0.9775
+2000,0.9632,0.9843,0.9933

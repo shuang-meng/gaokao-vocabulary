@@ -8,7 +8,7 @@ Usage:
 Order: years appeared -> total count (the `rank` column). Chapters are frequency bands.
 PDF: WeasyPrint (pip install weasyprint). Without it, open the HTML in Chrome and print to PDF.
 """
-import argparse, csv, html, json, re
+import argparse, collections, csv, html, json, re
 
 ap = argparse.ArgumentParser()
 ap.add_argument("entries"); ap.add_argument("totals"); ap.add_argument("out")
@@ -21,6 +21,7 @@ ap.add_argument("--phrase-glosses", default="data/manual/phrase_glosses.csv")
 ap.add_argument("--max-phrases", type=int, default=4)
 ap.add_argument("--tested", default="", help="data/processed/tested_words.csv (step 9a): mark cloze / grammar answers")
 ap.add_argument("--rare-senses", default="", help="data/processed/rare_senses.csv (step 9c): mark 熟词生义, add an appendix")
+ap.add_argument("--trends", default="", help="folder with trend_sections / trend_holdout / trend_words.csv (step 9e): adds a preface page")
 ap.add_argument("--coverage", default="", help="data/processed/sense_coverage.csv (step 9b): sense coverage table on the cover")
 a = ap.parse_args()
 
@@ -242,6 +243,42 @@ def cover_table():
             f'<table class="cov"><tr><th></th><th>按单词</th><th>只会第一义项</th><th>会前两个义项</th></tr>{rows}</table>')
 
 
+def trends_page():
+    if not a.trends: return ""
+    T = lambda n: list(csv.DictReader(open(os.path.join(a.trends, n), encoding="utf-8-sig")))
+    sec = {r["section"]: r for r in T("trend_sections.csv")}
+    hold = {r["top_n"]: r for r in T("trend_holdout.csv")}
+    W = T("trend_words.csv")
+    lv = {"A": collections.Counter(), "B": collections.Counter()}
+    for r in W:
+        lv["A"][r["level"]] += int(r["count_A"]); lv["B"][r["level"]] += int(r["count_B"])
+    sh = {k: 100 * lv[k]["选择性必修"] / sum(lv[k].values()) for k in lv}
+    new = [r for r in W if r["new_in_B"] == "True"]
+    new_sx = sum(r["level"] == "选择性必修" for r in new)
+    ex_new = [r["headword"] for r in sorted(new, key=lambda r: (-int(r["years_B"]), -int(r["count_B"]))) if r["level"] == "选择性必修"][:8]
+    up = [r["headword"] for r in W if r["direction"] == "up"]
+    up_hi = [r["headword"] for r in W if r["direction"] == "up" and r["level"] in ("必修", "选择性必修")]
+    down = [r["headword"] for r in W if r["direction"] == "down"]
+    pct = lambda r, k: f'{100 * float(r[k]):.1f}%'
+    NAMES = {"reading": "阅读", "listening": "听力", "cloze": "完形填空", "grammar": "语法填空", "seven": "七选五",
+             "writing": "写作（应用文、读后续写材料）", "single_choice": "单项选择", "correction": "短文改错"}
+    srows = "".join(f'<tr><td style="text-align:left">{NAMES.get(k, k)}</td><td>{pct(sec[k], "share_A")}</td><td>{"取消" if float(sec[k]["share_B"]) == 0 else pct(sec[k], "share_B")}</td></tr>'
+                    for k in ("reading", "listening", "cloze", "seven", "grammar", "writing", "single_choice", "correction") if k in sec)
+    hrows = "".join(f'<tr><td>前 {n} 词</td><td>{pct(hold[n], "coverage_of_A_ranked_with_A")}</td><td>{pct(hold[n], "coverage_of_B_ranked_with_A_only")}</td></tr>'
+                    for n in ("500", "1000", "1600") if n in hold)
+    return f"""<section class="chapter"><h1>前言　2024 年以来的变化</h1>
+<div class="chapintro">2024 年起，新课标 I 卷调整了结构。下面把 2008–2023 年（20 份试卷）和 2024–2026 年（3 份试卷）做比较。3 份试卷的样本不大，结论按可靠程度分开写。</div>
+<p><b>一、题型结构：读写比重上升，单纯识记的题型消失（确定）。</b>下表是课标词次在各部分的占比。单项选择和短文改错取消；写作材料（应用文、读后续写的原文）从约 2% 升到 11% 以上，读后续写的原文本身就是一篇要读懂、还要接着写的文章；完形和语法填空的比重也上升了。</p>
+<table class="cov"><tr><th style="text-align:left">部分</th><th>2008–2023</th><th>2024–2026</th></tr>{srows}</table>
+<p><b>二、词汇难度上移（比较确定）。</b>选择性必修词在正文中的占比从 {sh["A"]:.1f}% 升到 {sh["B"]:.1f}%。2024 年以来有 {len(new)} 个词是此前从没在真题里出现过的，其中 {new_sx} 个是选择性必修词，例如 {"、".join(ex_new)}。</p>
+<p><b>三、按旧真题排序的词表，对新试卷依然有效，但要背得更多（确定）。</b>只用 2008–2023 年的数据排序，再看它能覆盖 2024–2026 年正文多少课标词次：</p>
+<table class="cov"><tr><th></th><th>覆盖 2008–2023</th><th>覆盖 2024–2026</th></tr>{hrows}</table>
+<p>排序在新试卷上只损失四五个百分点，说明"按真题频次背单词"这个思路站得住；但要达到过去背 1000 词的覆盖率，现在大约要背到 1600 词。<b>第 4 章"常考词"（1001–1600 名）比以前更重要。</b></p>
+<p><b>四、话题有转向科学、环境和社会的迹象（提示，证据有限）。</b>近三年明显增多、且至少两年出现的词共 {len(up)} 个，其中必修和选择性必修词有 {"、".join(up_hi[:14])}；明显减少的是日常生活场景词，如 {"、".join(down[:10])}。这和新课标"人与自然""人与社会"的主题方向一致，但只有 3 份试卷，一篇文章就能让一个词的次数大幅跳动，所以只作参考。</p>
+<p><b>对备考的建议：</b>先用前 1000 词打基础，再把第 4 章当作必背而不是选背；每个词至少掌握真题里的前两个义项，书里标出的"短语"和"生义"单独记；多做完形、语法填空和读后续写，因为这些题直接考词在语境里的用法。</p>
+<p style="font-size:8pt;color:#666">方法：词频比较只用正文（阅读文章、听力原文、完形、七选五、语法填空、写作材料），不含题干和选项，因为部分年份的听力题干和选项没有收录。"增多"指对数似然检验 p &lt; 0.01、频率至少翻倍、且 2024–2026 年中至少两年出现。</p></section>"""
+
+
 def rare_appendix():
     if not RARE: return ""
     ER = {x["headword"]: x for x in rows}
@@ -277,7 +314,7 @@ def cover():
 
 
 wanted = {int(x) for x in a.chapters.split(",") if x} or set(range(1, len(CHAPTERS) + 1))
-parts, cum = [cover()], 0
+parts, cum = [cover(), trends_page()], 0
 for i, (lo, hi, name) in enumerate(CHAPTERS, 1):
     chunk = unseen if lo is None else [r for r in seen if lo <= int(r["rank"]) <= hi]
     if not chunk: continue

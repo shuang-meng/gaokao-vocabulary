@@ -52,8 +52,9 @@ if ls $I/annotations/*.json >/dev/null 2>&1; then
   python scripts/09a_tested_words.py
   python scripts/09b_sense_coverage.py
   python scripts/09c_rare_senses.py
+  python scripts/09e_trends.py
   SENSES=$P/senses_full.csv
-  EXTRA="--metrics $P/word_sense_metrics.csv --phrases $P/phrase_entries.csv --tested $P/tested_words.csv --rare-senses $P/rare_senses.csv --coverage $P/sense_coverage.csv"
+  EXTRA="--metrics $P/word_sense_metrics.csv --phrases $P/phrase_entries.csv --tested $P/tested_words.csv --rare-senses $P/rare_senses.csv --coverage $P/sense_coverage.csv --trends $P"
 fi
 echo "== 6 排版"
 python scripts/06_render_print.py $P/entries_with_defs.csv $P/token_totals.json output/gaokao_vocab_full --senses $SENSES $EXTRA
