@@ -19,6 +19,9 @@ ap.add_argument("--metrics", default="", help="data/processed/word_sense_metrics
 ap.add_argument("--phrases", default="", help="data/processed/phrase_entries.csv (step 8c)")
 ap.add_argument("--phrase-glosses", default="data/manual/phrase_glosses.csv")
 ap.add_argument("--max-phrases", type=int, default=4)
+ap.add_argument("--tested", default="", help="data/processed/tested_words.csv (step 9a): mark cloze / grammar answers")
+ap.add_argument("--rare-senses", default="", help="data/processed/rare_senses.csv (step 9c): mark 熟词僻义, add an appendix")
+ap.add_argument("--coverage", default="", help="data/processed/sense_coverage.csv (step 9b): sense coverage table on the cover")
 a = ap.parse_args()
 
 CHAPTERS = [(1, 200, "核心词"), (201, 500, "高频词"), (501, 1000, "中频词"),
@@ -39,6 +42,10 @@ SENSES = {}
 if a.senses and os.path.exists(a.senses):
     for s in csv.DictReader(open(a.senses, encoding="utf-8-sig")):
         SENSES.setdefault(s["headword"], []).append(s)
+TESTED = {r["headword"]: r for r in csv.DictReader(open(a.tested, encoding="utf-8-sig"))} if a.tested else {}
+RARE = list(csv.DictReader(open(a.rare_senses, encoding="utf-8-sig"))) if a.rare_senses else []
+RARE_KEYS = {(r["headword"], r["sense"]) for r in RARE}
+COVER = list(csv.DictReader(open(a.coverage, encoding="utf-8-sig"))) if a.coverage else []
 METRICS = {r["word"]: r for r in csv.DictReader(open(a.metrics, encoding="utf-8-sig"))} if a.metrics else {}
 PHRASES = {}
 if a.phrases:
@@ -114,6 +121,8 @@ def senses_html(r, senses):
         if s.get("counted") == "full" and len(senses) > 1:
             v = float(s["share"])
             pct = f'<span class="pct"><span class="bar" style="width:{max(1, round(14 * v))}mm"></span>{round(100 * v)}%</span>'
+        if (r["headword"], s["sense"]) in RARE_KEYS:
+            pct += '<span class="rare">僻义</span>'
         out.append(f'<li><b>{esc(s["pos"])}</b> <span class="zh">{esc(s["zh"])}</span>{pct}'
                    f'<span class="sen">{esc(s["en"])}</span>{ex}</li>')
     return f'<ol class="senses">{"".join(out)}</ol>'
@@ -142,6 +151,10 @@ def metrics_html(w):
 def entry_html(r):
     lv, cls = LEVEL_TAG.get(r["level"], ("", "lv0"))
     stats = f'{r["years_count"]}/19 年 · {r["total_count"]} 次' if int(r["total_count"]) else "真题未出现"
+    t = TESTED.get(r["headword"])
+    if t and not is_function_word(r):
+        k = [f'完形×{t["cloze_answer"]}' if int(t["cloze_answer"]) else '', f'语法×{t["grammar_answer"]}' if int(t["grammar_answer"]) else '']
+        stats = f'<span class="tested">考点 {" ".join(x for x in k if x)}</span> ' + stats
     pos = "　".join(f"{POS_CN.get(p.split('.')[0] + '.', p)}{p.split('.')[1]}" if False else p
                    for p in r["exam_pos"].split(" / ") if p)
     func = is_function_word(r)
@@ -212,9 +225,34 @@ ol.senses li { margin: 0.5mm 0; }
 .pct { font-family: sans-serif; font-size: 7pt; color: #9d0208; margin-left: 2mm; }
 .pct .bar { display: inline-block; height: 1.6mm; background: #d88; margin-right: 1mm; vertical-align: middle; }
 .ph { font-weight: 700; color: #1d4f91; } .lab.phl { background: #1d4f91; }
+.rare { font-family: sans-serif; font-size: 7pt; color: #fff; background: #b5651d; padding: 0 1mm; margin-left: 1.5mm; border-radius: 1mm; }
+.tested { font-family: sans-serif; font-size: 7.5pt; color: #fff; background: #2d6a4f; padding: 0 1.2mm; border-radius: 1mm; margin-right: 1.5mm; }
+table.rs { border-collapse: collapse; font-size: 8.6pt; width: 100%; } table.rs td { border-bottom: 0.3pt solid #ccc; padding: 1mm 1.5mm; vertical-align: top; }
+table.cov { border-collapse: collapse; font-size: 9pt; margin: 2mm 0; } table.cov td, table.cov th { border: 0.4pt solid #bbb; padding: 0.8mm 2.5mm; text-align: right; }
 .mt { font-family: sans-serif; font-size: 7.5pt; color: #666; margin-top: 0.4mm; }
 .legend { font-size: 9pt; } .legend td { padding: 1mm 3mm; vertical-align: top; }
 """
+
+def cover_table():
+    if not COVER: return ""
+    rows = "".join(f'<tr><td>前 {c["top_n"]} 词</td><td>{100 * float(c["word_coverage"]):.1f}%</td><td>{100 * float(c["first_sense"]):.1f}%</td>'
+                   f'<td>{100 * float(c["first_two_senses"]):.1f}%</td></tr>' for c in COVER if c["top_n"] in ("200", "500", "1000", "1600", "2552"))
+    return (f'<p style="font-size:9pt;margin-top:4mm"><b>背多少词，能读懂多少？</b>"按单词"是常见的算法：真题里有多少词次是这些词。'
+            f'但只认识一个词的第一个意思，并不能读懂它的所有用法。"只会第一义项"只把用到第一义项的地方算作读懂，短语里的用法也不算。</p>'
+            f'<table class="cov"><tr><th></th><th>按单词</th><th>只会第一义项</th><th>会前两个义项</th></tr>{rows}</table>')
+
+
+def rare_appendix():
+    if not RARE: return ""
+    ER = {x["headword"]: x for x in rows}
+    trs = "".join(f'<tr><td><b>{esc(r["headword"])}</b> <span class="src">#{r["rank"]}</span></td><td>{esc(r["pos"])} {esc(r["zh"])}'
+                   f'{" <b>（真题以此为主）</b>" if r["dominant"] == "True" else ""}</td>'
+                   f'<td>{highlight(r["example"], ER.get(r["headword"], {"headword": r["headword"], "inflections": ""})) if r["example"] else ""} <span class="src">{esc(r["example_src"])}</span></td></tr>'
+                   for r in sorted(RARE, key=lambda r: (r["dominant"] != "True", int(r["rank"]))))
+    return (f'<section class="chapter"><h1>附录　熟词僻义</h1><div class="chapintro">1000 名以后的词里，真题用到的不是学生通常先学的那个意思的，'
+            f'共 {len(RARE)} 处（{len({r["headword"] for r in RARE})} 个词）。标"真题以此为主"的，真题里这个僻义比常见义还多。'
+            f'由模型初判，再按词典首列释义筛过，仍可能有误。</div><table class="rs">{trs}</table></section>')
+
 
 def cover():
     return f"""<div class="cover"><h1>高考英语词汇表 · 按真题频次排序</h1>
@@ -227,11 +265,14 @@ def cover():
 <tr><td><b>真题词性</b></td><td>这个词在真题里作各词性的比例；释义按这个顺序排。</td></tr>
 <tr><td><b>义项</b></td><td>只列真题实际用到的义项。多义词的每一次出现都逐句标注过义项，按全部出现次数排序；红色百分比是这个义项占该词全部出现的比例（出现太少的义项不列）。每个义项附中文、简明英文释义和一句真题原句。</td></tr>
 <tr><td><b>短语</b></td><td>意思不能从字面推出的短语和语法短语（如 take place、have to），右上角是真题出现次数。只看懂单词、看不懂短语，是常见的失分点。</td></tr>
+<tr><td><b>考点</b></td><td>这个词当过完形填空或语法填空的<b>正确答案</b>（命题人专门考的词），"完形×2"表示两次。约四分之一的完形答案排在 1000 名以后。</td></tr>
+<tr><td><b>僻义</b></td><td>真题用的不是学生通常先学的那个意思（熟词僻义），书末附录汇总。</td></tr>
 <tr><td><b>分布</b></td><td>"36% 在短语中"：这个词的出现有多少在短语里；"分布在 N 篇"：出现在多少篇不同的文章或对话里；"集中在同一篇"：次数主要来自一篇文章，实际重要性比次数显示的低；"听力占"：主要在听力里出现。</td></tr>
 <tr><td><b>句素</b></td><td>从真题原句中抽出的固定搭配，右上角小数字是出现次数。"make + mistake"表示动宾搭配。</td></tr>
 <tr><td><b>例句</b></td><td>真题原句，标出年份和题型；真题里没有合适例句的词，用斜体的词典例句（Open English WordNet）代替。</td></tr>
 <tr><td><b>派生 / 词根</b></td><td>课标不单列、但真题出现过的派生词；词根词缀注释。</td></tr>
 </table>
+{cover_table()}
 <p style="font-size:8pt;color:#666">义项、短语释义与简明英文释义：本项目自编（CC BY-SA 4.0）；义项标注由 Claude 模型完成，难判的句子经第二个模型复核和人工判定；其余词条释义：ECDICT（MIT）；英文释义：Open English WordNet（CC BY 4.0）。本词汇表以 CC BY-SA 4.0 发布。</p></div>"""
 
 
@@ -255,6 +296,7 @@ for i, (lo, hi, name) in enumerate(CHAPTERS, 1):
     parts += [entry_html(r) for r in chunk]
     parts.append("</section>")
 
+parts.append(rare_appendix())
 doc = f"<!DOCTYPE html><html lang='zh'><head><meta charset='utf-8'><title>高考英语词汇表</title><style>{CSS}</style></head><body>{''.join(parts)}</body></html>"
 open(a.out + ".html", "w", encoding="utf-8").write(doc)
 try:

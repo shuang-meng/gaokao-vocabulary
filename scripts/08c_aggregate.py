@@ -61,21 +61,21 @@ def main():
     mg = lambda w, s: merge.get((w, s), s)
     pair = {}             # second-pass rows left for you: if both answers merge into one sense, they agree
     verdict = {}          # your decisions on the second-pass disagreements: fill your_sense / your_phrase in the csv
-    if os.path.exists('data/interim/second_pass/to_review.csv'):
-        for r in csv.DictReader(open('data/interim/second_pass/to_review.csv', encoding='utf-8-sig')):
+    for tr in glob.glob('data/interim/second_pass*/to_review.csv'):
+        for r in csv.DictReader(open(tr, encoding='utf-8-sig')):
             pair[r['occ_id']] = (r['pass1'].split(' ')[0], r['pass2'].split(' ')[0])
             if (r.get('your_sense') or '').strip() or (r.get('your_phrase') or '').strip():
                 verdict[r['occ_id']] = {'sense': r['your_sense'], 'phrase': r['your_phrase']}
-    if os.path.exists('data/interim/second_pass/to_review_filled.csv'):     # exported from review.html (step 8e); wins
-        for r in csv.DictReader(open('data/interim/second_pass/to_review_filled.csv', encoding='utf-8-sig')):
+    for tf in glob.glob('data/interim/second_pass*/to_review_filled.csv'):  # exported from review.html (step 8e); wins
+        for r in csv.DictReader(open(tf, encoding='utf-8-sig')):
             if (r.get('your_sense') or '').strip() or (r.get('your_phrase') or '').strip():
                 verdict[r['occ_id']] = {'sense': r['your_sense'], 'phrase': r['your_phrase']}
     agreed = set()                                 # rows where the second model pass agreed with the first
-    if os.path.exists('data/interim/second_pass/accepted.csv'):
-        agreed = {r['occ_id'] for r in csv.DictReader(open('data/interim/second_pass/accepted.csv', encoding='utf-8-sig'))}
+    for f in glob.glob('data/interim/second_pass*/accepted.csv'):
+        agreed |= {r['occ_id'] for r in csv.DictReader(open(f, encoding='utf-8-sig'))}
     resolved = {}                                  # disagreements settled by the calibrated rules of step 8d (resolve)
-    if os.path.exists('data/interim/second_pass/resolved.csv'):
-        resolved = {r['occ_id']: r for r in csv.DictReader(open('data/interim/second_pass/resolved.csv', encoding='utf-8-sig'))}
+    for f in glob.glob('data/interim/second_pass*/resolved.csv'):
+        resolved.update({r['occ_id']: r for r in csv.DictReader(open(f, encoding='utf-8-sig'))})
     added = collections.defaultdict(dict)
     for r in nmap.values():
         if r['action'] == 'A':

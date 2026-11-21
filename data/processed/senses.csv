@@ -1603,6 +1603,80 @@ reply,1,v.,回答；答复,to answer,4,0,"Surprisingly, children replied that th
 reply,2,n.,回答；回复,an answer,3,0,"His reply came as a surprise — a shock, actually: “Not a chance.”",2025 XG1 写作,ch3_f.json
 select,1,v.,挑选；选拔,to choose carefully,6,0,"Students who enter the Curiosity Challenge and are selected as winners will be honored at a special ceremony during the CSF on Sunday, April 21st.",2014 QG1 阅读,ch3_f.json
 select,2,adj.,精选的；特定的,chosen; only some,1,0,Who is eligible: Youth 15-18 years old in select communities.,2019 QG1 阅读,ch3_f.json
+for,1,prep.,为了；给（目的、对象）,"showing purpose, or who receives something",0,12,,,func.json
+for,2,prep.,持续（时间、距离）,showing how long or how far,0,12,,,func.json
+for,3,prep.,对于；就…而言,about someone or something; from their point of view,0,12,,,func.json
+for,4,conj.,因为,because,0,12,,,func.json
+for,5,prep.,以（价格）；换取,in exchange for an amount of money or something else,0,12,,,func.json
+for,6,prep.,支持；赞成,in support of,0,12,,,func.json
+as,1,conj.,当…时；随着,at the time when; while something changes,0,12,,,func.json
+as,2,conj.,因为,because,0,12,,,func.json
+as,3,prep.,作为；当作 (work as / regard ... as),in the role or function of,0,12,,,func.json
+as,4,conj./prep.,像；如同；正如 (as you know / as usual),in the way that; like,0,12,,,func.json
+as,5,adv.,（as ... as）和…一样,used in comparisons,0,12,,,func.json
+as,6,conj.,虽然 (young as he is),although,0,12,,,func.json
+with,1,prep.,和…一起；同,together with someone or something,0,12,,,func.json
+with,2,prep.,用（工具、手段）,using something,0,12,,,func.json
+with,3,prep.,带有；具有,having something,0,12,,,func.json
+with,4,prep.,随着；伴随（with + 名词 + 状态）,as something happens; in a certain state,0,12,,,func.json
+with,5,prep.,由于；因为 (shake with fear),because of a feeling or condition,0,12,,,func.json
+with,6,prep.,对于；关于 (patient with / angry with),towards or concerning someone or something,0,12,,,func.json
+like,1,v.,喜欢；想要,"to enjoy, or to want",0,12,,,func.json
+like,2,prep./conj.,像；如同；好像,similar to; in the same way as,0,12,,,func.json
+like,3,prep.,例如,for example,0,12,,,func.json
+about,1,prep.,关于,on the subject of,0,12,,,func.json
+about,2,adv.,大约,approximately,0,12,,,func.json
+about,3,adv./prep.,四处；到处,in many places; around,0,12,,,func.json
+by,1,prep.,被；由（被动、作者）,showing who does something,0,12,,,func.json
+by,2,prep.,通过；靠（方式、交通工具）(by bus / by doing),showing how something is done,0,12,,,func.json
+by,3,prep.,在…旁边；经过,near; past,0,12,,,func.json
+by,4,prep.,到…为止；不迟于 (by 2030),not later than,0,12,,,func.json
+by,5,prep.,按；以…计；相差 (by 20%),showing a measurement or amount of change,0,12,,,func.json
+if,1,conj.,如果,on condition that,0,12,,,func.json
+if,2,conj.,是否,whether,0,12,,,func.json
+over,1,prep./adv.,在…上方；越过；遍及,above or across; all over a place,0,12,,,func.json
+over,2,prep.,超过（数量）,more than,0,12,,,func.json
+over,3,prep.,在…期间 (over the years),during a period of time,0,12,,,func.json
+over,4,adv.,结束,finished,0,12,,,func.json
+over,5,prep.,关于；因为 (argue over),about; because of,0,12,,,func.json
+but,1,conj.,但是,used to introduce a contrast,0,12,,,func.json
+but,2,prep.,除了 (nothing but / all but),except,0,12,,,func.json
+but,3,adv.,只是；仅仅,only,0,12,,,func.json
+since,1,prep./conj./adv.,自从；自…以来,from a time in the past until now,0,12,,,func.json
+since,2,conj.,因为；既然,because,0,12,,,func.json
+while,1,conj.,当…时,during the time that,0,12,,,func.json
+while,2,conj.,然而；虽然,whereas; although,0,12,,,func.json
+while,3,n.,一会儿；一段时间 (for a while),a period of time,0,12,,,func.json
+until,1,prep./conj.,直到,up to the time when,0,8,,,func.json
+until,2,conj.,（not ... until）直到…才,not before a certain time,0,8,,,func.json
+though,1,conj.,虽然；尽管,although,0,8,,,func.json
+though,2,adv.,不过；可是（多在句末）,however,0,8,,,func.json
+through,1,prep.,穿过；通过（空间）,from one side to the other,0,12,,,func.json
+through,2,prep.,通过；凭借（手段）,by means of,0,12,,,func.json
+through,3,prep./adv.,从头到尾；经历；度过,from beginning to end; experiencing,0,12,,,func.json
+through,4,prep.,由于,because of,0,12,,,func.json
+into,1,prep.,进入；到…里面,to the inside of,0,12,,,func.json
+into,2,prep.,变成 (turn into / change into),showing a change,0,12,,,func.json
+into,3,prep.,对…着迷 (be into),very interested in,0,12,,,func.json
+into,4,prep.,关于；深入 (research into),about; in order to study,0,12,,,func.json
+against,1,prep.,反对；违背,opposing,0,8,,,func.json
+against,2,prep.,靠着；倚着；撞上,touching or hitting something,0,8,,,func.json
+against,3,prep.,防备；对抗 (protect against),to prevent or fight something,0,8,,,func.json
+against,4,prep.,以…为背景；对比,in front of a background; compared with,0,8,,,func.json
+around,1,prep./adv.,在…周围；到处；环绕,on every side; in many places,0,12,,,func.json
+around,2,adv.,大约,approximately,0,12,,,func.json
+must,1,aux.,必须,it is necessary to,0,8,,,func.json
+must,2,aux.,一定（推测）,it is very likely that,0,8,,,func.json
+must,3,n.,必需品；必不可少的事,something you should not miss,0,8,,,func.json
+may,1,aux.,可能；也许,it is possible that,0,12,,,func.json
+may,2,aux.,可以（许可）,to be allowed to,0,12,,,func.json
+can,1,aux.,能；会,to be able to,0,12,,,func.json
+can,2,aux.,可以（许可、请求）,to be allowed to; used in requests,0,12,,,func.json
+can,3,aux.,可能（推测）,it is possible that,0,12,,,func.json
+can,4,n.,罐；罐头,a metal container,0,12,,,func.json
+will,1,aux.,将；会（将来）,used to talk about the future,0,12,,,func.json
+will,2,aux.,愿意；（请求）好吗 (Will you ...?),used in offers and requests,0,12,,,func.json
+will,3,n.,意志；遗嘱,determination; a legal document,0,12,,,func.json
 draw,1,v.,吸引（注意、兴趣）,to make someone notice or come to something,6,13,Drawing public attention to plastic waste.,2021 阅读,pilot_ch2.json
 draw,2,v.,画,to make a picture with a pen or pencil,2,13,"Students are being dared to draw a picture, write an article, take a photo or write a poem that shows what they are curious about.",2014 阅读,pilot_ch2.json
 draw,3,v.,借鉴；利用 (draw on),"to use something you have, such as knowledge or experience",2,13,"In doing so, I’ll draw on an experiment I ran in 2018 in which over 1,600 people agreed to perform a digital declutter.",2023 阅读,pilot_ch2.json

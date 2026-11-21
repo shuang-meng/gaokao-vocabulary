@@ -8,11 +8,12 @@ Inputs : data/processed/senses.csv            (hand-written senses: pos, zh, en,
          data/manual/new_sense_map.csv, data/manual/sense_merges.csv (names of added / merged senses)
          data/processed/entries_with_defs.csv
 Output : data/processed/senses_full.csv — one row per sense, most frequent first:
-         headword, sense, pos, zh, en, count, years, passages, listening, share (of all occurrences, phrases included), example, example_src, added, counted
+         headword, sense, pos, zh, en, count, years, passages, listening, share (of all occurrences, phrases included), example, example_src, added, counted, common
+         common (low-frequency words, step 8h): c = the meaning students learn first, r = a less familiar meaning.
          counted = full (every occurrence labelled) or single (one sense only: count = the word's total).
 Only a short example sentence per sense comes from the exam texts, as in senses.csv.
 """
-import collections, csv, importlib.util, json, os, re
+import collections, csv, glob, importlib.util, json, os, re
 
 spec = importlib.util.spec_from_file_location('b', os.path.join(os.path.dirname(__file__), '07b_build_senses.py'))
 b = importlib.util.module_from_spec(spec); spec.loader.exec_module(b)
@@ -61,11 +62,16 @@ def main():
     for r in csv.DictReader(open(f'{P}/sense_freq.csv', encoding='utf-8-sig')):
         freq[r['word']].append(r)
 
+    common = {}                                # step 8h: c = the meaning students learn first, r = a less familiar one
+    for p in glob.glob('data/interim/annotations/*.json'):
+        d = json.load(open(p, encoding='utf-8'))
+        if d.get('kind') == 'rare':
+            common[d['word']] = d.get('sense_common', {})
     out = []
-    for w in base:
+    for w in list(base) + sorted(w for w in freq if w not in base):
         if w in freq:
             for f in sorted(freq[w], key=lambda t: -int(t['count'])):
-                s = f['sense']; bs = base[w].get(s)
+                s = f['sense']; bs = base.get(w, {}).get(s)
                 pos, zh = split_name(f['sense_name'])
                 if bs and not merged_from.get((w, s)):
                     pos, zh = bs['pos'] or pos, bs['zh']
@@ -74,7 +80,8 @@ def main():
                 out.append({'headword': w, 'sense': s, 'pos': pos, 'zh': zh, 'en': bs['en'] if bs else '',
                             'count': n, 'years': f['years'], 'passages': f['passages'], 'listening': f['listening'],
                             'share': round(n / total[w], 3) if total[w] else '', 'example': ex, 'example_src': src,
-                            'added': not bs, 'counted': 'full'})
+                            'added': not bs and w not in common, 'counted': 'full',
+                            'common': common.get(w, {}).get(s, '')})
         else:
             rs = list(base[w].values())
             for bs in rs:
@@ -83,7 +90,7 @@ def main():
                             'count': E[w]['total_count'] if single else '', 'years': E[w]['years_count'] if single else '',
                             'passages': '', 'listening': '', 'share': 1.0 if single else '',
                             'example': bs['example'], 'example_src': bs['example_src'], 'added': False,
-                            'counted': 'single' if single else 'sample'})
+                            'counted': 'single' if single else 'sample', 'common': ''})
     with open(f'{P}/senses_full.csv', 'w', encoding='utf-8-sig', newline='') as fh:
         wr = csv.DictWriter(fh, fieldnames=list(out[0].keys())); wr.writeheader(); wr.writerows(out)
     c = collections.Counter(r['counted'] for r in out)

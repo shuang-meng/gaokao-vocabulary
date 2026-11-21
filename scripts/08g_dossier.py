@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Step 8g: word dossier — every labelled exam occurrence of the 534 polysemous words, grouped by sense and phrase.
+"""Step 8g: word dossier — every labelled exam occurrence (all labelled words), grouped by sense and phrase.
 
 usage: python scripts/08g_dossier.py            -> output/dossier_all.html
 PERSONAL RESEARCH ONLY: the page holds about 21,000 exam sentences. output/*.html is in .gitignore; do not publish it.
@@ -36,7 +36,7 @@ def main():
     for r in O:
         by[r['word']].append(r)
     words = sorted(by, key=lambda w: int(M[w]['word_rank']))
-    P = ['''<!doctype html><html lang="zh"><head><meta charset="utf-8"><title>单词档案（534 个多义词的全部真题用例）</title><style>
+    P = ['''<!doctype html><html lang="zh"><head><meta charset="utf-8"><title>单词档案（全部真题用例，按义项分组）</title><style>
 body{font-family:-apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;max-width:920px;margin:20px auto;padding:0 16px;color:#222;line-height:1.5}
 h1{font-size:22px}h2{margin-top:34px;border-bottom:2px solid #333;padding-bottom:4px}h2 small{font-weight:normal;color:#777;font-size:13px}
 h3{font-size:14px;margin:12px 0 4px;color:#555}details{margin:5px 0 8px}summary{cursor:pointer;font-weight:600}
@@ -46,7 +46,7 @@ ul{margin:4px 0 0;padding-left:20px}li{margin:3px 0;font-size:14px}.src{color:#8
 .c{font-size:11px;color:#fff;background:#999;border-radius:3px;padding:0 3px}.mt{font-size:13px;color:#555}
 .note{background:#f4f2ec;padding:8px 12px;font-size:13px}#q{font-size:16px;padding:6px 10px;width:260px;position:sticky;top:6px}
 .toc{font-size:13px;line-height:1.9}.toc a{margin-right:6px;color:#1d4f91;text-decoration:none}
-</style></head><body><h1>单词档案：534 个多义词的全部真题用例</h1>
+</style></head><body><h1>单词档案：课标词的全部真题用例（按义项分组）</h1>
 <div class="note">仅供个人研究使用，含大量真题原文，请勿公开。每个词按义项分组，红色数字是全量次数；蓝色是短语。
 黄色"新"＝抽样时没有、全量标注时新增的义项。灰色小标：人工＝人工判定，复核＝两个模型一致，m/l＝模型把握一般/较低。点击义项展开原句。</div>
 <p><input id="q" placeholder="输入单词跳转，如 take" onkeydown="if(event.key==='Enter'){location.hash=this.value.trim().toLowerCase()}"></p>

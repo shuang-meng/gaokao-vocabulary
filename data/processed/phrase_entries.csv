@@ -1,18 +1,21 @@
 ﻿phrase,class,head_words,count,years,passages,listening,equiv_rank,first_year,last_year
 have to,functional,have,90,19,47,43,106,2008,2026
+according to,functional,according,33,18,27,6,169,2009,2026
 a few,functional,few,45,17,32,14,200,2008,2026
 more than,functional,more,36,15,26,3,268,2008,2026
 take place,idiom,place take,17,14,16,15,334,2008,2026
-such as,functional,such,30,13,26,2,356,2008,2026
+such as,functional,as such,30,13,26,2,356,2008,2026
 a lot of,functional,lot,28,13,20,13,359,2008,2026
 a lot,functional,lot,21,13,17,9,371,2008,2025
+a bit,functional,bit,18,13,14,12,378,2008,2026
 refer to,idiom,refer,18,12,13,0,433,2008,2023
 of course,idiom,course,16,12,14,10,436,2008,2026
 pick up,idiom,pick,16,12,13,9,436,2008,2026
-look for,idiom,look,23,11,16,10,461,2011,2023
+look for,idiom,for look,23,11,16,10,461,2011,2023
 so that,functional,so,18,11,15,2,476,2009,2025
 you know,functional,know,17,11,11,17,482,2008,2025
 instead of,functional,instead,14,11,12,3,494,2008,2024
+what about,functional,about,17,10,13,12,549,2009,2025
 used to,functional,use,11,10,11,5,591,2008,2023
 have got,functional,get have,18,9,10,13,610,2008,2026
 let me see,functional,let see,14,9,10,13,639,2009,2023
@@ -21,25 +24,29 @@ a couple of,functional,couple,13,9,11,7,648,2009,2026
 in fact,idiom,fact,11,9,11,2,654,2012,2026
 at least,idiom,least,14,8,12,6,706,2009,2026
 each other,functional,other,14,8,10,2,706,2008,2026
+not only … but also,functional,also but only,12,8,10,1,721,2008,2025
 grow up,idiom,grow,12,8,8,3,721,2009,2026
 the number of,functional,number,12,8,9,2,721,2013,2025
 look forward to,idiom,forward look,10,8,10,3,740,2008,2026
 go on,idiom,go say,10,8,10,2,740,2011,2025
-as long as,functional,long,9,8,9,5,750,2008,2026
+as long as,functional,as long,9,8,9,5,750,2008,2026
 make it,idiom,make,8,8,8,3,754,2008,2024
-deal with,idiom,deal,14,7,11,6,787,2010,2024
+deal with,idiom,deal with,14,7,11,6,787,2010,2024
 take care of,idiom,care take,12,7,10,6,808,2008,2025
+plenty of,functional,plenty,12,7,9,1,808,2017,2026
 lead to,idiom,lead,10,7,8,0,838,2012,2026
 turn to,idiom,turn,10,7,9,2,838,2008,2026
 next to,functional,next,8,7,8,1,860,2009,2026
+as well as,functional,as well,7,7,7,1,871,2009,2026
 a variety of,functional,variety,7,7,7,1,871,2011,2024
-as well as,functional,well,7,7,7,1,871,2009,2026
 a number of,functional,number,11,6,9,0,902,2012,2024
 find out,idiom,find,9,6,8,5,921,2012,2026
+how about,functional,about,8,6,6,8,943,2009,2023
 in front of,functional,front,8,6,7,2,943,2010,2023
 have got to,functional,get,8,6,7,7,943,2008,2022
 give up,idiom,give,8,6,7,3,943,2010,2024
 look after,idiom,look,8,6,7,4,943,2008,2023
+no problem,functional,problem,8,6,7,7,943,2012,2026
 set up,idiom,set,8,6,6,1,943,2012,2024
 kind of,functional,kind,7,6,7,3,968,2009,2025
 no matter,functional,matter,7,6,7,1,968,2013,2023
@@ -49,33 +56,40 @@ had better,functional,well,7,6,6,7,968,2011,2021
 in that case,idiom,case,6,6,6,6,987,2010,2023
 be going to,functional,go,10,5,6,9,1036,2008,2026
 eat out,idiom,eat,7,5,5,7,1080,2013,2024
+be used to,functional,get use used,7,5,6,3,1080,2008,2024
 result in,idiom,result,7,5,5,0,1080,2008,2023
+get / keep in touch,idiom,feeling get touch with,6,5,5,2,1110,2011,2025
 get up,idiom,get,6,5,5,1,1110,2008,2025
-get / keep in touch,idiom,get touch,6,5,5,2,1110,2011,2025
 from time to time,idiom,time,6,5,6,1,1110,2011,2024
+as well,functional,as well,5,5,5,1,1142,2008,2025
+as a result,idiom,as result,5,5,5,1,1142,2009,2020
+call for,idiom,call for,5,5,5,1,1142,2009,2025
+due to,functional,due to,5,5,5,2,1142,2013,2024
 excuse me,functional,excuse,5,5,5,4,1142,2008,2017
 no longer,functional,long,5,5,5,1,1142,2010,2023
-as a result,idiom,result,5,5,5,1,1142,2009,2020
+all over,idiom,over,5,5,5,1,1142,2010,2017
 turn out,idiom,turn,5,5,5,1,1142,2011,2026
 by the way,idiom,way,5,5,5,5,1142,2008,2024
-as well,functional,well,5,5,5,1,1142,2008,2025
 turn off,idiom,turn,7,4,4,5,1219,2011,2021
-account for,idiom,account,6,4,4,0,1237,2018,2026
-be used to,functional,get use,6,4,5,2,1237,2011,2024
-as much as,functional,much,6,4,4,1,1237,2017,2026
+along with,functional,with,7,4,5,1,1219,2011,2026
+account for,idiom,account for,6,4,4,0,1237,2018,2026
+as if,functional,as if,6,4,5,0,1237,2010,2023
+as much as,functional,as much,6,4,4,1,1237,2017,2026
 go ahead,idiom,ahead go,5,4,5,3,1268,2010,2022
+as soon as,functional,as soon,5,4,5,4,1268,2008,2021
+think of ... as,idiom,as think,5,4,5,0,1268,2009,2026
 not just,functional,just,5,4,4,1,1268,2014,2025
 in order to,functional,order,5,4,4,1,1268,2010,2024
 other than,functional,other,5,4,5,0,1268,2008,2026
 all right,idiom,right,5,4,4,5,1268,2008,2026
-as soon as,functional,soon,5,4,5,4,1268,2008,2021
 turn on,idiom,turn,5,4,4,1,1268,2012,2026
+be about to,functional,about,4,4,4,2,1315,2009,2024
 pay attention to,idiom,attention pay,4,4,4,1,1315,2011,2022
 look back,idiom,back look,4,4,4,2,1315,2018,2024
 break down,idiom,break,4,4,4,2,1315,2008,2021
+go by,idiom,by go,4,4,4,2,1315,2009,2025
 call on,idiom,call,4,4,4,2,1315,2019,2025
-call for,idiom,call,4,4,4,1,1315,2022,2025
-even if,functional,even only,4,4,4,1,1315,2012,2026
+even if,functional,even if only,4,4,4,1,1315,2012,2026
 go a long way,idiom,go long way,4,4,4,0,1315,2014,2023
 have in mind,idiom,have mind,4,4,4,3,1315,2011,2026
 quite a lot,functional,lot quite,4,4,4,1,1315,2012,2024
@@ -83,31 +97,40 @@ show up,idiom,show,4,4,4,0,1315,2018,2025
 thanks to,idiom,thank,4,4,4,0,1315,2009,2023
 work out,idiom,work,4,4,4,2,1315,2018,2025
 how much,functional,much,10,3,8,8,1376,2021,2023
+would like,functional,like,7,3,3,6,1392,2023,2026
 come to,idiom,come,6,3,6,1,1405,2011,2026
-not only … but also,functional,only,6,3,5,1,1405,2023,2025
 end up,idiom,end,5,3,5,1,1425,2014,2023
+stand for,idiom,for stand,5,3,3,1,1425,2010,2025
 take part in,idiom,part take,5,3,3,0,1425,2012,2022
-stand for,idiom,stand,5,3,3,1,1425,2010,2025
+in advance,idiom,advance,4,3,3,0,1457,2018,2026
+calm down,idiom,calm,4,3,3,0,1457,2010,2017
 drop off,idiom,drop,4,3,3,4,1457,2012,2024
-feel like,idiom,feel,4,3,3,2,1457,2014,2023
-go for,idiom,go,4,3,3,4,1457,2011,2023
+feel like,idiom,feel like,4,3,3,2,1457,2014,2023
+figure out,idiom,figure,4,3,3,0,1457,2012,2019
+go for,idiom,for go,4,3,3,4,1457,2011,2023
 hear from,idiom,hear,4,3,4,1,1457,2008,2025
 no more than,functional,more,4,3,4,0,1457,2017,2026
 on one's own,idiom,own,4,3,4,1,1457,2008,2017
 in place,idiom,place,4,3,3,0,1457,2013,2021
 and so on,functional,so,4,3,4,2,1457,2011,2022
+in addition to,functional,addition,3,3,3,0,1527,2017,2026
+get around,idiom,around get,3,3,3,2,1527,2008,2019
+as a matter of fact,idiom,as fact matter,3,3,3,2,1527,2008,2016
+close by,idiom,by close,3,3,3,1,1527,2021,2024
 come out,idiom,come,3,3,3,2,1527,2012,2025
+come over,idiom,come over,3,3,3,1,1527,2013,2019
 have ... in common,idiom,common have,3,3,3,0,1527,2017,2023
-even though,functional,even,3,3,3,0,1527,2009,2023
-as a matter of fact,idiom,fact matter,3,3,3,2,1527,2008,2016
-get around,idiom,get,3,3,3,2,1527,2008,2019
+even though,functional,even though,3,3,3,0,1527,2009,2023
+for a while,idiom,for while,3,3,3,0,1527,2009,2013
+get through,idiom,get through,3,3,3,1,1527,2009,2021
 give way to,idiom,give way,3,3,3,0,1527,2009,2023
-go through,idiom,go,3,3,3,0,1527,2008,2023
+go through,idiom,go through,3,3,3,0,1527,2008,2023
 hand in,idiom,hand,3,3,3,2,1527,2015,2023
+look into,idiom,into look,3,3,3,0,1527,2008,2025
 just a minute,functional,just minute,3,3,3,3,1527,2009,2022
 just as,functional,just,3,3,3,0,1527,2016,2023
-keep up with,idiom,keep,3,3,3,1,1527,2017,2026
-look into,idiom,look,3,3,3,0,1527,2008,2025
+keep up with,idiom,keep with,3,3,3,1,1527,2017,2026
+how do you like,functional,like,3,3,3,3,1527,2011,2025
 more and more,functional,more,3,3,3,0,1527,2019,2026
 out of order / in order,idiom,order,3,3,3,1,1527,2017,2025
 one...the other,functional,other,3,3,3,1,1527,2013,2019
@@ -116,18 +139,25 @@ see off,idiom,see,3,3,3,3,1527,2009,2024
 stick to,idiom,stick,3,3,3,0,1527,2011,2023
 in time,idiom,time,3,3,3,2,1527,2012,2022
 it's time to,functional,time,3,3,3,1,1527,2012,2025
+tons of,functional,ton,3,3,3,2,1527,2019,2025
 touch down,idiom,touch,3,3,3,0,1527,2015,2024
 you're welcome,functional,welcome,3,3,3,3,1527,2012,2016
+do with,idiom,with,3,3,3,1,1527,2009,2023
 go wrong,idiom,wrong,3,3,3,0,1527,2012,2026
 wake-up call,idiom,call wake,4,2,2,0,1693,2009,2015
 look up,idiom,look,4,2,2,0,1693,2024,2026
 be named after,idiom,name,4,2,2,3,1693,2010,2013
 at once,idiom,once,4,2,3,2,1693,2021,2022
 see if,functional,see,4,2,4,3,1693,2012,2023
+soft drinks,idiom,soft,4,2,2,1,1693,2017,2022
 stop sb. from doing,functional,stop,4,2,2,3,1693,2008,2021
 ahead of,functional,ahead,3,2,2,0,1721,2021,2022
+be around,idiom,around,3,2,3,1,1721,2008,2023
+as a result of,functional,as result,3,2,3,0,1721,2012,2022
 take back,idiom,back take,3,2,2,2,1721,2012,2025
 bring in,idiom,bring,3,2,3,0,1721,2021,2022
+side by side,idiom,by side with,3,2,2,0,1721,2008,2023
+by oneself,idiom,by,3,2,3,2,1721,2021,2022
 certainly not,functional,certainly,3,2,3,0,1721,2008,2012
 come across,idiom,come,3,2,3,1,1721,2016,2021
 in one's eyes,idiom,eye,3,2,3,1,1721,2017,2026
@@ -135,52 +165,62 @@ so far,idiom,far so,3,2,3,2,1721,2021,2025
 in the form of / in ... form,functional,form,3,2,2,0,1721,2024,2026
 got it,functional,get,3,2,2,2,1721,2010,2011
 have a point,idiom,have point,3,2,2,3,1721,2008,2024
+knock over,idiom,knock,3,2,2,2,1721,2025,2026
+what be like,functional,like,3,2,2,3,1721,2023,2024
 i mean,functional,mean,3,2,2,3,1721,2017,2021
 move on,idiom,move,3,2,2,2,1721,2023,2024
 put out,idiom,put,3,2,2,0,1721,2016,2021
-as a result of,functional,result,3,2,3,0,1721,2012,2022
 second-hand,idiom,second,3,2,2,3,1721,2011,2023
-side by side,idiom,side,3,2,2,0,1721,2008,2023
+shine through,idiom,shine through,3,2,2,0,1721,2023,2024
 act on,idiom,act,2,2,2,0,1803,2008,2023
 add to,idiom,add,2,2,2,0,1803,2020,2023
+around the corner,idiom,around corner,2,2,2,0,1803,2010,2021
+show around,idiom,around show,2,2,2,2,1803,2018,2026
+go around,idiom,around go,2,2,2,0,1803,2023,2026
+as much as possible,functional,as much possible,2,2,2,0,1803,2008,2017
+as opposed to,functional,as oppose,2,2,2,1,1803,2013,2023
+as for,functional,as for,2,2,2,1,1803,2021,2023
 put away,idiom,away put,2,2,2,0,1803,2012,2014
 pass away,idiom,away pass,2,2,2,0,1803,2013,2025
 hold back,idiom,back hold,2,2,2,0,1803,2008,2010
 even worse,functional,bad,2,2,2,0,1803,2017,2022
+from beginning to end,idiom,begin end,2,2,2,0,1803,2023,2026
+well-being,idiom,being well,2,2,2,0,1803,2015,2021
 believe in,idiom,believe,2,2,2,1,1803,2010,2013
 a big deal,idiom,big deal,2,2,2,0,1803,2023,2026
 carry out,idiom,carry,2,2,2,0,1803,2013,2023
-carry over,idiom,carry,2,2,2,0,1803,2015,2019
+carry over,idiom,carry over,2,2,2,0,1803,2015,2019
 be caught in / up in,idiom,catch,2,2,2,0,1803,2016,2020
 change one's mind,idiom,change mind,2,2,2,0,1803,2013,2023
 in charge of,idiom,charge,2,2,2,0,1803,2009,2025
 check out,idiom,check,2,2,2,0,1803,2023,2026
 up close,idiom,close,2,2,2,0,1803,2016,2018
-close by,idiom,close,2,2,2,1,1803,2021,2022
-come up with,idiom,come,2,2,2,0,1803,2011,2019
+come up with,idiom,come with,2,2,2,0,1803,2011,2019
 when it comes to,functional,come,2,2,2,0,1803,2011,2013
 come up,idiom,come,2,2,2,1,1803,2012,2023
 cut down on,idiom,cut,2,2,2,1,1803,2022,2025
 the other day,idiom,day other,2,2,2,2,1803,2009,2011
 day-to-day,idiom,day,2,2,2,1,1803,2022,2025
 oh dear,functional,dear,2,2,2,0,1803,2012,2021
+it depends,functional,depend,2,2,2,2,1803,2021,2023
 die out,idiom,die,2,2,2,0,1803,2014,2015
 make a difference,idiom,difference make,2,2,2,1,1803,2021,2025
 drive sb. crazy,idiom,drive,2,2,2,0,1803,2014,2020
-from beginning to end,idiom,end,2,2,2,0,1803,2023,2026
+good evening,functional,evening good,2,2,2,2,1803,2023,2025
+except for,functional,except,2,2,2,0,1803,2009,2019
 not far from,functional,far,2,2,2,1,1803,2008,2017
 every few,functional,few,2,2,2,1,1803,2009,2016
+for instance,functional,for instance,2,2,2,0,1803,2023,2026
 get rid of,idiom,get,2,2,2,1,1803,2008,2018
 get down to,idiom,get,2,2,2,0,1803,2009,2012
-get along with,idiom,get,2,2,2,1,1803,2009,2023
-get through,idiom,get,2,2,2,1,1803,2012,2021
+get along with,idiom,get with,2,2,2,1,1803,2009,2023
 get over,idiom,get,2,2,2,1,1803,2022,2025
 go up,idiom,go,2,2,2,0,1803,2011,2017
 keep going,idiom,go keep,2,2,2,0,1803,2023,2025
-go by,idiom,go,2,2,2,1,1803,2023,2024
-good morning,functional,good,2,2,2,2,1803,2009,2018
+good morning,functional,good morning,2,2,2,2,1803,2009,2018
 do one's best,idiom,good,2,2,2,2,1803,2021,2022
-good evening,functional,good,2,2,2,2,1803,2023,2025
+hang out,idiom,hang,2,2,2,1,1803,2021,2023
+to be honest,functional,honest,2,2,2,0,1803,2021,2024
 in a hurry,idiom,hurry,2,2,2,1,1803,2010,2012
 of interest,idiom,interest,2,2,2,0,1803,2015,2020
 just in time,idiom,just time,2,2,2,1,1803,2012,2026
@@ -188,8 +228,9 @@ just then,functional,just then,2,2,2,1,1803,2009,2024
 get to know,idiom,know,2,2,2,1,1803,2011,2016
 let me know,functional,know,2,2,2,2,1803,2015,2026
 at last,idiom,last,2,2,2,0,1803,2008,2021
-leaf through,idiom,leaf,2,2,2,1,1803,2023,2024
+leaf through,idiom,leaf through,2,2,2,1,1803,2023,2024
 let out,idiom,let,2,2,2,1,1803,2022,2025
+speak louder than words,idiom,loud speak,2,2,2,0,1803,2012,2023
 make use of,idiom,make use,2,2,2,0,1803,2008,2016
 make one's way,idiom,make way,2,2,2,1,1803,2009,2015
 many a,functional,many,2,2,2,0,1803,2015,2026
@@ -198,21 +239,24 @@ in need of,idiom,need,2,2,2,0,1803,2014,2018
 in need,idiom,need,2,2,2,0,1803,2015,2016
 old-fashioned,idiom,old,2,2,2,1,1803,2023,2024
 not only,functional,only,2,2,2,0,1803,2015,2019
+in my opinion,functional,opinion,2,2,2,0,1803,2019,2021
 of one's own,idiom,own,2,2,2,2,1803,2009,2010
 pay off,idiom,pay,2,2,2,0,1803,2014,2019
+a pity,idiom,pity,2,2,2,2,1803,2011,2013
 my pleasure,functional,pleasure,2,2,2,1,1803,2009,2022
 point out,idiom,point,2,2,2,0,1803,2008,2025
 pull up,idiom,pull,2,2,2,0,1803,2010,2022
 put on,idiom,put,2,2,2,0,1803,2012,2019
-rain or shine,idiom,rain,2,2,2,0,1803,2015,2024
+rain or shine,idiom,rain shine,2,2,2,0,1803,2015,2024
+range from … to …,idiom,range,2,2,2,0,1803,2013,2021
 in return,idiom,return,2,2,2,0,1803,2012,2015
 rule out,idiom,rule,2,2,2,0,1803,2022,2026
 i see,functional,see,2,2,2,2,1803,2012,2014
 sell out,idiom,sell,2,2,2,1,1803,2011,2018
 serve sb well,idiom,serve,2,2,2,0,1803,2014,2018
+yours sincerely,functional,sincerely,2,2,2,0,1803,2022,2023
 or so,functional,so,2,2,2,1,1803,2011,2016
 so ... that,functional,so,2,2,2,1,1803,2022,2023
-speak louder than words,idiom,speak,2,2,2,0,1803,2012,2023
 stand as,idiom,stand,2,2,2,0,1803,2014,2024
 straight a's,idiom,straight,2,2,2,0,1803,2008,2025
 be supposed to,functional,suppose,2,2,2,2,1803,2008,2018
@@ -233,7 +277,7 @@ over time,idiom,time,2,2,2,0,1803,2019,2022
 at all times,idiom,time,2,2,2,1,1803,2020,2026
 at times,idiom,time,2,2,2,0,1803,2020,2022
 on time,idiom,time,2,2,2,0,1803,2022,2025
-together with,functional,together,2,2,2,0,1803,2010,2011
+together with,functional,together with,2,2,2,0,1803,2010,2011
 me too,functional,too,2,2,2,2,1803,2021,2023
 turn up,idiom,turn,2,2,2,0,1803,2009,2010
 turn down,idiom,turn,2,2,2,1,1803,2020,2021
@@ -243,23 +287,35 @@ on one's way,idiom,way,2,2,2,2,1803,2012,2013
 out of the way,idiom,way,2,2,2,0,1803,2012,2014
 that way,functional,way,2,2,2,1,1803,2022,2023
 in the wild,idiom,wild,2,2,2,0,1803,2016,2022
+have to do with,idiom,with,2,2,2,1,1803,2021,2024
 i wonder if,functional,wonder,2,2,2,2,1803,2017,2021
+small talk,idiom,small,4,1,1,4,2011,2020,2020
 a good deal,functional,deal good,3,1,1,0,2021,2013,2013
 set ... free,idiom,free set,3,1,1,0,2021,2008,2008
 take it out on,idiom,take,3,1,1,0,2021,2012,2012
+come alive,idiom,alive,2,1,1,0,2044,2010,2010
+all around,idiom,around,2,1,1,0,2044,2011,2011
+as far as,functional,as south,2,1,1,0,2044,2019,2019
 run away,idiom,away,2,1,1,2,2044,2009,2009
 back and forth,idiom,back go,2,1,2,0,2044,2025,2025
 full board,idiom,board,2,1,1,2,2044,2009,2009
 half board,idiom,board,2,1,1,2,2044,2009,2009
+not...but,functional,but,2,1,2,1,2044,2021,2021
 check-in,idiom,check,2,1,2,1,2044,2016,2016
 some day,idiom,day,2,1,2,1,2044,2021,2021
 by the end of,functional,end,2,1,1,0,2044,2011,2011
+engage with,idiom,engage,2,1,1,0,2044,2026,2026
 quite a few,functional,few quite,2,1,2,0,2044,2008,2008
+for show,idiom,for show,2,1,1,0,2044,2014,2014
+care for,idiom,for,2,1,2,0,2044,2016,2016
 get across,idiom,get,2,1,2,0,2044,2008,2008
-as the saying goes,functional,go,2,1,1,0,2044,2013,2013
-go out of style,idiom,go,2,1,1,0,2044,2018,2018
+as the saying goes,functional,go saying,2,1,1,0,2044,2013,2013
+go out of style,idiom,go style,2,1,1,0,2044,2018,2018
+hair-raising,idiom,hair raise,2,1,1,0,2044,2022,2022
 on the other hand,functional,hand other,2,1,2,0,2044,2012,2012
+run into,idiom,into run,2,1,1,2,2044,2010,2010
 join in,idiom,join,2,1,1,0,2044,2010,2010
+knock out,unreviewed,knock,2,1,2,0,2044,2008,2008
 leave behind,idiom,leave,2,1,2,0,2044,2022,2022
 make small talk,idiom,make,2,1,1,2,2044,2020,2020
 at the moment,idiom,moment,2,1,1,2,2044,2017,2017
@@ -267,26 +323,59 @@ or more,functional,more,2,1,1,0,2044,2024,2024
 be open to,idiom,open,2,1,1,0,2044,2009,2009
 open up,idiom,open,2,1,1,0,2044,2015,2015
 play a part,idiom,part play,2,1,2,0,2044,2022,2022
+in person,idiom,person,2,1,1,2,2044,2023,2023
 put oneself in sb.'s shoes / skin,idiom,put,2,1,2,0,2044,2025,2025
-run into,idiom,run,2,1,1,2,2044,2010,2010
 set the table,idiom,set table,2,1,1,2,2044,2011,2011
 set out / set off,idiom,set,2,1,2,2,2044,2021,2021
-for show,idiom,show,2,1,1,0,2044,2014,2014
+win-win,idiom,situation win,2,1,1,0,2044,2011,2011
+sort out,idiom,sort thing,2,1,1,2,2044,2011,2011
 on special offer,idiom,special,2,1,2,2,2044,2008,2008
 wait tables,idiom,table,2,1,2,0,2044,2008,2008
 find one's way,idiom,way,2,1,1,0,2044,2017,2017
 a wide variety of,functional,wide,2,1,2,0,2044,2023,2023
-win-win,idiom,win,2,1,1,0,2044,2011,2011
+to the best of one's ability,idiom,ability,1,1,1,0,2122,2022,2022
+just about,idiom,about just,1,1,1,0,2122,2013,2013
+be all about,idiom,about,1,1,1,0,2122,2020,2020
+according to plan,idiom,according plan,1,1,1,1,2122,2024,2024
 take account of,idiom,account take,1,1,1,0,2122,2024,2024
 act out,idiom,act,1,1,1,0,2122,2023,2023
 add up,idiom,add,1,1,1,1,2122,2023,2023
+in addition,functional,addition,1,1,1,0,2122,2024,2024
+well adjusted,idiom,adjust,1,1,1,1,2122,2024,2024
+you can say that again,functional,again can say,1,1,1,1,2122,2011,2011
+time and time again,idiom,again,1,1,1,0,2122,2020,2020
+go against the grain,idiom,against,1,1,1,0,2122,2022,2022
 can't agree more,functional,agree more,1,1,1,0,2122,2011,2011
 ahead of one's time,idiom,ahead time,1,1,1,0,2122,2024,2024
+aim high,idiom,aim,1,1,1,1,2122,2024,2024
 open air,idiom,air,1,1,1,0,2122,2017,2017
+set apart,idiom,apart,1,1,1,0,2122,2013,2013
+take apart,idiom,apart take,1,1,1,0,2122,2018,2018
+apart from,functional,apart,1,1,1,1,2122,2023,2023
 apply oneself,idiom,apply,1,1,1,0,2122,2023,2023
+arm in arm,idiom,arm,1,1,1,0,2122,2010,2010
+see you around,functional,around,1,1,1,1,2122,2009,2009
+all-around,idiom,around,1,1,1,1,2122,2010,2010
+ask around,idiom,around,1,1,1,1,2122,2018,2018
+sit around,idiom,around sit,1,1,1,0,2122,2023,2023
+revolve around,idiom,around,1,1,1,0,2122,2026,2026
+have around,idiom,around have,1,1,1,0,2122,2026,2026
+as though,functional,as though,1,1,1,0,2122,2009,2009
+the same ... as,functional,as,1,1,1,0,2122,2010,2010
+as follows,functional,as follow,1,1,1,0,2122,2012,2012
+as a general rule,idiom,as general rule,1,1,1,0,2122,2014,2014
+as late as,functional,as,1,1,1,0,2122,2014,2014
+as it is,idiom,as,1,1,1,1,2122,2017,2017
+as ... as possible,functional,as,1,1,1,0,2122,2017,2017
+half as much as,functional,as,1,1,1,1,2122,2019,2019
+as it turned out,idiom,as,1,1,1,0,2122,2023,2023
+the same as,functional,as,1,1,1,1,2122,2024,2024
+strike as,idiom,as,1,1,1,0,2122,2025,2025
+as many as,functional,as many,1,1,1,0,2122,2026,2026
+set aside,idiom,aside set,1,1,1,0,2122,2011,2011
 right away,idiom,away right,1,1,1,0,2122,2008,2008
 go away,idiom,away go,1,1,1,0,2122,2012,2012
-do away with,idiom,away,1,1,1,0,2122,2015,2015
+do away with,idiom,away with,1,1,1,0,2122,2015,2015
 get away,idiom,away,1,1,1,0,2122,2016,2016
 throw away,idiom,away throw,1,1,1,0,2122,2022,2022
 far and away,idiom,away far,1,1,1,0,2122,2023,2023
@@ -302,25 +391,51 @@ take a turn for the worse,idiom,bad,1,1,1,0,2122,2009,2009
 not bad,functional,bad,1,1,1,0,2122,2013,2013
 too bad,functional,bad too,1,1,1,1,2122,2019,2019
 go bad,idiom,bad go,1,1,1,0,2122,2022,2022
-bear witness to,idiom,bear,1,1,1,0,2122,2026,2026
+a ball of fire,idiom,ball fire,1,1,1,0,2122,2025,2025
+on a daily basis,idiom,basis,1,1,1,0,2122,2008,2008
+bear witness to,idiom,bear witness,1,1,1,0,2122,2026,2026
 beat oneself up,idiom,beat,1,1,1,0,2122,2023,2023
+belong to,idiom,belong,1,1,1,0,2122,2022,2022
+belt-tightening,idiom,belt,1,1,1,0,2122,2011,2011
+i bet,functional,bet,1,1,1,1,2122,2026,2026
 big-time,idiom,big time,1,1,1,0,2122,2013,2013
+a little bit,functional,bit,1,1,1,0,2122,2025,2025
+to blame,idiom,blame,1,1,1,0,2122,2026,2026
+security blanket,idiom,blanket security,1,1,1,0,2122,2021,2021
+a blanket of,idiom,blanket,1,1,1,0,2122,2022,2022
 on board,idiom,board,1,1,1,0,2122,2008,2008
 across the board,idiom,board,1,1,1,0,2122,2022,2022
+bottom line,idiom,bottom,1,1,1,0,2122,2020,2020
 break up,idiom,break,1,1,1,1,2122,2023,2023
 bring to the attention of,idiom,bring,1,1,1,0,2122,2011,2011
 bring to a conclusion,idiom,bring,1,1,1,0,2122,2019,2019
 bring under,idiom,bring,1,1,1,0,2122,2022,2022
+on a tight budget,idiom,budget,1,1,1,0,2122,2018,2018
+on a budget,idiom,budget,1,1,1,0,2122,2018,2018
 built-in,idiom,build,1,1,1,0,2122,2017,2017
 build up,idiom,build,1,1,1,1,2122,2022,2022
+burst into,unreviewed,burst,1,1,1,0,2122,2015,2015
 make it one's business,idiom,business make,1,1,1,0,2122,2010,2010
 get down to business,idiom,business,1,1,1,0,2122,2012,2012
 mean business,idiom,business mean,1,1,1,0,2122,2018,2018
 go out of business,idiom,business go,1,1,1,1,2122,2019,2019
 show business,idiom,business show,1,1,1,1,2122,2022,2022
+no choice but,functional,but choice,1,1,1,1,2122,2013,2013
+nothing but,functional,but,1,1,1,0,2122,2013,2013
+all but,idiom,but,1,1,1,0,2122,2017,2017
+not just...but,functional,but,1,1,1,1,2122,2021,2021
+not only…but,functional,but,1,1,1,0,2122,2023,2023
+not just...but also,functional,but,1,1,1,0,2122,2025,2025
+by the thousands,functional,by thousand,1,1,1,0,2122,2014,2014
+by far,idiom,by far,1,1,1,1,2122,2015,2015
+stop by,idiom,by stop,1,1,1,0,2122,2017,2017
+slip by,idiom,by,1,1,1,0,2122,2022,2022
+drop by,idiom,by drop,1,1,1,1,2122,2023,2023
+little by little,idiom,by little,1,1,1,0,2122,2023,2023
+by themselves,functional,by,1,1,1,0,2122,2026,2026
 call in,idiom,call,1,1,1,0,2122,2010,2010
 call up,idiom,call,1,1,1,1,2122,2012,2012
-beyond the call of duty,idiom,call,1,1,1,0,2122,2016,2016
+beyond the call of duty,idiom,call duty,1,1,1,0,2122,2016,2016
 call off,idiom,call,1,1,1,1,2122,2020,2020
 on call,idiom,call,1,1,1,0,2122,2021,2021
 carry on,idiom,carry work,1,1,1,1,2122,2008,2008
@@ -331,14 +446,16 @@ just in case,functional,case just,1,1,1,0,2122,2026,2026
 be caught out,idiom,catch,1,1,1,0,2122,2013,2013
 catch fire,idiom,catch fire,1,1,1,0,2122,2014,2014
 catch on,idiom,catch,1,1,1,0,2122,2015,2015
-catch up with,idiom,catch,1,1,1,1,2122,2022,2022
+catch up with,idiom,catch with,1,1,1,1,2122,2022,2022
 for certain,idiom,certain,1,1,1,0,2122,2016,2016
 by any chance,idiom,chance,1,1,1,1,2122,2010,2010
 not a chance,idiom,chance,1,1,1,0,2122,2025,2025
+cheat on,idiom,cheat,1,1,1,0,2122,2015,2015
 check-out,idiom,check,1,1,1,1,2122,2016,2016
 check off,idiom,check list,1,1,1,1,2122,2021,2021
 check-up,idiom,check,1,1,1,1,2122,2021,2021
 check on,idiom,check,1,1,1,0,2122,2022,2022
+cheer up,idiom,cheer,1,1,1,0,2122,2010,2010
 come clean,idiom,clean come,1,1,1,0,2122,2013,2013
 close to,functional,close,1,1,1,0,2122,2018,2018
 keep a close eye on,idiom,close,1,1,1,0,2122,2022,2022
@@ -346,17 +463,24 @@ come in out of the cold,idiom,cold,1,1,1,0,2122,2026,2026
 come by,idiom,come,1,1,1,0,2122,2012,2012
 how come,idiom,come,1,1,1,1,2122,2013,2013
 come to the aid of,idiom,come,1,1,1,0,2122,2018,2018
-come over,idiom,come,1,1,1,1,2122,2019,2019
 up-and-coming,idiom,come,1,1,1,0,2122,2021,2021
 to come,idiom,come,1,1,1,0,2122,2021,2021
 come to sb,idiom,come,1,1,1,0,2122,2021,2021
 come under fire,idiom,come fire,1,1,1,0,2122,2021,2021
 come to be,idiom,come,1,1,1,0,2122,2023,2023
-straight from the horse's mouth,idiom,come straight,1,1,1,0,2122,2023,2023
+straight from the horse's mouth,idiom,come horse mouth straight,1,1,1,0,2122,2023,2023
 come to light,idiom,come light,1,1,1,1,2122,2026,2026
+compared with,functional,compare with,1,1,1,0,2122,2021,2021
+compared to,functional,compare,1,1,1,0,2122,2021,2021
 complete with,idiom,complete,1,1,1,0,2122,2017,2017
 be concerned with,idiom,concern,1,1,1,0,2122,2013,2013
+jump to conclusions,idiom,conclusion jump,1,1,1,0,2122,2014,2014
+in contact with,functional,contact with,1,1,1,0,2122,2020,2020
+cook up a storm,idiom,cook storm,1,1,1,0,2122,2018,2018
+corn hole,idiom,corn hole,1,1,1,0,2122,2026,2026
 cost of living,idiom,cost,1,1,1,0,2122,2011,2011
+count on,idiom,count,1,1,1,0,2122,2025,2025
+like crazy,idiom,crazy like,1,1,1,0,2122,2024,2024
 short cut,idiom,cut,1,1,1,1,2122,2023,2023
 cutting-edge,idiom,cut,1,1,1,0,2122,2025,2025
 good old days,idiom,day good,1,1,1,0,2122,2011,2011
@@ -368,8 +492,13 @@ win the day,idiom,day win,1,1,1,0,2122,2023,2023
 a great deal,functional,deal great,1,1,1,0,2122,2012,2012
 the real deal,idiom,deal real,1,1,1,0,2122,2015,2015
 on demand,idiom,demand,1,1,1,0,2122,2018,2018
+depending on,functional,depend,1,1,1,0,2122,2022,2022
+go on a diet,idiom,diet,1,1,1,1,2122,2021,2021
+put on a diet,idiom,diet,1,1,1,1,2122,2021,2021
 be the difference,idiom,difference,1,1,1,0,2122,2025,2025
 make all the difference,idiom,difference make,1,1,1,0,2122,2026,2026
+under discussion,idiom,discussion,1,1,1,0,2122,2016,2016
+do the dishes,unreviewed,dish,1,1,1,0,2122,2021,2021
 next door,idiom,door,1,1,1,0,2122,2026,2026
 draw on,idiom,draw,1,1,1,0,2122,2023,2023
 draw near,idiom,draw,1,1,1,0,2122,2025,2025
@@ -377,47 +506,73 @@ dream up,idiom,dream,1,1,1,0,2122,2022,2022
 dream come true,idiom,dream,1,1,1,1,2122,2022,2022
 drive out,idiom,drive,1,1,1,0,2122,2011,2011
 drop in,idiom,drop,1,1,1,0,2122,2017,2017
-jaw-dropping,idiom,drop,1,1,1,0,2122,2022,2022
-drop by,idiom,drop,1,1,1,1,2122,2023,2023
+jaw-dropping,idiom,drop jaw,1,1,1,0,2122,2022,2022
+in an effort to,functional,effort,1,1,1,0,2122,2014,2014
+in case of emergencies,functional,emergency,1,1,1,0,2122,2021,2021
 in the end,idiom,end,1,1,1,1,2122,2009,2009
 no end of,idiom,end,1,1,1,0,2122,2011,2011
 to no end,idiom,end,1,1,1,0,2122,2014,2014
+engage in,idiom,engage,1,1,1,0,2122,2026,2026
 fair enough,idiom,enough,1,1,1,1,2122,2014,2014
 ever since,functional,ever,1,1,1,0,2122,2012,2012
 as ever,idiom,ever,1,1,1,0,2122,2012,2012
 ever after,idiom,ever,1,1,1,0,2122,2019,2019
 excuse oneself,idiom,excuse,1,1,1,0,2122,2019,2019
+on exhibition,idiom,exhibition,1,1,1,0,2122,2015,2015
+expand on,idiom,expand,1,1,1,0,2122,2022,2022
+by extension,idiom,extension,1,1,1,0,2122,2019,2019
 take one's eyes off,idiom,eye,1,1,1,0,2122,2011,2011
 before one's eyes,idiom,eye,1,1,1,0,2122,2012,2012
 keep an eye on,idiom,eye keep,1,1,1,0,2122,2022,2022
 eye in the sky,idiom,eye,1,1,1,0,2122,2022,2022
 cast an eye over,idiom,eye,1,1,1,0,2122,2024,2024
 fall short,idiom,fall short,1,1,1,0,2122,2011,2011
-fall victim to,idiom,fall,1,1,1,0,2122,2015,2015
+fall victim to,idiom,fall victim,1,1,1,0,2122,2015,2015
 fall out of use,idiom,fall,1,1,1,0,2122,2021,2021
-by far,idiom,far,1,1,1,1,2122,2015,2015
 no further than,idiom,far,1,1,1,0,2122,2021,2021
+at fault,idiom,fault,1,1,1,0,2122,2025,2025
+in favor of,functional,favour,1,1,1,0,2122,2026,2026
+for fear of,functional,fear,1,1,1,0,2122,2022,2022
 fed up,idiom,feed,1,1,1,1,2122,2020,2020
 feel free,idiom,feel,1,1,1,1,2122,2020,2020
-get in touch with,idiom,feeling,1,1,1,0,2122,2015,2015
-track and field,idiom,field,1,1,1,0,2122,2020,2020
+track and field,idiom,field track,1,1,1,0,2122,2020,2020
 fill out,idiom,fill,1,1,1,0,2122,2024,2024
 finish up,idiom,finish,1,1,1,0,2122,2026,2026
 on fire,idiom,fire,1,1,1,0,2122,2008,2008
-a ball of fire,idiom,fire,1,1,1,0,2122,2025,2025
 first-class,idiom,first,1,1,1,0,2122,2008,2008
 at the first sight of,idiom,first,1,1,1,0,2122,2018,2018
 first of all,functional,first,1,1,1,0,2122,2022,2022
 first-hand,idiom,first,1,1,1,0,2122,2023,2023
 fish out,idiom,fish,1,1,1,0,2122,2024,2024
+flat out,idiom,flat,1,1,1,1,2122,2022,2022
 in focus,idiom,focus,1,1,1,0,2122,2015,2015
-as follows,functional,follow,1,1,1,0,2122,2012,2012
 set foot,idiom,foot,1,1,1,0,2122,2021,2021
-force the issue,idiom,force,1,1,1,0,2122,2025,2025
+watch for,idiom,for watch,1,1,1,0,2122,2008,2008
+for anything,idiom,for,1,1,1,1,2122,2010,2010
+what for,functional,for,1,1,1,0,2122,2011,2011
+for sale,idiom,for sale,1,1,1,0,2122,2011,2011
+for the purpose of,functional,for purpose,1,1,1,0,2122,2011,2011
+cater for,idiom,for,1,1,1,0,2122,2011,2011
+head for,idiom,for,1,1,1,0,2122,2015,2015
+for sure,idiom,for sure,1,1,1,1,2122,2016,2016
+for long,idiom,for,1,1,1,0,2122,2016,2016
+for the better,idiom,for,1,1,1,0,2122,2017,2017
+make up for,idiom,for make,1,1,1,0,2122,2017,2017
+for a change,idiom,for,1,1,1,1,2122,2018,2018
+for good reason,idiom,for good,1,1,1,0,2122,2021,2021
+have use for,idiom,for have use,1,1,1,0,2122,2021,2021
+go in for,idiom,for,1,1,1,1,2122,2021,2021
+be there for,unreviewed,for,1,1,1,1,2122,2021,2021
+for a living,idiom,for,1,1,1,0,2122,2021,2021
+good for you,functional,for,1,1,1,1,2122,2025,2025
+make way for,idiom,for make way,1,1,1,0,2122,2025,2025
+force the issue,idiom,force issue,1,1,1,0,2122,2025,2025
 free up,idiom,free,1,1,1,0,2122,2009,2009
 feel free to,idiom,free,1,1,1,1,2122,2020,2020
+small fry,idiom,fry small,1,1,1,0,2122,2021,2021
 make fun of,idiom,fun make,1,1,1,1,2122,2011,2011
 in the near future,idiom,future,1,1,1,0,2122,2019,2019
+in general,idiom,general,1,1,1,1,2122,2011,2011
 get-together,idiom,get together,1,1,1,1,2122,2012,2012
 get at,idiom,get,1,1,1,0,2122,2012,2012
 get on,idiom,get,1,1,1,0,2122,2012,2012
@@ -426,7 +581,7 @@ get out of the way,idiom,get,1,1,1,0,2122,2014,2014
 get going,idiom,get go,1,1,1,1,2122,2015,2015
 get hold of,idiom,get hold,1,1,1,0,2122,2016,2016
 get away from,idiom,get,1,1,1,0,2122,2016,2016
-get in shape,idiom,get,1,1,1,1,2122,2019,2019
+get in shape,idiom,get shape,1,1,1,1,2122,2019,2019
 get to,idiom,get,1,1,1,0,2122,2019,2019
 get lost,idiom,get lose,1,1,1,1,2122,2021,2021
 get to do,idiom,get,1,1,1,0,2122,2023,2023
@@ -435,7 +590,7 @@ get in the way,idiom,get,1,1,1,0,2122,2025,2025
 give a hand,idiom,give hand,1,1,1,0,2122,2009,2009
 give in,idiom,give,1,1,1,0,2122,2016,2016
 give and take,idiom,give take,1,1,1,0,2122,2020,2020
-go along with,idiom,go,1,1,1,0,2122,2009,2009
+go along with,idiom,go with,1,1,1,0,2122,2009,2009
 let go,idiom,go,1,1,1,0,2122,2016,2016
 go above and beyond,idiom,go,1,1,1,0,2122,2016,2016
 how's it going,functional,go,1,1,1,1,2122,2016,2016
@@ -446,36 +601,36 @@ go the way of,idiom,go way,1,1,1,0,2122,2021,2021
 go to waste,idiom,go waste,1,1,1,0,2122,2022,2022
 go against,idiom,go,1,1,1,0,2122,2022,2022
 go down,idiom,go,1,1,1,0,2122,2023,2023
-go with,idiom,go,1,1,1,0,2122,2023,2023
+go with,idiom,go with,1,1,1,0,2122,2023,2023
 have a go,idiom,go have,1,1,1,0,2122,2023,2023
 go crazy,idiom,go,1,1,1,0,2122,2023,2023
-go around,idiom,go,1,1,1,0,2122,2026,2026
+silence is gold,idiom,gold,1,1,1,0,2122,2016,2016
 take good care of,idiom,good,1,1,1,0,2122,2008,2008
 make the best of,idiom,good make,1,1,1,0,2122,2010,2010
 best wishes,functional,good,1,1,1,0,2122,2010,2010
 good night,functional,good,1,1,1,1,2122,2012,2012
 good luck,functional,good,1,1,1,1,2122,2014,2014
-for good reason,idiom,good,1,1,1,0,2122,2021,2021
 good afternoon,functional,good,1,1,1,1,2122,2022,2022
 the good life,idiom,good life,1,1,1,1,2122,2023,2023
 a good shot,idiom,good,1,1,1,0,2122,2023,2023
 good samaritan,idiom,good,1,1,1,0,2122,2026,2026
+against the grain,idiom,grain,1,1,1,0,2122,2022,2022
 of great importance,idiom,great,1,1,1,0,2122,2022,2022
 have a great time,idiom,great time,1,1,1,1,2122,2023,2023
 grow out of,idiom,grow,1,1,1,0,2122,2014,2014
+on guard,idiom,guard,1,1,1,0,2122,2008,2008
 guess what,functional,guess,1,1,1,1,2122,2019,2019
 helping hand,idiom,hand,1,1,1,0,2122,2012,2012
-hand over,idiom,hand,1,1,1,0,2122,2014,2014
+hand over,idiom,hand over,1,1,1,0,2122,2014,2014
 at the hands of,idiom,hand,1,1,1,0,2122,2021,2021
 by hand,idiom,hand,1,1,1,0,2122,2023,2023
-laying on of hands,idiom,hand,1,1,1,0,2122,2024,2024
+laying on of hands,idiom,hand lay,1,1,1,0,2122,2024,2024
+hang up,idiom,hang,1,1,1,0,2122,2010,2010
 hard pressed,idiom,hard,1,1,1,0,2122,2021,2021
-have use for,idiom,have use,1,1,1,0,2122,2021,2021
 there you have it,functional,have,1,1,1,0,2122,2021,2021
 have a good shot,idiom,have,1,1,1,0,2122,2023,2023
 have what it takes,idiom,have,1,1,1,0,2122,2023,2023
 have it right,idiom,have,1,1,1,0,2122,2025,2025
-have around,idiom,have,1,1,1,0,2122,2026,2026
 in the heart of,idiom,heart,1,1,1,0,2122,2018,2018
 break one's heart,idiom,heart,1,1,1,0,2122,2019,2019
 a helping hand,idiom,help,1,1,1,0,2122,2012,2012
@@ -483,7 +638,9 @@ can't help,idiom,help,1,1,1,0,2122,2021,2021
 help out,idiom,help,1,1,1,0,2122,2021,2021
 here and now,idiom,here now,1,1,1,0,2122,2013,2013
 here you are,functional,here,1,1,1,1,2122,2016,2016
-in high spirits,idiom,high,1,1,1,0,2122,2010,2010
+by herself,idiom,herself,1,1,1,1,2122,2021,2021
+hide and seek,idiom,hide seek,1,1,1,0,2122,2022,2022
+in high spirits,idiom,high spirit,1,1,1,0,2122,2010,2010
 hit the shelves,idiom,hit,1,1,1,0,2122,2008,2008
 hit-and-miss,idiom,hit,1,1,1,0,2122,2008,2008
 hold on to,idiom,hold,1,1,1,0,2122,2014,2014
@@ -493,61 +650,87 @@ a host of,functional,host,1,1,1,0,2122,2022,2022
 on the hour,idiom,hour,1,1,1,0,2122,2023,2023
 hurry up,idiom,hurry,1,1,1,1,2122,2012,2012
 have no idea,idiom,idea,1,1,1,0,2122,2013,2013
+if it weren't for,functional,if,1,1,1,0,2122,2016,2016
+if necessary,functional,if,1,1,1,0,2122,2024,2024
 inside out,idiom,inside,1,1,1,0,2122,2026,2026
-just about,idiom,just,1,1,1,0,2122,2013,2013
+in an instant,idiom,instant,1,1,1,0,2122,2025,2025
+with the intention of,functional,intention,1,1,1,1,2122,2023,2023
+burst into tears,idiom,into tear,1,1,1,0,2122,2015,2015
+check into,idiom,into,1,1,1,0,2122,2015,2015
+put into practice,idiom,into practise put,1,1,1,0,2122,2018,2018
+put into words,idiom,into put word,1,1,1,0,2122,2020,2020
+put into place,idiom,into,1,1,1,0,2122,2021,2021
+fall into,idiom,into,1,1,1,0,2122,2021,2021
+draw into,idiom,into,1,1,1,0,2122,2021,2021
+step into,idiom,into step,1,1,1,0,2122,2023,2023
+in and of itself,idiom,itself,1,1,1,0,2122,2025,2025
+judge a book by its cover,idiom,judge,1,1,1,0,2122,2013,2013
+jump at,idiom,jump,1,1,1,0,2122,2018,2018
+jump-start,idiom,jump start,1,1,1,0,2122,2019,2019
 only just,idiom,just only,1,1,1,1,2122,2018,2018
 keep in mind,idiom,keep mind,1,1,1,0,2122,2008,2008
 keep in touch,idiom,keep,1,1,1,0,2122,2015,2015
 keep from,idiom,keep,1,1,1,0,2122,2020,2020
-keep track of,idiom,keep,1,1,1,0,2122,2022,2022
+keep track of,idiom,keep track,1,1,1,0,2122,2022,2022
+kick off,idiom,kick,1,1,1,0,2122,2016,2016
 this kind of,functional,kind,1,1,1,0,2122,2026,2026
 before i knew it,idiom,know,1,1,1,0,2122,2008,2008
 you never know,functional,know,1,1,1,0,2122,2026,2026
 have the last laugh,idiom,last,1,1,1,0,2122,2024,2024
+see you later,functional,later,1,1,1,1,2122,2016,2016
+sooner or later,idiom,later soon,1,1,1,0,2122,2017,2017
+take the leap,idiom,leap,1,1,1,0,2122,2023,2023
 leave sb. doing,functional,leave,1,1,1,0,2122,2012,2012
 life-and-death,idiom,life,1,1,1,0,2122,2009,2009
 a matter of life and death,idiom,life matter,1,1,1,0,2122,2009,2009
 how is life treating you,functional,life,1,1,1,1,2122,2023,2023
 walks of life,idiom,life,1,1,1,0,2122,2023,2023
 light up,idiom,light,1,1,1,0,2122,2015,2015
+what is ... like,functional,like,1,1,1,1,2122,2008,2008
+be like,functional,like,1,1,1,0,2122,2011,2011
+if you like,functional,like,1,1,1,1,2122,2018,2018
+like-minded,idiom,like,1,1,1,1,2122,2024,2024
 the bottom line,idiom,line,1,1,1,0,2122,2020,2020
+listen in,idiom,listen,1,1,1,0,2122,2009,2009
 little wonder,idiom,little wonder,1,1,1,0,2122,2021,2021
-little by little,idiom,little,1,1,1,0,2122,2023,2023
 make a living,idiom,live make,1,1,1,0,2122,2013,2013
 not long before,idiom,long,1,1,1,0,2122,2010,2010
 before long,idiom,long,1,1,1,0,2122,2012,2012
 long since,idiom,long,1,1,1,1,2122,2023,2023
 look no further,idiom,look,1,1,1,0,2122,2021,2021
 look in on,idiom,look,1,1,1,1,2122,2024,2024
-lose sight of,idiom,lose,1,1,1,0,2122,2017,2017
+lose sight of,idiom,lose sight,1,1,1,0,2122,2017,2017
 be lost in,idiom,lose,1,1,1,0,2122,2026,2026
 quite a lot of,functional,lot,1,1,1,1,2122,2017,2017
 a lot more,functional,lot,1,1,1,0,2122,2021,2021
 low on,idiom,low,1,1,1,0,2122,2015,2015
 major in,idiom,major,1,1,1,1,2122,2018,2018
+majority of,functional,majority,1,1,1,0,2122,2026,2026
 make-up,idiom,make,1,1,1,0,2122,2012,2012
 make a point of,idiom,make,1,1,1,0,2122,2017,2017
-make up for,idiom,make,1,1,1,0,2122,2017,2017
 make up,idiom,make,1,1,1,0,2122,2022,2022
 make the case,idiom,make,1,1,1,0,2122,2023,2023
 make sense,idiom,make sense,1,1,1,0,2122,2024,2024
 practice makes perfect,idiom,make,1,1,1,0,2122,2025,2025
-make way for,idiom,make way,1,1,1,0,2122,2025,2025
-as many as,functional,many,1,1,1,0,2122,2026,2026
 how many,functional,many,1,1,1,1,2122,2026,2026
 on the market,idiom,market,1,1,1,0,2122,2018,2018
+may well,functional,may well,1,1,1,0,2122,2008,2008
+pick-me-up,idiom,me pick,1,1,1,0,2122,2025,2025
 know what you mean,functional,mean,1,1,1,1,2122,2018,2018
 mean well,idiom,mean well,1,1,1,0,2122,2022,2022
+means of,functional,means,1,1,1,0,2122,2025,2025
 not to mention,functional,mention,1,1,1,0,2122,2021,2021
+the more the merrier,idiom,merry,1,1,1,0,2122,2022,2022
 middle of nowhere,idiom,middle,1,1,1,0,2122,2026,2026
 take one's mind off,idiom,mind take,1,1,1,0,2122,2009,2009
 mind-blowing,idiom,mind,1,1,1,0,2122,2025,2025
 wait a minute,functional,minute,1,1,1,1,2122,2011,2011
 in a minute,idiom,minute,1,1,1,1,2122,2013,2013
 the next minute,functional,minute,1,1,1,0,2122,2021,2021
-miss out on,idiom,miss,1,1,1,1,2122,2024,2024
 at the last moment,idiom,moment,1,1,1,0,2122,2013,2013
-more often than not,idiom,more,1,1,1,0,2122,2008,2008
+pocket money,idiom,money,1,1,1,0,2122,2009,2009
+get one's money's worth,idiom,money,1,1,1,0,2122,2013,2013
+more often than not,idiom,more often,1,1,1,0,2122,2008,2008
 the more...the more,functional,more,1,1,1,0,2122,2009,2009
 not any more,functional,more,1,1,1,1,2122,2012,2012
 no more,functional,more,1,1,1,0,2122,2012,2012
@@ -560,11 +743,13 @@ more than once,functional,more,1,1,1,0,2122,2025,2025
 most of all,functional,most,1,1,1,0,2122,2015,2015
 at most,idiom,most,1,1,1,0,2122,2016,2016
 move in,idiom,move,1,1,1,0,2122,2022,2022
-as much as possible,functional,much,1,1,1,0,2122,2008,2008
 so much,functional,much,1,1,1,0,2122,2014,2014
 pretty much,functional,much pretty,1,1,1,1,2122,2023,2023
+a must,idiom,must,1,1,1,0,2122,2021,2021
 you name it,idiom,name,1,1,1,1,2122,2017,2017
 in the name of,functional,name,1,1,1,1,2122,2022,2022
+neither do i,functional,neither,1,1,1,0,2122,2013,2013
+neither of,functional,neither,1,1,1,0,2122,2026,2026
 never mind,functional,never,1,1,1,0,2122,2009,2009
 take note,idiom,note take,1,1,1,0,2122,2011,2011
 be noted for,idiom,note,1,1,1,0,2122,2016,2016
@@ -573,13 +758,20 @@ every now and then,idiom,now then,1,1,1,0,2122,2009,2009
 from now on,idiom,now,1,1,1,0,2122,2019,2019
 now and then,idiom,now then,1,1,1,0,2122,2021,2021
 now that,functional,now,1,1,1,1,2122,2023,2023
+in the middle of nowhere,idiom,nowhere,1,1,1,0,2122,2026,2026
 a large number of,functional,number,1,1,1,0,2122,2023,2023
+occur to,idiom,occur,1,1,1,0,2122,2026,2026
+every so often,idiom,often so,1,1,1,0,2122,2011,2011
 good old,idiom,old,1,1,1,0,2122,2011,2011
-once in a while,idiom,once,1,1,1,1,2122,2023,2023
+once in a while,idiom,once while,1,1,1,1,2122,2023,2023
 only after,functional,only,1,1,1,0,2122,2016,2016
 only to,functional,only,1,1,1,0,2122,2024,2024
 in order,idiom,order,1,1,1,0,2122,2016,2016
 in other words,functional,other word,1,1,1,0,2122,2013,2013
+pull over,idiom,over pull,1,1,1,0,2122,2016,2016
+be over,idiom,over,1,1,1,1,2122,2019,2019
+boil over,idiom,over,1,1,1,0,2122,2021,2021
+wash over,idiom,over,1,1,1,0,2122,2024,2024
 earn one's own living,idiom,own,1,1,1,0,2122,2009,2009
 pull one's weight,idiom,own pull weight,1,1,1,0,2122,2020,2020
 pack up,idiom,pack,1,1,1,0,2122,2023,2023
@@ -588,129 +780,146 @@ pass up,idiom,pass,1,1,1,0,2122,2013,2013
 pass on,idiom,pass,1,1,1,1,2122,2021,2021
 pay back,idiom,pay,1,1,1,0,2122,2026,2026
 pick out,idiom,pick,1,1,1,1,2122,2019,2019
-pick-me-up,idiom,pick,1,1,1,0,2122,2025,2025
 the big picture,idiom,picture,1,1,1,0,2122,2026,2026
+what a pity,functional,pity,1,1,1,1,2122,2024,2024
 in place of,functional,place,1,1,1,0,2122,2009,2009
-according to plan,idiom,plan,1,1,1,1,2122,2024,2024
 play out,idiom,play,1,1,1,0,2122,2015,2015
 state of play,idiom,play,1,1,1,0,2122,2015,2015
 play along,idiom,play,1,1,1,0,2122,2024,2024
-with pleasure,idiom,pleasure,1,1,1,1,2122,2010,2010
+with pleasure,idiom,pleasure with,1,1,1,1,2122,2010,2010
 make it a point to,idiom,point,1,1,1,0,2122,2017,2017
 point to,idiom,point,1,1,1,0,2122,2026,2026
-put into practice,idiom,practise put,1,1,1,0,2122,2018,2018
+as soon as possible,idiom,possible,1,1,1,1,2122,2008,2008
+whenever possible,functional,possible,1,1,1,0,2122,2022,2022
+in print,idiom,print,1,1,1,0,2122,2024,2024
 in public,idiom,public,1,1,1,0,2122,2019,2019
-pull over,idiom,pull,1,1,1,0,2122,2016,2016
-for the purpose of,functional,purpose,1,1,1,0,2122,2011,2011
 on purpose,idiom,purpose,1,1,1,0,2122,2026,2026
 put up,idiom,put,1,1,1,0,2122,2011,2011
 put off,idiom,put,1,1,1,1,2122,2013,2013
 put to use,idiom,put use,1,1,1,0,2122,2018,2018
-put into words,idiom,put word,1,1,1,0,2122,2020,2020
 put aside,idiom,put,1,1,1,0,2122,2020,2020
 put to the test,idiom,put test,1,1,1,0,2122,2021,2021
 put to sleep,idiom,put sleep,1,1,1,0,2122,2024,2024
 quite a number,functional,quite,1,1,1,0,2122,2012,2012
-quite a while,functional,quite,1,1,1,0,2122,2013,2013
+quite a while,functional,quite while,1,1,1,0,2122,2013,2013
 quite some,functional,quite,1,1,1,1,2122,2015,2015
-hair-raising,idiom,raise,1,1,1,0,2122,2022,2022
+a race against time,idiom,race,1,1,1,0,2122,2013,2013
+at random,idiom,random,1,1,1,0,2122,2018,2018
+a range of,functional,range,1,1,1,0,2122,2021,2021
 would rather,functional,rather,1,1,1,1,2122,2014,2014
 or rather,functional,rather,1,1,1,0,2122,2026,2026
 reach out,idiom,reach,1,1,1,0,2122,2012,2012
 out of reach,idiom,reach,1,1,1,0,2122,2020,2020
+in reality,idiom,reality,1,1,1,0,2122,2014,2014
+regardless of,functional,regardless,1,1,1,0,2122,2019,2019
 for rent,idiom,rent,1,1,1,1,2122,2018,2018
 with respect to,functional,respect,1,1,1,0,2122,2013,2013
 in many respects,idiom,respect,1,1,1,0,2122,2026,2026
+in response to,functional,response,1,1,1,0,2122,2021,2021
 result from,idiom,result,1,1,1,0,2122,2015,2015
 ring true,idiom,ring true,1,1,1,0,2122,2018,2018
 give sb. a ring,idiom,ring,1,1,1,1,2122,2018,2018
 ring up,idiom,ring,1,1,1,0,2122,2024,2024
 on the rise,idiom,rise,1,1,1,0,2122,2011,2011
 down the road,idiom,road,1,1,1,0,2122,2022,2022
-as a general rule,idiom,rule,1,1,1,0,2122,2014,2014
+roll out,idiom,roll,1,1,1,0,2122,2022,2022
+all-round,idiom,round,1,1,1,0,2122,2010,2010
+all year round,idiom,round year,1,1,1,0,2122,2019,2019
+round out,idiom,round,1,1,1,0,2122,2022,2022
 run ahead of,idiom,run,1,1,1,0,2122,2021,2021
-for sale,idiom,sale,1,1,1,0,2122,2011,2011
-you can say that again,functional,say,1,1,1,1,2122,2011,2011
+do the same,functional,same,1,1,1,1,2122,2011,2011
+the same is true of,functional,same,1,1,1,0,2122,2014,2014
 that said,functional,say,1,1,1,0,2122,2021,2021
+on the scene,idiom,scene,1,1,1,0,2122,2018,2018
 in season,idiom,season,1,1,1,0,2122,2008,2008
+take a seat,idiom,seat take,1,1,1,0,2122,2010,2010
 without a second thought,idiom,second thought,1,1,1,0,2122,2024,2024
 on second thought,idiom,second thought,1,1,1,0,2122,2026,2026
 as you can see,functional,see,1,1,1,1,2122,2015,2015
 we'll see,functional,see,1,1,1,1,2122,2017,2017
 fancy seeing,functional,see,1,1,1,1,2122,2022,2022
-hide and seek,idiom,seek,1,1,1,0,2122,2022,2022
 seek out,idiom,seek,1,1,1,0,2122,2022,2022
 send up,idiom,send,1,1,1,0,2122,2015,2015
 serve to,idiom,serve,1,1,1,0,2122,2021,2021
 serve as,idiom,serve,1,1,1,0,2122,2022,2022
 serve up,idiom,serve,1,1,1,0,2122,2025,2025
-set aside,idiom,set,1,1,1,0,2122,2011,2011
 set ... apart,idiom,set,1,1,1,0,2122,2013,2013
 set off,idiom,set,1,1,1,0,2122,2016,2016
 set the stage for,idiom,set,1,1,1,0,2122,2017,2017
 set foot on,idiom,set,1,1,1,0,2122,2021,2021
+settle on,idiom,settle,1,1,1,0,2122,2025,2025
 put oneself in sb.'s shoes,idiom,shoe,1,1,1,0,2122,2025,2025
 short of,idiom,short,1,1,1,0,2122,2020,2020
 short-sighted,idiom,short,1,1,1,0,2122,2022,2022
 in short,idiom,short,1,1,1,0,2122,2026,2026
 on show,idiom,show,1,1,1,0,2122,2008,2008
 show off,idiom,show,1,1,1,0,2122,2014,2014
-show around,idiom,show,1,1,1,1,2122,2026,2026
+shut down,idiom,shut,1,1,1,0,2122,2026,2026
 from side to side,idiom,side,1,1,1,0,2122,2022,2022
 one-sided,idiom,side,1,1,1,0,2122,2023,2023
-sit around,idiom,sit,1,1,1,0,2122,2023,2023
+in sight,idiom,sight,1,1,1,0,2122,2015,2015
+at the sight of,idiom,sight,1,1,1,0,2122,2018,2018
+on site,idiom,site,1,1,1,0,2122,2026,2026
 king-size,idiom,size,1,1,1,0,2122,2011,2011
+in another's skin,idiom,skin,1,1,1,0,2122,2025,2025
+eyes in the sky,idiom,sky,1,1,1,0,2122,2022,2022
 smile on,idiom,smile,1,1,1,0,2122,2017,2017
-every so often,idiom,so,1,1,1,0,2122,2011,2011
 so-so,idiom,so,1,1,1,1,2122,2012,2012
 so many,functional,so,1,1,1,0,2122,2015,2015
-sooner or later,idiom,soon,1,1,1,0,2122,2017,2017
+what sort of,functional,sort,1,1,1,0,2122,2019,2019
+of some sort,idiom,sort,1,1,1,0,2122,2020,2020
 in the space of,functional,space,1,1,1,0,2122,2019,2019
-jump-start,idiom,start,1,1,1,0,2122,2019,2019
+to spare,idiom,spare,1,1,1,0,2122,2024,2024
+raise one's spirits,idiom,spirit,1,1,1,0,2122,2010,2010
+set the stage,idiom,stage,1,1,1,0,2122,2017,2017
 start out,idiom,start,1,1,1,0,2122,2024,2024
 get started on,idiom,start,1,1,1,0,2122,2026,2026
 stay on,idiom,stay,1,1,1,0,2122,2009,2009
 stay off,idiom,stay,1,1,1,0,2122,2009,2009
-stepping-stone,idiom,step,1,1,1,0,2122,2008,2008
+steal my heart,idiom,steal,1,1,1,1,2122,2024,2024
+stepping-stone,idiom,step stone,1,1,1,0,2122,2008,2008
 step out,idiom,step,1,1,1,0,2122,2015,2015
 a step up,idiom,step,1,1,1,0,2122,2018,2018
 a step further,idiom,step,1,1,1,0,2122,2020,2020
-step into,idiom,step,1,1,1,0,2122,2023,2023
 retrace the steps,idiom,step,1,1,1,0,2122,2024,2024
 step in,idiom,step,1,1,1,0,2122,2026,2026
-stick with,idiom,stick,1,1,1,0,2122,2021,2021
+stick with,idiom,stick with,1,1,1,0,2122,2021,2021
 let alone,idiom,still,1,1,1,0,2122,2013,2013
 better still,idiom,still,1,1,1,1,2122,2019,2019
 stop off,idiom,stop,1,1,1,0,2122,2009,2009
-stop by,idiom,stop,1,1,1,0,2122,2017,2017
+take ... by storm,idiom,storm take,1,1,1,0,2122,2008,2008
+strike a deal,idiom,strike,1,1,1,0,2122,2021,2021
+strike me as,idiom,strike,1,1,1,0,2122,2021,2021
+strike them as,idiom,strike,1,1,1,0,2122,2025,2025
+in style,idiom,style,1,1,1,0,2122,2017,2017
+all of a sudden,idiom,sudden,1,1,1,1,2122,2018,2018
 be sure to,functional,sure,1,1,1,0,2122,2008,2008
-for sure,idiom,sure,1,1,1,1,2122,2016,2016
 to be sure,idiom,sure,1,1,1,0,2122,2017,2017
-take ... by storm,idiom,take,1,1,1,0,2122,2008,2008
 take a turn,idiom,take turn,1,1,1,0,2122,2009,2009
-take a seat,idiom,take,1,1,1,0,2122,2010,2010
 take time off,idiom,take time,1,1,1,1,2122,2010,2010
 take one's time,idiom,take,1,1,1,1,2122,2013,2013
 take a shower,idiom,take,1,1,1,0,2122,2017,2017
 take over,idiom,take,1,1,1,0,2122,2018,2018
-take apart,idiom,take,1,1,1,0,2122,2018,2018
 take to,idiom,take,1,1,1,0,2122,2020,2020
 take sth. a step further,idiom,take,1,1,1,0,2122,2020,2020
 what it takes,idiom,take,1,1,1,0,2122,2023,2023
 take the trouble,idiom,take,1,1,1,0,2122,2024,2024
 talk into,idiom,talk,1,1,1,0,2122,2017,2017
 talk over,idiom,talk,1,1,1,1,2122,2025,2025
+up to the task,idiom,task,1,1,1,0,2122,2025,2025
+team up,idiom,team,1,1,1,0,2122,2023,2023
 up until then,functional,then,1,1,1,0,2122,2008,2008
 by then,functional,then,1,1,1,1,2122,2011,2011
 but then,functional,then,1,1,1,0,2122,2015,2015
-sort out,idiom,thing,1,1,1,1,2122,2011,2011
 think up,idiom,think,1,1,1,0,2122,2008,2008
 hear oneself think,idiom,think,1,1,1,1,2122,2015,2015
-think of ... as,idiom,think,1,1,1,0,2122,2022,2022
 think so,functional,think,1,1,1,1,2122,2025,2025
 be thought to be,functional,think,1,1,1,1,2122,2026,2026
-by the thousands,functional,thousand,1,1,1,0,2122,2014,2014
+live through,idiom,through,1,1,1,0,2122,2010,2010
+work through,idiom,through work,1,1,1,0,2122,2015,2015
+be through with,idiom,through,1,1,1,1,2122,2022,2022
 throw pillow,idiom,throw,1,1,1,0,2122,2018,2018
+tie up,idiom,tie,1,1,1,0,2122,2022,2022
 in no time,idiom,time,1,1,1,0,2122,2008,2008
 next time,functional,time,1,1,1,0,2122,2009,2009
 take your time,idiom,time,1,1,1,1,2122,2013,2013
@@ -725,12 +934,17 @@ as time goes by,idiom,time,1,1,1,1,2122,2024,2024
 with time,idiom,time,1,1,1,0,2122,2024,2024
 the cherry on top,idiom,top,1,1,1,0,2122,2026,2026
 a touch of,functional,touch,1,1,1,0,2122,2023,2023
+out of town,idiom,town,1,1,1,1,2122,2011,2011
+town crier,idiom,town,1,1,1,0,2122,2011,2011
+back on the track,idiom,track,1,1,1,1,2122,2022,2022
+tricks of the trade,idiom,trade,1,1,1,0,2122,2013,2013
 come true,idiom,true,1,1,1,1,2122,2022,2022
 try out,idiom,try,1,1,1,0,2122,2014,2014
 try one's best,idiom,try,1,1,1,0,2122,2020,2020
 try on,idiom,try,1,1,1,1,2122,2021,2021
 turning point,idiom,turn,1,1,1,1,2122,2023,2023
 turn away from,idiom,turn,1,1,1,0,2122,2023,2023
+call upon,idiom,upon,1,1,1,0,2122,2019,2019
 out of use,idiom,use,1,1,1,0,2122,2021,2021
 in use,idiom,use,1,1,1,0,2122,2022,2022
 no use,idiom,use,1,1,1,0,2122,2023,2023
@@ -740,24 +954,37 @@ wait out,idiom,wait,1,1,1,0,2122,2013,2013
 can hardly wait,idiom,wait,1,1,1,0,2122,2018,2018
 all walks of life,idiom,walk,1,1,1,0,2122,2023,2023
 warm up,idiom,warm,1,1,1,0,2122,2022,2022
-watch for,idiom,watch,1,1,1,0,2122,2008,2008
 go separate ways,idiom,way,1,1,1,0,2122,2009,2009
 work one's way,idiom,way,1,1,1,0,2122,2012,2012
 in many ways,idiom,way,1,1,1,0,2122,2023,2023
 get in the way of,idiom,way,1,1,1,0,2122,2025,2025
+a wealth of,functional,wealth,1,1,1,0,2122,2014,2014
 wear off,idiom,wear,1,1,1,0,2122,2014,2014
 carry weight,idiom,weight,1,1,1,0,2122,2022,2022
-may well,functional,well,1,1,1,0,2122,2008,2008
-well-being,idiom,well,1,1,1,0,2122,2015,2015
 well-rounded,idiom,well,1,1,1,1,2122,2022,2022
+a while,functional,while,1,1,1,0,2122,2010,2010
+among whom,functional,whom,1,1,1,0,2122,2019,2019
+all of whom,functional,whom,1,1,1,0,2122,2023,2023
+be in touch,idiom,will,1,1,1,1,2122,2018,2018
+have wings,idiom,wing,1,1,1,0,2122,2020,2020
+meet with,idiom,with,1,1,1,0,2122,2015,2015
+in touch with,idiom,with,1,1,1,0,2122,2015,2015
+fed up with,idiom,with,1,1,1,1,2122,2020,2020
+hurry up with,idiom,with,1,1,1,1,2122,2021,2021
+be faced with,unreviewed,with,1,1,1,0,2122,2021,2021
+through with,idiom,with,1,1,1,1,2122,2022,2022
+in accordance with,functional,with,1,1,1,0,2122,2022,2022
+move in with,idiom,with,1,1,1,0,2122,2022,2022
+be done with,idiom,with,1,1,1,1,2122,2023,2023
+hang out with,idiom,with,1,1,1,1,2122,2023,2023
+team up with,idiom,with,1,1,1,0,2122,2023,2023
+change places with,idiom,with,1,1,1,1,2122,2025,2025
 no wonder,idiom,wonder,1,1,1,0,2122,2010,2010
 in one's own words,idiom,word,1,1,1,0,2122,2008,2008
 in one's words,idiom,word,1,1,1,0,2122,2013,2013
 the written word,idiom,word,1,1,1,0,2122,2024,2024
 spread the word,idiom,word,1,1,1,1,2122,2025,2025
-work through,idiom,work,1,1,1,0,2122,2015,2015
 all over the world,idiom,world,1,1,1,0,2122,2010,2010
 out of this world,idiom,world,1,1,1,0,2122,2021,2021
 year after year,idiom,year,1,1,1,0,2122,2014,2014
-all year round,idiom,year,1,1,1,0,2122,2019,2019
 comfort zone,idiom,zone,1,1,1,0,2122,2021,2021

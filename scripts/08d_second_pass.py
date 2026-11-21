@@ -33,7 +33,7 @@ MODEL = 'claude-opus-5-5'
 EXTRA = {'output_config': {'effort': 'high'}}   # Opus 5.5 does not accept thinking=between_tools; default thinking
 HEADROOM = 3000                                  # extra max_tokens so thinking cannot cut the answer short
 PRICE = (4, 20)            # $ per MTok in / out (batch is half)
-OUT = 'data/interim/second_pass'
+OUT = 'data/interim/second_pass'      # round 2 and later: --round N -> data/interim/second_pass_rN
 PHRASES_PER_CALL = 40
 
 PHRASE_SYSTEM = """You sort English multi-word expressions found in Chinese gaokao exam texts into four classes.
@@ -58,6 +58,10 @@ def inventory():
             if r['action'] == 'A':
                 nmap.setdefault(r['word'], {})[r['target']] = r['name']
     inv = s08.load_inventory('data/processed/senses.csv', 'data/pilot/full/labels.json')
+    for p in glob.glob('data/interim/annotations/*.json'):
+        w = os.path.basename(p)[:-5]
+        if not w.startswith('batch_') and w not in inv:
+            inv[w] = [tuple(x) for x in json.load(open(p, encoding='utf-8'))['senses']]
     for w, add in nmap.items():
         have = {no for no, _ in inv[w]}
         inv[w] = inv[w] + [(k, v) for k, v in sorted(add.items()) if k not in have]
@@ -211,7 +215,7 @@ def compare(force=False):
     print(collections.Counter(d['word'] for d in dis).most_common(15))
 
 
-def resolve(force=False):
+def resolve(force=False, accept_m=False):
     """Settle the disagreements with the rules the calibration supports (135 hand-labelled pilot rows, first pass m/l):
        both agree -> 96% right (accepted already) | second pass h -> right 31/31, first pass 0/31 -> take the second pass
        second pass m -> 54% vs 38%: a coin flip -> left for you | second pass l -> first pass right 2/2 -> keep the first.
@@ -240,6 +244,8 @@ def resolve(force=False):
             rule = 'first_l'; out = (s1, '', p1)
         elif same_sense:
             rule = 'phrase_only_first'; out = (s1, '', p1)
+        elif accept_m:
+            rule = 'second_m'; out = (s2, b.get('new_sense_zh') or '', p2)
         elif s2 == 'NEW':
             rule = 'second_m_new'; out = (s2, b.get('new_sense_zh') or '', p2)   # consolidated via new_sense_map
         else:
@@ -255,8 +261,9 @@ def resolve(force=False):
     with open(os.path.join(OUT, 'resolved.csv'), 'w', encoding='utf-8-sig', newline='') as f:
         w = csv.DictWriter(f, fieldnames=['occ_id', 'sense', 'new_sense_zh', 'phrase', 'rule']); w.writeheader(); w.writerows(res)
     mine.sort(key=lambda t: (t['word'], t['occ_id']))
-    with open(tr, 'w', encoding='utf-8-sig', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=list(mine[0].keys())); w.writeheader(); w.writerows(mine)
+    if mine:
+        with open(tr, 'w', encoding='utf-8-sig', newline='') as f:
+            w = csv.DictWriter(f, fieldnames=list(mine[0].keys())); w.writeheader(); w.writerows(mine)
     print(dict(rules)); print(f'{len(mine)} rows for you -> {tr}')
 
 
@@ -268,12 +275,18 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('command', choices=['preview', 'test', 'submit', 'status', 'collect', 'compare', 'errors', 'calibrate', 'calib-report', 'resolve'])
     ap.add_argument('--force', action='store_true')
+    ap.add_argument('--round', type=int, default=1)
+    ap.add_argument('--accept-second-m', action='store_true',
+                    help="resolve: also take the second pass when it says m (round 1: you agreed with it in 112 of 145 rows)")
     a = ap.parse_args()
+    global OUT
+    if a.round > 1:
+        OUT = f'data/interim/second_pass_r{a.round}'
     os.makedirs(OUT, exist_ok=True)
     if a.command == 'compare':
         return compare(a.force)
     if a.command == 'resolve':
-        return resolve(a.force)
+        return resolve(a.force, a.accept_second_m)
     if a.command == 'calib-report':
         return calib_report()
     if a.command == 'calibrate':                    # small batch: Opus on the hand-labelled pilot rows
