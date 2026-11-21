@@ -2,7 +2,6 @@
 have to,functional,have,90,19,47,43,106,2008,2026
 a few,functional,few,45,17,32,14,200,2008,2026
 more than,functional,more,36,15,26,3,268,2008,2026
-kind of,functional,kind,35,15,22,19,270,2008,2025
 take place,idiom,place take,17,14,16,15,334,2008,2026
 such as,functional,such,30,13,26,2,356,2008,2026
 a lot of,functional,lot,28,13,20,13,359,2008,2026
@@ -42,6 +41,7 @@ have got to,functional,get,8,6,7,7,943,2008,2022
 give up,idiom,give,8,6,7,3,943,2010,2024
 look after,idiom,look,8,6,7,4,943,2008,2023
 set up,idiom,set,8,6,6,1,943,2012,2024
+kind of,functional,kind,7,6,7,3,968,2009,2025
 no matter,functional,matter,7,6,7,1,968,2013,2023
 rather than,functional,rather,7,6,7,0,968,2011,2025
 see you,functional,see then,7,6,6,7,968,2008,2017
@@ -97,7 +97,7 @@ on one's own,idiom,own,4,3,4,1,1457,2008,2017
 in place,idiom,place,4,3,3,0,1457,2013,2021
 and so on,functional,so,4,3,4,2,1457,2011,2022
 come out,idiom,come,3,3,3,2,1527,2012,2025
-in common,idiom,common,3,3,3,0,1527,2017,2023
+have ... in common,idiom,common have,3,3,3,0,1527,2017,2023
 even though,functional,even,3,3,3,0,1527,2009,2023
 as a matter of fact,idiom,fact matter,3,3,3,2,1527,2008,2016
 get around,idiom,get,3,3,3,2,1527,2008,2019
@@ -181,7 +181,6 @@ go by,idiom,go,2,2,2,1,1803,2023,2024
 good morning,functional,good,2,2,2,2,1803,2009,2018
 do one's best,idiom,good,2,2,2,2,1803,2021,2022
 good evening,functional,good,2,2,2,2,1803,2023,2025
-have in common,idiom,have,2,2,2,0,1803,2021,2023
 in a hurry,idiom,hurry,2,2,2,1,1803,2010,2012
 of interest,idiom,interest,2,2,2,0,1803,2015,2020
 just in time,idiom,just time,2,2,2,1,1803,2012,2026
@@ -200,7 +199,6 @@ in need,idiom,need,2,2,2,0,1803,2015,2016
 old-fashioned,idiom,old,2,2,2,1,1803,2023,2024
 not only,functional,only,2,2,2,0,1803,2015,2019
 of one's own,idiom,own,2,2,2,2,1803,2009,2010
-take part,idiom,part take,2,2,2,0,1803,2012,2014
 pay off,idiom,pay,2,2,2,0,1803,2014,2019
 my pleasure,functional,pleasure,2,2,2,1,1803,2009,2022
 point out,idiom,point,2,2,2,0,1803,2008,2025
@@ -247,8 +245,7 @@ that way,functional,way,2,2,2,1,1803,2022,2023
 in the wild,idiom,wild,2,2,2,0,1803,2016,2022
 i wonder if,functional,wonder,2,2,2,2,1803,2017,2021
 a good deal,functional,deal good,3,1,1,0,2021,2013,2013
-set free,idiom,free,3,1,1,0,2021,2008,2008
-set ... free,idiom,set,3,1,1,0,2021,2008,2008
+set ... free,idiom,free set,3,1,1,0,2021,2008,2008
 take it out on,idiom,take,3,1,1,0,2021,2012,2012
 run away,idiom,away,2,1,1,2,2044,2009,2009
 back and forth,idiom,back go,2,1,2,0,2044,2025,2025
@@ -362,7 +359,6 @@ be concerned with,idiom,concern,1,1,1,0,2122,2013,2013
 cost of living,idiom,cost,1,1,1,0,2122,2011,2011
 short cut,idiom,cut,1,1,1,1,2122,2023,2023
 cutting-edge,idiom,cut,1,1,1,0,2122,2025,2025
-cut down,idiom,cut,1,1,1,0,2122,2026,2026
 good old days,idiom,day good,1,1,1,0,2122,2011,2011
 have a nice day,functional,day have,1,1,1,1,2122,2016,2016
 by day,idiom,day,1,1,1,0,2122,2021,2021
@@ -437,7 +433,6 @@ get to do,idiom,get,1,1,1,0,2122,2023,2023
 get together,idiom,get together,1,1,1,1,2122,2025,2025
 get in the way,idiom,get,1,1,1,0,2122,2025,2025
 give a hand,idiom,give hand,1,1,1,0,2122,2009,2009
-give sb. a ride,unreviewed,give,1,1,1,1,2122,2014,2014
 give in,idiom,give,1,1,1,0,2122,2016,2016
 give and take,idiom,give take,1,1,1,0,2122,2020,2020
 go along with,idiom,go,1,1,1,0,2122,2009,2009
@@ -696,7 +691,7 @@ take a turn,idiom,take turn,1,1,1,0,2122,2009,2009
 take a seat,idiom,take,1,1,1,0,2122,2010,2010
 take time off,idiom,take time,1,1,1,1,2122,2010,2010
 take one's time,idiom,take,1,1,1,1,2122,2013,2013
-take a shower,unreviewed,take,1,1,1,0,2122,2017,2017
+take a shower,idiom,take,1,1,1,0,2122,2017,2017
 take over,idiom,take,1,1,1,0,2122,2018,2018
 take apart,idiom,take,1,1,1,0,2122,2018,2018
 take to,idiom,take,1,1,1,0,2122,2020,2020

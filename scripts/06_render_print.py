@@ -15,6 +15,10 @@ ap.add_argument("entries"); ap.add_argument("totals"); ap.add_argument("out")
 ap.add_argument("--chapters", default="", help="comma list of chapter numbers to render, e.g. 1 or 1,2")
 ap.add_argument("--senses", default="", help="data/processed/senses.csv (hand-written senses; replaces gloss and examples)")
 ap.add_argument("--max-senses", type=int, default=5)
+ap.add_argument("--metrics", default="", help="data/processed/word_sense_metrics.csv (step 8c)")
+ap.add_argument("--phrases", default="", help="data/processed/phrase_entries.csv (step 8c)")
+ap.add_argument("--phrase-glosses", default="data/manual/phrase_glosses.csv")
+ap.add_argument("--max-phrases", type=int, default=4)
 a = ap.parse_args()
 
 CHAPTERS = [(1, 200, "核心词"), (201, 500, "高频词"), (501, 1000, "中频词"),
@@ -35,6 +39,15 @@ SENSES = {}
 if a.senses and os.path.exists(a.senses):
     for s in csv.DictReader(open(a.senses, encoding="utf-8-sig")):
         SENSES.setdefault(s["headword"], []).append(s)
+METRICS = {r["word"]: r for r in csv.DictReader(open(a.metrics, encoding="utf-8-sig"))} if a.metrics else {}
+PHRASES = {}
+if a.phrases:
+    gl = {r["phrase"]: r["zh"] for r in csv.DictReader(open(a.phrase_glosses, encoding="utf-8-sig"))} \
+        if os.path.exists(a.phrase_glosses) else {}
+    for p in csv.DictReader(open(a.phrases, encoding="utf-8-sig")):
+        if p["class"] in ("idiom", "functional") and int(p["count"]) >= 2 and p["phrase"] in gl:
+            for h in p["head_words"].split():
+                PHRASES.setdefault(h, []).append({**p, "zh": gl[p["phrase"]]})
 
 
 FUNC_POS = ("art", "prep", "pron", "conj", "aux", "num", "int", "interj", "det")
@@ -89,15 +102,41 @@ def example_html(ex, r):
 
 def senses_html(r, senses):
     out = []
+    if senses and senses[0].get("counted") == "full":        # full counts: drop rare senses (keep at least one)
+        senses = [s for i, s in enumerate(senses) if i == 0 or (int(s["count"]) >= 2 and float(s["share"]) >= 0.03)]
     for s in senses[:a.max_senses]:
         ex = ""
         if s["example"]:
             src = s["example_src"].split()
             src = f'{src[0]}·{src[-1]}' if src else ""
             ex = f'<div class="sx">{highlight(s["example"], r)} <span class="src">{esc(src)}</span></div>'
-        out.append(f'<li><b>{esc(s["pos"])}</b> <span class="zh">{esc(s["zh"])}</span>'
+        pct = ""
+        if s.get("counted") == "full" and len(senses) > 1:
+            v = float(s["share"])
+            pct = f'<span class="pct"><span class="bar" style="width:{max(1, round(14 * v))}mm"></span>{round(100 * v)}%</span>'
+        out.append(f'<li><b>{esc(s["pos"])}</b> <span class="zh">{esc(s["zh"])}</span>{pct}'
                    f'<span class="sen">{esc(s["en"])}</span>{ex}</li>')
     return f'<ol class="senses">{"".join(out)}</ol>'
+
+
+def phrases_html(w):
+    ps = sorted(PHRASES.get(w, []), key=lambda p: (-int(p["years"]), -int(p["count"])))[:a.max_phrases]
+    if not ps: return ""
+    items = "；".join(f'<span class="ph">{esc(p["phrase"])}</span> {esc(p["zh"])}<sup>{p["count"]}</sup>' for p in ps)
+    return f'<div class="col"><span class="lab phl">短语</span>{items}</div>'
+
+
+def metrics_html(w):
+    m = METRICS.get(w)
+    if not m or int(m["occurrences"]) < 5: return ""
+    bits = []
+    if float(m["phrase_share"]) >= 0.1: bits.append(f'{round(100 * float(m["phrase_share"]))}% 在短语中')
+    bits.append(f'分布在 {m["passages"]} 篇')
+    ls = float(m["listening_share"])
+    if ls >= 0.5: bits.append(f'<b>听力占 {round(100 * ls)}%</b>')
+    if float(m["biggest_passage_share"]) >= 0.4:
+        bits.append(f'<b>{round(100 * float(m["biggest_passage_share"]))}% 集中在同一篇</b>')
+    return f'<div class="mt">{" · ".join(bits)}</div>'
 
 
 def entry_html(r):
@@ -130,6 +169,8 @@ def entry_html(r):
   </div>
   {senses_html(r, senses) if senses else f'<div class="gloss">{short_gloss(r)}' + ('<span class="pos">真题词性 ' + esc(pos) + '</span>' if pos else '') + '</div>'}
   {f'<div class="en">{esc(en)}</div>' if en and not senses else ''}
+  {phrases_html(r["headword"])}
+  {metrics_html(r["headword"])}
   {f'<div class="col"><span class="lab">句素</span>{col}</div>' if col else ''}
   {f'<ul class="ex">{"".join(example_html(e, r) for e in exs)}</ul>' if exs and not senses else ''}
   {f'<ul class="ex dict"><li>{highlight(dict_ex, r)} <span class="src">词典例句</span></li></ul>' if dict_ex and not senses else ''}
@@ -168,6 +209,10 @@ ol.senses { margin: 0.8mm 0 0; padding-left: 5mm; }
 ol.senses li { margin: 0.5mm 0; }
 .zh { font-weight: 700; } .sen { margin-left: 2mm; font-size: 8.3pt; color: #444; font-style: italic; }
 .sx { font-size: 8.6pt; }
+.pct { font-family: sans-serif; font-size: 7pt; color: #9d0208; margin-left: 2mm; }
+.pct .bar { display: inline-block; height: 1.6mm; background: #d88; margin-right: 1mm; vertical-align: middle; }
+.ph { font-weight: 700; color: #1d4f91; } .lab.phl { background: #1d4f91; }
+.mt { font-family: sans-serif; font-size: 7.5pt; color: #666; margin-top: 0.4mm; }
 .legend { font-size: 9pt; } .legend td { padding: 1mm 3mm; vertical-align: top; }
 """
 
@@ -180,12 +225,14 @@ def cover():
 <tr><td><b>义务 / 必修 / 选必</b></td><td>课标级别：义务教育阶段 / 高中必修 / 选择性必修。</td></tr>
 <tr><td><b>12/19 年 · 30 次</b></td><td>19 个年份里有 12 年出现，累计 30 次。</td></tr>
 <tr><td><b>真题词性</b></td><td>这个词在真题里作各词性的比例；释义按这个顺序排。</td></tr>
-<tr><td><b>义项</b></td><td>只列真题实际用到的义项，按真题中出现的多少排序；每个义项附中文、简明英文释义和一句真题原句。</td></tr>
+<tr><td><b>义项</b></td><td>只列真题实际用到的义项。多义词的每一次出现都逐句标注过义项，按全部出现次数排序；红色百分比是这个义项占该词全部出现的比例（出现太少的义项不列）。每个义项附中文、简明英文释义和一句真题原句。</td></tr>
+<tr><td><b>短语</b></td><td>意思不能从字面推出的短语和语法短语（如 take place、have to），右上角是真题出现次数。只看懂单词、看不懂短语，是常见的失分点。</td></tr>
+<tr><td><b>分布</b></td><td>"36% 在短语中"：这个词的出现有多少在短语里；"分布在 N 篇"：出现在多少篇不同的文章或对话里；"集中在同一篇"：次数主要来自一篇文章，实际重要性比次数显示的低；"听力占"：主要在听力里出现。</td></tr>
 <tr><td><b>句素</b></td><td>从真题原句中抽出的固定搭配，右上角小数字是出现次数。"make + mistake"表示动宾搭配。</td></tr>
 <tr><td><b>例句</b></td><td>真题原句，标出年份和题型；真题里没有合适例句的词，用斜体的词典例句（Open English WordNet）代替。</td></tr>
 <tr><td><b>派生 / 词根</b></td><td>课标不单列、但真题出现过的派生词；词根词缀注释。</td></tr>
 </table>
-<p style="font-size:8pt;color:#666">义项与简明英文释义：本项目自编（CC BY-SA 4.0）；其余词条释义：ECDICT（MIT）；英文释义：Open English WordNet（CC BY 4.0）。本词汇表以 CC BY-SA 4.0 发布。</p></div>"""
+<p style="font-size:8pt;color:#666">义项、短语释义与简明英文释义：本项目自编（CC BY-SA 4.0）；义项标注由 Claude 模型完成，难判的句子经第二个模型复核和人工判定；其余词条释义：ECDICT（MIT）；英文释义：Open English WordNet（CC BY 4.0）。本词汇表以 CC BY-SA 4.0 发布。</p></div>"""
 
 
 wanted = {int(x) for x in a.chapters.split(",") if x} or set(range(1, len(CHAPTERS) + 1))

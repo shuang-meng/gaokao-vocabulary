@@ -27,6 +27,9 @@ A = 'data/interim/annotations'
 # hand phrase rules of the pilot that do not meet the strict standard (meaning follows from the parts)
 NOT_STRICT = {'draw attention to', 'on top of / at the top', 'the key to', 'carry weight', 'run a red light',
               'at this / some point', 'be faced with', 'run away', "break sb.'s heart", 'pass by'}
+# 'kind of' is a phrase only as the hedge 有点儿 ("it's kind of hard"), not after a determiner ("what kind of")
+DET = r"(?:a|an|the|this|that|these|those|what|which|any|all|every|each|some|no|one|two|three|many|several|different|new|other|same|another|\d+|hundred|what's|whatever)"
+HEDGE = lambda s: bool(re.search(r"\bkind of\b", s, re.I)) and not re.search(r"\b" + DET + r"\s+(?:\w+\s+)?kinds?\s+of\b", s, re.I)
 norm = lambda s: re.sub(r'[^a-z]', '', s.lower())
 
 
@@ -132,6 +135,8 @@ def main():
                 a, b = pair[lab['occ_id']]
                 if mg(w, a) == mg(w, b):
                     conf = 'a'                                      # the two passes differ only by merged senses
+            if phrase and clean_phrase(phrase, alias) == 'kind of' and not HEDGE(lab['sentence']):
+                phrase = None                                       # 'what kind of / all kinds of' = 种类, transparent
             if phrase and pclass.get(clean_phrase(phrase, alias)) in ('collocation', 'drop'):
                 phrase = None                                       # transparent: back to the word sense
                 if sense == 'PHRASE':

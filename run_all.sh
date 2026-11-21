@@ -43,6 +43,14 @@ echo "== 5b 义项（人工编写，data/manual/senses/）"
 # 抽样文件已固定：义项文件按序号引用其中的句子，重新抽样会错位。只有文件不存在时才生成。
 [ -f $I/sense_samples_1_1000.json ] || python scripts/07a_sense_samples.py $I/occurrences.tsv $P/entries_with_defs.csv $I/sense_samples_1_1000.json 1 1000
 python scripts/07b_build_senses.py data/manual/senses $I/sense_samples_1_1000.json $P/senses.csv
+SENSES=$P/senses.csv; EXTRA=""
+if ls $I/annotations/*.json >/dev/null 2>&1; then
+  echo "== 8 全量义项（模型标注已在 $I/annotations；标注本身需 API：scripts/08、08d，不在本脚本里跑）"
+  python scripts/08c_aggregate.py
+  python scripts/08f_build_full_senses.py
+  python scripts/08g_dossier.py
+  SENSES=$P/senses_full.csv; EXTRA="--metrics $P/word_sense_metrics.csv --phrases $P/phrase_entries.csv"
+fi
 echo "== 6 排版"
-python scripts/06_render_print.py $P/entries_with_defs.csv $P/token_totals.json output/gaokao_vocab_full --senses $P/senses.csv
+python scripts/06_render_print.py $P/entries_with_defs.csv $P/token_totals.json output/gaokao_vocab_full --senses $SENSES $EXTRA
 echo "完成：output/gaokao_vocab_full.pdf"
