@@ -4,3 +4,4 @@ spacy>=3.7
 PyYAML>=6
 weasyprint>=60
 # then: python -m spacy download en_core_web_sm
+anthropic

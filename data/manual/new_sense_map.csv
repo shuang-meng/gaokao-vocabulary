@@ -1,0 +1,539 @@
+﻿word,new_name,action,target,name
+age,使变老,A,a1,v. 变老；使变老 (aging)
+age,变老,A,a1,v. 变老；使变老 (aging)
+age,很长时间,A,a2,n. 很长时间 (ages)
+age,时代,A,a3,n. 时代
+age,渐老的,A,a1,v. 变老；使变老 (aging)
+air,神态、气质,A,a1,n. 神态；气质
+average,取平均值（动词）,A,a1,v. 求平均数
+back,(名词)后部/后座,A,a1,n./adj. 背部；后部；后面的
+back,(名词)后部/后面,A,a1,n./adj. 背部；后部；后面的
+back,(名词)背部,A,a1,n./adj. 背部；后部；后面的
+back,(名词)背部/反向的 (back turns 折返翻页),A,a1,n./adj. 背部；后部；后面的
+back,反击,A,a3,adv. 回敬；还 (fight back / pay back)
+back,后退,A,a2,v. 后退；向后 (back away / tie back)
+back,后面的；后部的,A,a1,n./adj. 背部；后部；后面的
+back,向后（tied back）,A,a2,v. 后退；向后 (back away / tie back)
+back,回（向对方复述）,S,1,
+back,归还（pay back）,A,a3,adv. 回敬；还 (fight back / pay back)
+back,支持/证实,P,back up,
+back,背部；后部,A,a1,n./adj. 背部；后部；后面的
+bear,带有、具有(见证),A,a1,v. 结（果实）；带有 (bear fruit / bear witness)
+bear,结(果实),A,a1,v. 结（果实）；带有 (bear fruit / bear witness)
+beat,搅打（蛋等）,A,a1,v. 搅打（鸡蛋）
+beat,被搅打的（蛋）,A,a1,v. 搅打（鸡蛋）
+beat,走开；溜（beat it）,P,beat it,
+beat,（风吹日晒）饱经风霜的,P,weather-beaten,
+board,"全面,各方面",P,across the board,
+body,(月球)主体、本体,A,a1,n. 主体；本体
+call,(鸟)鸣叫,A,a1,v. （鸟兽）鸣叫；大声喊出
+call,喊出；大声叫出,A,a1,v. （鸟兽）鸣叫；大声喊出
+case,案件,A,a1,n. 案件
+case,论据、理由,P,make the case for,
+class,等级，舱位,A,a1,n. 等级；档次 (first-class)
+class,等级；档次,A,a1,n. 等级；档次 (first-class)
+clean,坦白，招认,P,come clean,
+clean,完全地（副词，washed clean over）,A,a1,adv. 完全地
+close,仔细的；近距离的,A,a1,adj. 仔细的 (a closer look)
+cold,感冒、伤风,A,a1,n. 感冒
+come,出来,S,1,
+come,出版，问世 (come out),P,come out,
+come,出现、呈现,S,1,
+come,到达、变成 (come to a stop),A,a1,v. 变得；成为 (come alive / true / to a stop)
+come,前来(帮助),P,come to the aid of,
+come,即将到来的,A,a2,adj. 即将到来的 (coming)
+come,发生、出现,S,1,
+come,受到(come under fire),P,come under fire,
+come,变得…（come alive 活跃起来）,A,a1,v. 变得；成为 (come alive / true / to a stop)
+come,坦白 (come clean),P,come clean,
+come,想起、浮现(come to me),P,come to sb.,
+come,成为现实(come true),A,a1,v. 变得；成为 (come alive / true / to a stop)
+come,谈到、涉及 (when it comes to),P,when it comes to,
+come,谈到（when it comes to）,P,when it comes to,
+come,（机会）来临,S,1,
+condition,使...适应/训练有素 (condition 作动词),A,a1,v. 训练；使适应
+cover,报道（新闻）,A,a1,v. 报道（新闻）
+cross,十字路口 (cross roads),A,a1,n. 十字路口 (crossroads)
+crowd,挤压；使拥挤（动词）,A,a1,v. 挤；围住
+cut,尖端的（cutting-edge）,P,cutting-edge,
+develop,发展成；演变,A,a2,v. 发展；形成；演变 (develop into)
+develop,发展；成长,A,a2,v. 发展；形成；演变 (develop into)
+develop,发展；进步,A,a2,v. 发展；形成；演变 (develop into)
+develop,形成（语言模式）,A,a2,v. 发展；形成；演变 (develop into)
+develop,形成；演变出,A,a2,v. 发展；形成；演变 (develop into)
+develop,患上；产生（疾病）,A,a1,v. 患上（疾病）
+direction,指示；说明（方位指引）,A,a1,n. 指引；说明 (directions)
+direction,研究方向；趋势,S,1,
+direction,说明书；使用指示,A,a1,n. 指引；说明 (directions)
+dream,构想出、想出(dream up),P,dream up,
+drop,下垂；张开(jaw-dropping 令人惊叹),P,jaw-dropping,
+drop,掉落；丢下,A,a1,v. 掉落；丢下
+dry,冷淡的；枯燥无趣的（如dry smile）,A,a1,adj. 冷淡的；枯燥的
+enter,登场（戏剧舞台指示）,S,1,
+even,即使（even if 引导条件）,S,3,
+excuse,n. 借口,A,a1,n. 借口 (make excuses)
+exercise,运用、行使,A,a1,v. 运用；行使
+fall,fall out of use 不再使用,P,fall out of use,
+fall,下滑、衰退,A,a1,n./v. 下降；衰落
+fall,下降、减少,A,a1,n./v. 下降；衰落
+fall,不足、达不到（fall short）,P,fall short,
+fall,成为（受害者）；陷入,A,a2,v. 陷入；成为（某状态）(fall asleep / fall victim to)
+fall,衰落、衰败,A,a1,n./v. 下降；衰落
+fall,进入（某种状态）,A,a2,v. 陷入；成为（某状态）(fall asleep / fall victim to)
+fill,占据（篇幅/空间）,S,1,
+fill,填写（表格）,P,fill out,
+fire,批评/攻击,P,come under fire,
+fire,消防(部门),A,a1,n. 消防
+fire,精力充沛的人(比喻),P,a ball of fire,
+flight,逃跑，逃离,A,a1,n. 逃跑
+get,聚会(get-together),P,get-together,
+gift,天赋;恩赐,A,a1,n. 天赋
+give,给予（名词，give and take）,P,give and take,
+give,让步、被取代,P,give way to,
+go,发生（go on）,P,go on,
+go,启动、进行（get going）,P,get going,
+go,围棋,A,a3,n. 围棋
+go,尝试 (have a go at),P,have a go,
+go,消失；不见了,A,a1,v. 消失；不见了 (be gone)
+go,离去；消失,A,a1,v. 消失；不见了 (be gone)
+go,经历、经受（go through）,P,go through,
+go,继续支撑（keep going）,P,keep going,
+go,超过（go over）,P,go over,
+go,选择、中意（go for）,P,go for,
+go,选择；倾向于,P,go for,
+go,（价格）上涨,P,go up,
+go,（奖项）授予；归于,A,a2,v. 达到；（奖项）归于
+go,（时间）流逝（go by）,P,go by,
+go,（车速）达到,A,a2,v. 达到；（奖项）归于
+good,商品，货物,A,a1,n. 商品；货物 (goods)
+good,善良的（Good Samaritan 好心的撒玛利亚人）,P,good samaritan,
+good,好事；好的方面（名词）,A,a2,n. 好处；好事
+good,最精华的部分（名词）,P,the best of,
+good,货物，商品,A,a1,n. 商品；货物 (goods)
+good,货物；商品,A,a1,n. 商品；货物 (goods)
+ground,(咖啡)渣,A,a1,n. （咖啡）渣 (grounds)
+ground,土壤;地下的(ground water),S,1,
+ground,近地面的(ground-level),S,1,
+hard,(水)硬的，含矿物质多的,A,a1,adj. 硬的
+hard,硬的，坚硬的,A,a1,adj. 硬的
+have,使（某事）被做（have sth done）,A,a1,v. 让；使（某事被做）(have sb. do / have sth. done)
+have,使；让（have sth done）,A,a1,v. 让；使（某事被做）(have sb. do / have sth. done)
+have,让；叫（have sb do）,A,a1,v. 让；使（某事被做）(have sb. do / have sth. done)
+hit,(hit-and-miss)时好时坏、碰运气的,P,hit-and-miss,
+interest,利益,A,a1,n. 利益 (in the interests of)
+law,姻亲关系（mother-in-law 岳母）,P,mother-in-law,
+leaf,（交通工具）出发，离开,X,,lemma error: leaves (leave)
+leave,休假；假期,A,a1,n. 假期 (sick leave)
+leave,假期,A,a1,n. 假期 (sick leave)
+leave,左边,X,,lemma error: left
+live,留（言）,X,,typo in source: live = leave
+living,活的，活生生的(living laboratory),A,a1,adj. 活的
+living,现在分词(live的-ing形式，居住),X,,lemma error: living (live)
+long,渴望(long to),A,a1,v. 渴望 (long to do)
+look,(look no further)不必再找,P,look no further,
+look,n. 看一看,A,a3,n. 看；瞧 (have a look)
+look,打算，期望,A,a2,v. 打算 (be looking to do)
+look,照看,P,look after,
+look,照看（look after）,P,look after,
+look,照顾,P,look after,
+look,照顾（look after）,P,look after,
+look,瞧(话语标记),A,a1,interj. 瞧；听着
+look,调查研究,P,look into,
+look,调查，查看（look into）,P,look into,
+lot,停车场、地块,A,a1,n. 场地；停车场
+lot,空地、场地,A,a1,n. 场地；停车场
+make,产生影响,P,make all the difference,
+make,使成为/达成（make it）,S,1,
+make,使成为可能,S,1,
+make,充分利用,P,make the best of,
+make,利用,P,make use of,
+make,利用 (make use of),P,make use of,
+make,到达，前往 (make one's way),P,make one's way,
+make,到达，赶上,P,make it,
+make,到达，赶上（make it）,P,make it,
+make,到达；成功赶上,P,make it,
+make,前进；走,P,make one's way,
+make,化妆(make-up),P,make-up,
+make,取笑,P,make fun of,
+make,定在（时间）,P,make it,
+make,弥补 (make up for),P,make up for,
+make,徒劳,S,3,
+make,成功做到,P,make it,
+make,成功做到(make it),P,make it,
+make,把…当作自己的事,P,make it one's business,
+make,构成(make a pattern),A,a1,v. 构成；成为
+make,构成，成为,A,a1,v. 构成；成为
+make,特意做到 (make it a point to),P,make a point of,
+make,结交 (make friends),S,3,
+make,让路,P,make way for,
+make,谋生(make a living),P,make a living,
+make,赚(钱),A,a2,v. 赚（钱）
+make,赚（钱）,A,a2,v. 赚（钱）
+make,赶上，入选,A,a3,v. 入选；赶上
+make,赶上；成功办到 (make it),P,make it,
+manage,勉强应付，维持生计,A,a1,v. 应付；对付
+manage,应付得来（承受/完成某数量）,A,a1,v. 应付；对付
+manage,应付得来，设法对付,A,a1,v. 应付；对付
+matter,v. 要紧；有关系；重要,A,a1,v. 要紧；重要
+mean,刻薄的,A,a1,adj. 刻薄的
+mean,当真，认真对待,P,mean business,
+meet,(体育)赛事、集会,A,a1,n. 运动会；赛会
+more,不再 (no more),P,no more,
+more,再，不再 (any more),P,not any more,
+more,更何况 (what's more),P,what's more,
+more,更多（其他）,S,1,
+most,至多（at most）,P,at most,
+move,发展、与时俱进（改变）,A,a2,v. 进展；转到 (move to / towards / beyond)
+move,感动（被感动）,A,a1,v. 感动
+move,转向（转到另一内容/主题）,A,a2,v. 进展；转到 (move to / towards / beyond)
+move,（事情）推进、朝向（进展）,A,a2,v. 进展；转到 (move to / towards / beyond)
+move,（超越/进展到）,A,a2,v. 进展；转到 (move to / towards / beyond)
+much,误用（应为many）,X,,grammar-error sentence (改错)
+much,误用（应为very/so修饰形容词）,X,,grammar-error sentence (改错)
+next,紧挨着、在…旁边,P,next to,
+note,音符,A,a1,n. 音符
+offer,(工作)录用通知/聘用机会,A,a1,n. 录用通知；提议
+offer,主动提出(愿意做某事),A,a2,v. 主动提出 (offer to do)
+once,一次（次数）,A,a1,adv. 一次
+once,一次（频率）,A,a1,adv. 一次
+once,偶尔,P,once in a while,
+pack,塞满；挤进,A,a1,v. 塞满；挤进
+part,分别、分开,A,a1,v. 分别；分开
+pay,工资；报酬 (pay作名词),A,a1,n. 工资；报酬
+perform,表现（达到某种水平）,A,a1,v. 表现
+pick,偶然得到、买到,P,pick up,
+pick,提神饮品 (pick-me-up),P,pick-me-up,
+picture,全貌、整体情况,P,the big picture,
+play,配合（play along）,P,play along,
+post,后期（post-production）,X,,prefix post- (post-production)
+post,邮件；邮政,A,a1,n. 邮政；邮件 (post office / postcard)
+post,邮局（post office）,A,a1,n. 邮政；邮件 (post office / postcard)
+post,邮政（post card 明信片）,A,a1,n. 邮政；邮件 (post office / postcard)
+pound,重击、猛烈撞击（动词）,A,a1,v. 重击
+press,新闻界/媒体 (press conference),A,a1,n. 新闻界 (press conference)
+put,表达/用语言表述,P,put into words,
+quite,完全（not quite as: 不太/不完全）,A,a1,adv. 完全 (not quite 不完全)
+raise,举起（手）,A,a1,v. 举起 (raise one's hand)
+reach,伸手去够/伸手拿,A,a1,v. 伸手（够、拿）(reach for / reach in)
+reach,伸手够得着/触及,A,a1,v. 伸手（够、拿）(reach for / reach in)
+reach,伸手（进去）取,A,a1,v. 伸手（够、拿）(reach for / reach in)
+reach,（地理）延伸地带/区域,A,a2,n. 地区；河段 (reaches)
+regard,(信末)问候、致意,A,a1,n. 问候；尊重 (Regards)
+regard,尊重、敬意,A,a1,n. 问候；尊重 (Regards)
+rest,搁放、靠在,A,a1,v. 搁；靠
+right,右边,A,a2,n./adj./adv. 右边；向右
+right,右边的,A,a2,n./adj./adv. 右边；向右
+right,向右（方位，右边）,A,a2,n./adj./adv. 右边；向右
+right,对/好（应答语）,A,a1,interj. 对吧；好（口语确认）
+right,对了/哦（话语标记）,A,a1,interj. 对吧；好（口语确认）
+right,对了/好（话语标记）,A,a1,interj. 对吧；好（口语确认）
+right,对吧（附加疑问/确认）,A,a1,interj. 对吧；好（口语确认）
+right,对吧（附加疑问）,A,a1,interj. 对吧；好（口语确认）
+right,权利,A,a3,n. 权利 (rights)
+ring,环形(ring road 环路),A,a1,n. 环；环形 (ring road)
+rule,统治,A,a1,v. 统治
+see,把…看作,A,a1,v. 把…看作 (see ... as)
+sense,大致的了解；概念,A,a2,n. 意义；方面；了解 (in a sense / a sense of what)
+sense,察觉，感到,A,a1,v. 察觉；感到
+sense,意义；方面,A,a2,n. 意义；方面；了解 (in a sense / a sense of what)
+share,份额，一份,A,a1,n. 一份；份额
+shop,工作坊（研讨班）,A,a1,n. 工作坊 (workshop)
+short,短裤,A,a1,n. 短裤 (shorts)
+short,近路、捷径,P,short cut,
+so,I hope so 但愿如此,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,Is that so 真的吗,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,So did I 也一样（倒装）,A,a2,adv. 也（倒装 so do I）
+so,So did 也一样（倒装）,A,a2,adv. 也（倒装 so do I）
+so,Very much so 的确如此,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,一般般,P,so-so,
+so,也/如此（I guess so 代替前文内容）,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,也（so are…，倒装表同样）,A,a2,adv. 也（倒装 so do I）
+so,代替前文内容（I hope so）,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,代替前文内容（I think so）,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,代替前文动词短语（do so）,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,代词性副词，指代上文（do so）,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,代词性副词，指代上文（如I think so）,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,以便,P,so that,
+so,以便/以致（so that）,P,so that,
+so,以便（so that省略that）,P,so that,
+so,以便（so that）,P,so that,
+so,到目前为止（so far）,P,so far,
+so,同样（so had...倒装）,A,a2,adv. 也（倒装 so do I）
+so,同样（so has...倒装）,A,a2,adv. 也（倒装 so do I）
+so,大约,P,or so,
+so,如果（So if 应为 If）,S,3,
+so,如此做（do so，代替前述动作）,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,左右（or so）,P,or so,
+so,既然；由于（so引导原因，=since）,S,1,
+so,更是如此（more so）,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,正是如此,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,每隔,P,every so often,
+so,等等,P,and so on,
+so,等等（and so on）,P,and so on,
+so,这样（do so 代替前文行为）,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,这样（in so doing，代替前文行为）,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+so,这样（代替前文动作，do so）,A,a1,adv. 这样；如此（代替上文：do so / I think so）
+star,拼写错误(started),X,,typo in source: stared = started
+star,星级(酒店评级),A,a2,n. 星级 (five-star)
+star,由…主演,A,a1,v. 主演
+start,jump-start 推动、促进（技能发展）,P,jump-start,
+start,n. 开头、起点,A,a1,n. 开始；开端 (from the start)
+start,n. 开端、起点,A,a1,n. 开始；开端 (from the start)
+state,国家,A,a2,n. 国家 (nation-state)
+state,"陈述,声明",A,a1,v. 陈述；说明 (stated)
+state,"陈述,说明",A,a1,v. 陈述；说明 (stated)
+station,警察局、派出所,A,a1,n. 局；站 (police station)
+step,垫脚石 (stepping-stone),P,stepping-stone,
+stick,塞放，插入,A,a2,v. 插；放
+stick,木棍，树枝,A,a1,n. 棍；枝
+still,更好的是,P,better still,
+still,蒸馏器,A,a1,n. 蒸馏器 (solar still)
+table,表格；乘法表,A,a1,n. 表；表格 (multiplication tables)
+take,SKIP,X,,option list
+take,互相让步；有来有往,P,give and take,
+take,以…为例,A,a3,v. 以…为例
+take,休息（take a rest）,A,a7,v. 进行；采取；承担（take a walk / action / responsibility）
+take,使离开（take out）,S,5,
+take,使转移（注意力）,P,take one's mind off,
+take,值得…（worth taking，指采取/选修）,S,6,
+take,做笔记,S,6,
+take,具备；需要（品质）,P,what it takes,
+take,养成（做某事）的习惯,P,take to,
+take,办理（抵押贷款）,P,take out,
+take,占据（位置）,S,5,
+take,参加,P,take part in,
+take,取代,P,take the place of,
+take,夺回,P,take back,
+take,夺走；使失去（take the fun out of）,P,take the fun out of,
+take,就座,P,take a seat,
+take,带往（某处）,S,5,
+take,带着（行驶）；载,S,5,
+take,开始从事；占用,X,,option list
+take,感到（快乐）,A,a7,v. 进行；采取；承担（take a walk / action / responsibility）
+take,承担（工作）,P,take on,
+take,承担（责任）,A,a7,v. 进行；采取；承担（take a walk / action / responsibility）
+take,承担；处理（话题）,P,take on,
+take,把…当作,A,a6,v. 看待；把…当作
+take,把…推进（一步）,P,take sth. a step further,
+take,抓住（机会）,A,a5,v. 接受；抓住（机会、捐赠、点餐）
+take,拍摄（照片）,A,a1,v. 拍（照片）(take photos)
+take,拍（照）,A,a1,v. 拍（照片）(take photos)
+take,接受（捐赠）,A,a5,v. 接受；抓住（机会、捐赠、点餐）
+take,接受（点餐）,A,a5,v. 接受；抓住（机会、捐赠、点餐）
+take,接受；接下,A,a5,v. 接受；抓住（机会、捐赠、点餐）
+take,接管,X,,option list
+take,接管；取代,P,take over,
+take,收入；收获（名词）,A,a4,n. 收入；所得
+take,散步,A,a7,v. 进行；采取；承担（take a walk / action / responsibility）
+take,散步（take a walk）,A,a7,v. 进行；采取；承担（take a walk / action / responsibility）
+take,服用（毒品）,A,a2,v. 服用；吃（药）
+take,看待；对待,A,a6,v. 看待；把…当作
+take,看；审视,A,a7,v. 进行；采取；承担（take a walk / action / responsibility）
+take,考虑；顾及,P,take account of,
+take,认为；接受（take that as a given）,A,a5,v. 接受；抓住（机会、捐赠、点餐）
+take,费力去做,P,take the trouble,
+take,走（捷径）,A,a7,v. 进行；采取；承担（take a walk / action / responsibility）
+take,迈出；采取,A,a7,v. 进行；采取；承担（take a walk / action / responsibility）
+take,采取（措施）,A,a7,v. 进行；采取；承担（take a walk / action / responsibility）
+take,采取；选择（提前退休）,A,a7,v. 进行；采取；承担（take a walk / action / responsibility）
+take,风靡；席卷,P,take ... by storm,
+take,（情况）转变,P,take a turn,
+taste,口味，偏好,A,a1,n. 口味；品味
+thank,n. 感谢（复数名词）,S,3,
+thought,认为（think of的过去式）,X,,lemma error: thought (think)
+thought,认为（think的过去式）,X,,lemma error: thought (think)
+throw,抱枕 (throw pillow，沙发上的装饰靠垫),P,throw pillow,
+try,审判,A,a1,v. 审判
+turn,上交（作业）,P,turn in,
+turn,出现 (turn up),P,turn up,
+turn,翻页 (名词 turn),S,2,
+turn,转变；转折 (名词 turn),P,take a turn,
+turn,转折点,P,turning point,
+turn,轮到；轮流 (名词 turn),A,a1,n. 轮流；（轮到的）机会 (one's turn)
+use,习惯于,P,be used to,
+use,习惯于(be used to),P,be used to,
+use,过去常常,P,used to,
+use,过去常常(used to),P,used to,
+wait,服务/侍应(wait tables),S,2,
+watch,手表,A,a1,n. 手表
+way,（口语）远远地，大大地 (way too much),A,a1,adv. 远远；大大 (way too)
+weight,压住（动词，用重物压）,A,a1,v. 用重物压
+well,井,A,a3,n. 井
+well,健康的；康复 (adj.),A,a2,adj. 健康的 (get well)
+well,幸福，健康（well-being）,P,well-being,
+well,很可能（may well）,P,may well,
+well,早在…之前（well before）,A,a1,adv. 远远；大大 (well over / well before)
+well,远在…之前（强调程度/时间）,A,a1,adv. 远远；大大 (well over / well before)
+well,远远地，深入地（well into）,A,a1,adv. 远远；大大 (well over / well before)
+well,远远地；大大地（better than half）,S,4,
+well,远远地；大大地（well over）,A,a1,adv. 远远；大大 (well over / well before)
+well,远远（well over）,A,a1,adv. 远远；大大 (well over / well before)
+wild,丰富奔放的(想象力),A,a1,adj. 狂野的；奔放的
+wild,放纵不羁的、狂野的,A,a1,adj. 狂野的；奔放的
+window,时间段/期间,A,a1,n. 时间段
+work,作品（works，复数）,A,a1,n. 作品 (works)
+worth,价值(应得的回报),A,a1,n. 价值 (money's worth / self-worth)
+worth,价值感(self-worth),A,a1,n. 价值 (money's worth / self-worth)
+act,表演；节目,A,a1,n. 表演；节目
+apply,专心致力,P,apply oneself,
+apply,涂；敷,A,a1,v. 涂；敷
+attack,侵害；侵袭（病虫害）,S,2,
+big,热衷的；大量（做某事）的,A,a1,adj. 热衷的；（吃得）多的 (a big reader / big eaters)
+big,食量大的；大量（做某事）的,A,a1,adj. 热衷的；（吃得）多的 (a big reader / big eaters)
+bring,引出（话题）,P,bring in,
+bring,汇集、融合,A,a1,v. 汇集 (bring together)
+call,叫醒（早起）,P,wake-up call,
+call,召唤；叫去,A,a2,v. 叫来；召唤 (call sb. to / call away)
+call,召唤；叫走,A,a2,v. 叫来；召唤 (call sb. to / call away)
+call,召集；叫来,A,a2,v. 叫来；召唤 (call sb. to / call away)
+call,拜访,P,call on,
+call,点名（让…发言）,P,call on,
+call,职责要求,P,beyond the call of duty,
+call,警钟；警示,P,wake-up call,
+call,随叫随到；待命,P,on call,
+care,有爱心的,A,a1,adj. 有爱心的 (caring)
+check,体检,P,check-up,
+check,勾掉（清单项）,P,check off,
+come,得出（结论）,S,1,
+come,怎么会,P,how come,
+come,被发现；曝光,P,come to light,
+come,（商品）以…形式供应,A,a3,v. （商品）以…形式出售 (come in)
+day,时代,A,a1,n. 时代；时期 (in Thoreau's day)
+day,时光，时期,A,a1,n. 时代；时期 (in Thoreau's day)
+deep,低沉的,A,a1,adj. 低沉的
+end,无数；大量,P,no end of,
+end,非常；极其,P,to no end,
+enter,登场，出现,S,1,
+ever,不断地；越来越,A,a1,adv. 不断地；永远 (ever-increasing)
+ever,永远；始终,A,a1,adv. 不断地；永远 (ever-increasing)
+extra,格外地，特别,A,a1,adv. 格外 (extra-tall)
+eye,空中监视(设备),P,eye in the sky,
+far,此外；而且,A,a1,adv. 此外 (further)
+feel,氛围；感觉（名词）,A,a1,n. 感觉；氛围
+field,实地；野外（考察）,A,a1,n. 实地；野外 (field notes)
+fix,固定；系在,S,2,
+follow,在…之后,A,a1,prep. 在…之后 (following)
+follow,沿着（路线）行进,S,2,
+free,空闲的,A,a1,adj. 空闲的
+free,腾出,P,free up,
+get,出来；钻出,S,4,
+get,得以；有机会,P,get to do,
+get,必须 (have got to),P,have got to,
+get,把…弄出来,S,3,
+get,明白；理解,A,a1,v. 明白；理解 (I got it)
+get,有 (have got),P,have got,
+get,进入；上（车）,S,4,
+get,进入；钻进,S,4,
+give,让路；让位,P,give way to,
+go,剩下；尚余,A,a4,v. 剩下；尚余 (to go)
+go,坚持下去,P,keep going,
+go,度过（一段时间）,A,a5,v. 持续；度过 (go two weeks)
+go,持续,A,a5,v. 持续；度过 (go two weeks)
+go,步…后尘；消失,P,go the way of,
+go,着手（工作）,S,3,
+go,继续,P,go on,
+go,继续（接着做）,P,go on,
+go,超出（职责）,P,go above and beyond,
+go,追溯,P,go back to,
+go,选择；赞同,P,go with,
+go,（按顺序）先进行,S,3,
+go,（时间）流逝,P,go by,
+go,（道路）延伸；穿过,A,a6,v. （道路）延伸；通到
+hard,轮廓分明的,A,a1,adj. 硬的
+have,就是这样,P,there you have it,
+have,照看（孩子）,A,a2,v. 接待；请到 (have sb. over / have Dr. X)
+have,说得对,P,have it right,
+have,请到（嘉宾）,A,a2,v. 接待；请到 (have sb. over / have Dr. X)
+home,主场,A,a1,n. 主场 (home venue)
+home,所在地；拥有…之地,S,3,
+home,瞄准；逼近,P,home in on,
+host,节目主持人,A,a1,n. 主持人
+idea,了解；概念,P,have no idea,
+inside,里朝外（反穿）,P,inside out,
+introduce,介绍；说明,A,a1,v. 介绍；说明
+just,几乎,P,just about,
+keep,经营；打理（花园）,A,a1,v. 经营；打理 (keep a garden)
+land,把(鱼)拉上岸,A,a1,v. 把（鱼）拉上岸
+live,活着；存活,A,a1,v. 活着；存活 (live to regret)
+long,（音译）笼，小笼包,X,,transliteration (xiao long bao)
+look,回顾,P,look back,
+look,探望,P,look in on,
+look,查阅,P,look up,
+look,调查,P,look into,
+lose,沉迷；迷失于,P,be lost in,
+low,降低,A,a1,v. 降低 (lower)
+meet,迎接；呈现在眼前,S,1,
+mind,注意，留心,A,a1,v. 注意；照看 (mind your step / mind my bags)
+mind,照看,A,a1,v. 注意；照看 (mind your step / mind my bags)
+move,动身；赶快行动,A,a3,v. 动身；赶快行动
+much,多达,P,as much as,
+much,差不多；几乎,P,pretty much,
+much,非常；很（程度副词）,A,a1,adv. 非常；很 (so much a part of)
+name,说出…的名字；列举,A,a1,v. 说出…的名字；列举
+note,注意，留意,P,take note,
+now,好了（话语标记，引起注意或转换话题）,A,a1,interj. 好了（话语标记）
+paint,画作,A,a1,n. 画作 (painting)
+paper,试卷,A,a1,n. 试卷
+pick,采摘,A,a1,v. 采摘
+pick,采摘；采集,A,a1,v. 采摘
+picture,描述，写照,A,a1,n. 写照；描述
+place,名次,A,a1,n. 名次
+play,遛（鱼），使上钩的鱼耗尽力气,A,a1,v. 遛（鱼）
+play,（比赛或事态的）局势，现状,P,state of play,
+please,愿意，喜欢,A,a1,v. 愿意；喜欢 (where they please)
+practise,从事（医疗等职业）,A,a1,v. 从事（医疗等职业）
+produce,繁殖,A,a1,v. 繁殖
+put,寄予（信任）,S,2,
+raise,惊险的；令人毛骨悚然的,P,hair-raising,
+rather,宁愿,P,would rather,
+rather,更确切地说,P,or rather,
+rather,而是；相反,A,a1,adv. 而是；相反 (but rather)
+read,读物（名词）,A,a1,n. 读物
+record,（最高）纪录,A,a1,n. 纪录 (break a record)
+remember,纪念,A,a1,v. 纪念
+say,比如；例如,A,a1,"interj. 比如说 (say, ...)"
+see,查明；看看是否,A,a2,v. 查明；确保 (see if / see that)
+see,确保,A,a2,v. 查明；确保 (see if / see that)
+see,确保；查看,A,a2,v. 查明；确保 (see if / see that)
+show,给予；表现出（宽容等）,A,a1,v. 给予；表现出 (show forgiveness)
+side,配菜的；附加的,A,a1,adj. 附带的；配菜的 (side dish / side benefit)
+side,附带的；次要的,A,a1,adj. 附带的；配菜的 (side dish / side benefit)
+sit,坐落；位于,A,a1,v. 坐落；位于
+smile,眷顾；赐福,P,smile on,
+so,以便；为了,P,so that,
+space,间隔排列,A,a1,v. 间隔排列
+speed,疾驰，飞奔,A,a1,v. 疾驰
+start,出发；动身,A,a2,v. 出发；动身
+start,起源于,S,1,
+still,又；还（加强语气，still another）,S,1,
+stop,中途停留,P,stop off,
+stop,停止，停下（名词）,A,a1,n. 停止 (come to a stop)
+store,储藏处；仓库,A,a1,n. 储藏处；仓库
+study,学习；功课(名词),A,a1,n. 学习；功课
+take,代替,P,take the place of,
+take,使退出（比赛）,S,5,
+take,开始从事,P,take up,
+take,慢慢来，别着急,P,take one's time,
+take,拆开,P,take apart,
+take,注意到,P,take note,
+take,获得（快乐）,S,a7,
+take,请假；抽出时间,P,take time off,
+taste,美味的,X,,typo in source (taste = tasty)
+then,不过话说回来,P,but then,
+then,此外；还有,A,a1,adv. 此外；还有 (and then)
+thought,思维；思考,A,a1,n. 思考；思维
+thought,思考；考虑,A,a1,n. 思考；思维
+time,准时的,P,on time,
+time,有史以来的,P,all-time,
+time,重量级的；大规模的,P,big-time,
+turn,调低（音量）,P,turn down,
+way,妨碍,P,get in the way of,
+way,步…后尘（被淘汰）,P,go the way of,
+weight,重负；压力,A,a2,n. 重负；压力
+win,双赢,P,win-win,
+win,成功的；畅销的,A,a1,adj. 成功的；畅销的 (winning)
+win,赢得（支持）；争取到,S,2,
+work,起作用；在运作,S,2,
+work,锻炼,P,work out,
+work,（大脑）运转,S,2,
+world,极好的；非凡的,P,out of this world,

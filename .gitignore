@@ -6,8 +6,10 @@ data/interim/
 # 试点抽样输入（含约 400 句真题原句）
 data/pilot/pilot_input.json
 # 全量标注的原句表和单词档案（含大量真题原文，仅个人研究用）
-data/pilot/full/occ_labeled.csv
+data/pilot/full/occ_*.csv
 data/pilot/full/dossier_*.html
+data/pilot/full/review_*.csv
+.env
 # 源文件 PDF（课标、考纲）——请自行下载放到 sources/
 sources/
 # 外部词典数据（ECDICT、WordNet、Wiktionary 提取结果体积大，按 README 自行获取）

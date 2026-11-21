@@ -27,7 +27,7 @@ def main(occ_csv, labels_json, senses_json, entries_csv, out):
         by[r['word']].append(r)
     parts = ['''<!doctype html><html lang="zh"><head><meta charset="utf-8"><title>单词档案（全量真题用例）</title><style>
 body{font-family:-apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;max-width:900px;margin:24px auto;padding:0 16px;color:#222;line-height:1.5}
-h1{font-size:22px}h2{margin-top:36px;border-bottom:2px solid #333;padding-bottom:4px}h2 small{font-weight:normal;color:#777;font-size:13px}
+h1{font-size:22px}h2{margin-top:36px;border-bottom:2px solid #333;padding-bottom:4px}h2 small{font-weight:normal;color:#777;font-size:13px}h3{font-size:15px;margin:14px 0 4px;color:#555}
 details{margin:6px 0 10px}summary{cursor:pointer;font-weight:600}summary .n{color:#a33;font-weight:normal}
 summary .new{background:#ffe9a8;font-size:11px;padding:0 4px;border-radius:3px;margin-left:6px;font-weight:normal}
 .bar{display:inline-block;height:8px;background:#c55;vertical-align:middle;margin-left:6px}
@@ -45,9 +45,15 @@ ul{margin:4px 0 0 0;padding-left:20px}li{margin:3px 0;font-size:14px}.src{color:
         c = collections.Counter(r['sense'] for r in valid)
         yrs = len({r['year'] for r in valid})
         parts.append(f'<h2 id="{w}">{w} <small>真题 {len(valid)} 次 · {yrs} 年 · {e(E[w]["exam_pos"])}</small></h2>')
-        mx = max(c.values())
+        has_units = 'unit_kind' in valid[0]
+        words_only = [r for r in valid if not has_units or r['unit_kind'] == '单词义项']
+        phr = [r for r in valid if has_units and r['unit_kind'] != '单词义项']
+        c = collections.Counter(r['sense'] for r in words_only)
+        mx = max(list(c.values()) + [1])
+        if has_units:
+            parts.append(f'<h3>单词义项 <small class=src>{len(words_only)} 次</small></h3>')
         for k, n in sorted(c.items(), key=lambda x: -x[1]):
-            items = [r for r in valid if r['sense'] == k]
+            items = [r for r in words_only if r['sense'] == k]
             lis = sum(1 for r in items if r['section'] == 'listening')
             en = P[w][int(k) - 1][2] if int(k) <= nold else ''
             new = '<span class="new">新</span>' if int(k) > nold else ''
@@ -57,6 +63,17 @@ ul{margin:4px 0 0 0;padding-left:20px}li{margin:3px 0;font-size:14px}.src{color:
             for r in sorted(items, key=lambda r: r['year']):
                 parts.append(f'<li>{hl(r["sentence"], r["surface"])} <span class="src">{r["year"]} {r["paper"].split("_")[1]} {SEC.get(r["section"], r["section"])}</span></li>')
             parts.append('</ul></details>')
+        if phr:
+            pc = collections.Counter((r['unit'], r['unit_zh'], r['unit_kind']) for r in phr)
+            parts.append(f'<h3>短语词条 <small class=src>{len(phr)} 次，占 {len(phr) / len(valid):.0%}</small></h3>')
+            for (u, zh, kind), n in sorted(pc.items(), key=lambda x: -x[1]):
+                items = [r for r in phr if r['unit'] == u and r['unit_zh'] == zh]
+                yrs = len({r['year'] for r in items})
+                parts.append(f'<details><summary><span style="color:#1d5fa8">{e(u)}</span> {e(zh)} <span class="n">{n}</span> '
+                             f'<span class="src">{yrs} 年 · {kind}</span></summary><ul>')
+                for r in sorted(items, key=lambda r: r['year']):
+                    parts.append(f'<li>{hl(r["sentence"], r["surface"])} <span class="src">{r["year"]} {r["paper"].split("_")[1]} {SEC.get(r["section"], r["section"])}</span></li>')
+                parts.append('</ul></details>')
         xs = [r for r in rs if r['sense'] == 'X']
         if xs:
             parts.append('<details><summary class=src>不计 ' + str(len(xs)) + '</summary><ul>' +
