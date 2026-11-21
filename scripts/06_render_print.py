@@ -20,7 +20,7 @@ ap.add_argument("--phrases", default="", help="data/processed/phrase_entries.csv
 ap.add_argument("--phrase-glosses", default="data/manual/phrase_glosses.csv")
 ap.add_argument("--max-phrases", type=int, default=4)
 ap.add_argument("--tested", default="", help="data/processed/tested_words.csv (step 9a): mark cloze / grammar answers")
-ap.add_argument("--rare-senses", default="", help="data/processed/rare_senses.csv (step 9c): mark 熟词僻义, add an appendix")
+ap.add_argument("--rare-senses", default="", help="data/processed/rare_senses.csv (step 9c): mark 熟词生义, add an appendix")
 ap.add_argument("--coverage", default="", help="data/processed/sense_coverage.csv (step 9b): sense coverage table on the cover")
 a = ap.parse_args()
 
@@ -122,7 +122,7 @@ def senses_html(r, senses):
             v = float(s["share"])
             pct = f'<span class="pct"><span class="bar" style="width:{max(1, round(14 * v))}mm"></span>{round(100 * v)}%</span>'
         if (r["headword"], s["sense"]) in RARE_KEYS:
-            pct += '<span class="rare">僻义</span>'
+            pct += '<span class="rare">生义</span>'
         out.append(f'<li><b>{esc(s["pos"])}</b> <span class="zh">{esc(s["zh"])}</span>{pct}'
                    f'<span class="sen">{esc(s["en"])}</span>{ex}</li>')
     return f'<ol class="senses">{"".join(out)}</ol>'
@@ -249,9 +249,9 @@ def rare_appendix():
                    f'{" <b>（真题以此为主）</b>" if r["dominant"] == "True" else ""}</td>'
                    f'<td>{highlight(r["example"], ER.get(r["headword"], {"headword": r["headword"], "inflections": ""})) if r["example"] else ""} <span class="src">{esc(r["example_src"])}</span></td></tr>'
                    for r in sorted(RARE, key=lambda r: (r["dominant"] != "True", int(r["rank"]))))
-    return (f'<section class="chapter"><h1>附录　熟词僻义</h1><div class="chapintro">1000 名以后的词里，真题用到的不是学生通常先学的那个意思的，'
-            f'共 {len(RARE)} 处（{len({r["headword"] for r in RARE})} 个词）。标"真题以此为主"的，真题里这个僻义比常见义还多。'
-            f'由模型初判，再按词典首列释义筛过，仍可能有误。</div><table class="rs">{trs}</table></section>')
+    return (f'<section class="chapter"><h1>附录　熟词生义</h1><div class="chapintro">1000 名以后的词里，真题用到的、学生通常先学的那个意思之外的义项，'
+            f'共 {len(RARE)} 处（{len({r["headword"] for r in RARE})} 个词）。标"真题以此为主"的，真题里这个意思比常见义还多。'
+            + ('已逐条人工核对。' if all(r.get("checked") == "y" for r in RARE) else '义项由模型标注，释义可能有误。') + f'</div><table class="rs">{trs}</table></section>')
 
 
 def cover():
@@ -266,7 +266,7 @@ def cover():
 <tr><td><b>义项</b></td><td>只列真题实际用到的义项。多义词的每一次出现都逐句标注过义项，按全部出现次数排序；红色百分比是这个义项占该词全部出现的比例（出现太少的义项不列）。每个义项附中文、简明英文释义和一句真题原句。</td></tr>
 <tr><td><b>短语</b></td><td>意思不能从字面推出的短语和语法短语（如 take place、have to），右上角是真题出现次数。只看懂单词、看不懂短语，是常见的失分点。</td></tr>
 <tr><td><b>考点</b></td><td>这个词当过完形填空或语法填空的<b>正确答案</b>（命题人专门考的词），"完形×2"表示两次。约四分之一的完形答案排在 1000 名以后。</td></tr>
-<tr><td><b>僻义</b></td><td>真题用的不是学生通常先学的那个意思（熟词僻义），书末附录汇总。</td></tr>
+<tr><td><b>生义</b></td><td>常见义之外、真题实际用到的意思（熟词生义）。不论生僻与否，真题这样用过，就值得单独记；书末附录汇总。</td></tr>
 <tr><td><b>分布</b></td><td>"36% 在短语中"：这个词的出现有多少在短语里；"分布在 N 篇"：出现在多少篇不同的文章或对话里；"集中在同一篇"：次数主要来自一篇文章，实际重要性比次数显示的低；"听力占"：主要在听力里出现。</td></tr>
 <tr><td><b>句素</b></td><td>从真题原句中抽出的固定搭配，右上角小数字是出现次数。"make + mistake"表示动宾搭配。</td></tr>
 <tr><td><b>例句</b></td><td>真题原句，标出年份和题型；真题里没有合适例句的词，用斜体的词典例句（Open English WordNet）代替。</td></tr>

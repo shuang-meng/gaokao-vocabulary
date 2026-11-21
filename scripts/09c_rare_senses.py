@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
-"""Step 9c: 熟词僻义 — exam uses of a familiar word in a less familiar meaning.
+"""Step 9c: 熟词生义 — exam senses beyond the meaning students learn first.
+
+Scope (user decision, 2026-11-21): not only "rare" meanings. Any exam sense other than the familiar one is worth
+learning on its own, because the exam uses the word in exactly that way. Only part-of-speech variants of a
+familiar exam sense are left out.
 
 usage: python scripts/09c_rare_senses.py  -> data/processed/rare_senses.csv
-Filter: the model's c/r flag alone is unreliable, so an r sense is kept only when its Chinese gloss shares no
-two-character word with the first ECDICT glosses of the word or with one of its familiar senses.
+Filter: an r sense is kept unless its Chinese gloss shares a two-character word with a familiar (c) exam sense.
+Hand check: data/manual/rare_senses_review.csv (from the page of step 9d) — verdict n removes a candidate,
+zh_fixed replaces its gloss; column checked = y for confirmed rows.
 Source: the low-frequency words labelled in step 8h, where the model marked each sense c (the meaning students
 learn first) or r (a less familiar meaning). A row is one r sense; "dominant" = the exam uses the r sense at least
 as often as all c senses together (and at least twice), i.e. a student who knows only the familiar meaning misreads most uses.
@@ -37,17 +42,28 @@ def main():
     out = []
     for w, ss in by.items():
         c = sum(int(s['count']) for s in ss if s['common'] == 'c')
-        known = first_glosses(E[w]['zh_gloss'])
-        for s in ss:
+        known = set()        # (until 2026-11-21 also the dictionary's first glosses; dropped at the user's request:
+        for s in ss:         #  every exam sense beyond the familiar one is worth learning, rare or not)
             if s['common'] == 'c':
                 known |= bigrams(s['zh'])
         for s in ss:
-            # the model's r flag is noisy (awkward 尴尬的, plastic adj. 塑料的): keep an r sense only when its
-            # Chinese shares no two-character word with the dictionary's first glosses or with a familiar sense
+            # drop r senses that only change the part of speech of a familiar exam sense (plastic n. 塑料 -> adj. 塑料的)
             if s['common'] == 'r' and not (bigrams(s['zh']) & known):
                 out.append({'headword': w, 'rank': E[w]['rank'], 'level': E[w]['level'], 'sense': s['sense'],
                             'pos': s['pos'], 'zh': s['zh'], 'count': s['count'], 'familiar_count': c,
                             'dominant': int(s['count']) >= max(c, 2), 'example': s['example'], 'example_src': s['example_src']})
+    # your check (step 9d): verdict n drops a candidate, zh_fixed corrects its gloss
+    import os
+    rv = {}
+    if os.path.exists('data/manual/rare_senses_review.csv'):
+        rv = {(r['headword'], r['sense']): r for r in csv.DictReader(open('data/manual/rare_senses_review.csv', encoding='utf-8-sig'))}
+    for r in out:
+        v = rv.get((r['headword'], r['sense']), {})
+        r['checked'] = v.get('verdict', '')
+        if v.get('zh_fixed') and v.get('verdict') != 'n':
+            m = re.match(r'^((?:[a-z]+\./?)+)\s+(.*)$', v['zh_fixed'])     # "n. 旅鸽" also corrects the part of speech
+            r['pos'], r['zh'] = (m.group(1), m.group(2)) if m else (r['pos'], v['zh_fixed'])
+    out = [r for r in out if r['checked'] != 'n']
     out.sort(key=lambda r: (not r['dominant'], int(r['rank'])))
     with open(f'{P}/rare_senses.csv', 'w', encoding='utf-8-sig', newline='') as f:
         wr = csv.DictWriter(f, fieldnames=list(out[0].keys())); wr.writeheader(); wr.writerows(out)
