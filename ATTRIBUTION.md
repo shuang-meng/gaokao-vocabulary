@@ -10,5 +10,7 @@
 | 英文释义及例句 | Open English WordNet, https://github.com/globalwordnet/english-wordnet | CC BY 4.0 | 第5步 |
 | 词源、IPA（可选） | Wiktionary，经 wiktextract / kaikki.org 提取 | CC BY-SA 4.0 | 第5b步 |
 | 真题义项、简明英文释义 | 本项目自编（`data/manual/senses/`） | CC BY-SA 4.0 | 第5b步 |
+| 逐句义项标注、短语识别、低频词义项 | 由 Anthropic Claude 模型（Sonnet 5.5 / Opus 5.5）通过 API 生成，经校准、第二轮复核和人工判定；归并与修订记录在 `data/manual/` | 输出随本项目以 CC BY-SA 4.0 发布 | 第8步 |
+| 短语中文释义、熟词生义核对 | 本项目自编 / 人工核对（`data/manual/phrase_glosses.csv`、`rare_senses_review.csv`） | CC BY-SA 4.0 | 第8–9步 |
 | 词形还原、句法分析 | spaCy en_core_web_sm | MIT | 第3–4步 |
 | 真题例句 | 历年高考英语全国卷（短句引用，注明年份与卷别） | 原文版权归命题方；仓库不包含试卷全文 | 第4步 |
